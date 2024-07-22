@@ -11,8 +11,40 @@ if (!filePath || !setNumberToFilterBy) {
 
 // Function to filter JSON data by set number
 function filterBySetNumber(data, setNumber) {
-  return data.filter((champion) => champion.name.includes('TFT' + setNumber));
+  return data.reduce((result, champion) => {
+    if (champion.name.includes('TFT' + setNumber)) {
+      result.push({
+        ...champion,
+        character_record: {
+          ...champion.character_record,
+          squareIconPath: mapPathFromJson(
+            champion.character_record.squareIconPath
+          ),
+        },
+      });
+    }
+    return result;
+  }, []);
 }
+
+// In the JSON files, asset paths can be mapped to URLs:
+// /lol-game-data/assets/ASSETS/<path> -> plugins/rcp-be-lol-game-data/global/default/<lowercased-path>.
+const mapPathFromJson = (pathFromJson) => {
+  const keyword = 'ASSETS';
+  const keywordIndex = pathFromJson.indexOf(keyword);
+
+  if (keywordIndex !== -1) {
+    // Extract the path starting right after the word assets
+    const result = pathFromJson
+      .substring(keywordIndex + keyword.length)
+      .toLowerCase()
+      .replace('.tex', '.png');
+    return `plugins/rcp-be-lol-game-data/global/default/${result}`;
+  } else {
+    console.log(`Keyword not found in the path: ${pathFromJson}`);
+    process.exit(1);
+  }
+};
 
 // Read JSON file
 fs.readFile(path.resolve(filePath), 'utf8', (err, jsonString) => {

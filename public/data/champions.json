@@ -20,7 +20,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Aatrox/HUD/TFT11_Aatrox_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_aatrox/hud/tft11_aatrox_square.png"
     }
   },
   {
@@ -40,7 +40,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Ahri/HUD/TFT11_Ahri_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_ahri/hud/tft11_ahri_square.png"
     }
   },
   {
@@ -60,7 +60,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Amumu/HUD/TFT11_Amumu_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_amumu/hud/tft11_amumu_square.png"
     }
   },
   {
@@ -80,7 +80,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Annie/HUD/TFT11_Annie_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_annie/hud/tft11_annie_square.png"
     }
   },
   {
@@ -100,7 +100,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Aphelios/HUD/TFT11_Aphelios_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_aphelios/hud/tft11_aphelios_square.png"
     }
   },
   {
@@ -120,7 +120,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Ashe/HUD/TFT11_Ashe_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_ashe/hud/tft11_ashe_square.png"
     }
   },
   {
@@ -140,7 +140,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Alune/HUD/TFT11_Alune_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_alune/hud/tft11_alune_square.png"
     }
   },
   {
@@ -160,7 +160,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Bard/HUD/TFT11_Bard_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_bard/hud/tft11_bard_square.png"
     }
   },
   {
@@ -180,7 +180,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Caitlyn/HUD/TFT11_Caitlyn_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_caitlyn/hud/tft11_caitlyn_square.png"
     }
   },
   {
@@ -200,7 +200,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_ChoGath/HUD/TFT11_ChoGath_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_chogath/hud/tft11_chogath_square.png"
     }
   },
   {
@@ -220,7 +220,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Darius/HUD/TFT11_Darius_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_darius/hud/tft11_darius_square.png"
     }
   },
   {
@@ -240,7 +240,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Galio/HUD/TFT11_Galio_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_galio/hud/tft11_galio_square.png"
     }
   },
   {
@@ -260,7 +260,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Garen/HUD/TFT11_Garen_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_garen/hud/tft11_garen_square.png"
     }
   },
   {
@@ -280,7 +280,7 @@
           "id": "TFT11_Artist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Hwei/HUD/TFT11_Hwei_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_hwei/hud/tft11_hwei_square.png"
     }
   },
   {
@@ -304,7 +304,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Illaoi/HUD/TFT11_Illaoi_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_illaoi/hud/tft11_illaoi_square.png"
     }
   },
   {
@@ -324,7 +324,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Irelia/HUD/TFT11_Irelia_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_irelia/hud/tft11_irelia_square.png"
     }
   },
   {
@@ -344,7 +344,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Janna/HUD/TFT11_Janna_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_janna/hud/tft11_janna_square.png"
     }
   },
   {
@@ -364,7 +364,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kaisa/HUD/TFT11_Kaisa_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kaisa/hud/tft11_kaisa_square.png"
     }
   },
   {
@@ -384,7 +384,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kayn/HUD/TFT11_Kayn_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kayn/hud/tft11_kayn_square.png"
     }
   },
   {
@@ -404,7 +404,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_KhaZix/HUD/TFT11_KhaZix_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_khazix/hud/tft11_khazix_square.png"
     }
   },
   {
@@ -428,7 +428,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kindred/HUD/TFT11_Kindred_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kindred/hud/tft11_kindred_square.png"
     }
   },
   {
@@ -452,7 +452,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_KogMaw/HUD/TFT11_KogMaw_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kogmaw/hud/tft11_kogmaw_square.png"
     }
   },
   {
@@ -472,7 +472,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_LeeSin/HUD/TFT11_LeeSin_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_leesin/hud/tft11_leesin_square.png"
     }
   },
   {
@@ -492,7 +492,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Lillia/HUD/TFT11_Lillia_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_lillia/hud/tft11_lillia_square.png"
     }
   },
   {
@@ -512,7 +512,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Lissandra/HUD/TFT11_Lissandra_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_lissandra/hud/tft11_lissandra_square.png"
     }
   },
   {
@@ -532,7 +532,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Lux/HUD/TFT11_Lux_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_lux/hud/tft11_lux_square.png"
     }
   },
   {
@@ -552,7 +552,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Malphite/HUD/TFT11_Malphite_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_malphite/hud/tft11_malphite_square.png"
     }
   },
   {
@@ -572,7 +572,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Morgana/HUD/TFT11_Morgana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_morgana/hud/tft11_morgana_square.png"
     }
   },
   {
@@ -596,7 +596,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Neeko/HUD/TFT11_Neeko_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_neeko/hud/tft11_neeko_square.png"
     }
   },
   {
@@ -616,7 +616,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Ornn/HUD/TFT11_Ornn_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_ornn/hud/tft11_ornn_square.png"
     }
   },
   {
@@ -636,7 +636,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Qiyana/HUD/TFT11_Qiyana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_qiyana/hud/tft11_qiyana_square.png"
     }
   },
   {
@@ -656,7 +656,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Senna/HUD/TFT11_Senna_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_senna/hud/tft11_senna_square.png"
     }
   },
   {
@@ -680,7 +680,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Sett/HUD/TFT11_Sett_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_sett/hud/tft11_sett_square.png"
     }
   },
   {
@@ -700,7 +700,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Shen/HUD/TFT11_Shen_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_shen/hud/tft11_shen_square.png"
     }
   },
   {
@@ -724,7 +724,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Riven/HUD/TFT11_Riven_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_riven/hud/tft11_riven_square.png"
     }
   },
   {
@@ -744,7 +744,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Sivir/HUD/TFT11_Sivir_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_sivir/hud/tft11_sivir_square.png"
     }
   },
   {
@@ -764,7 +764,7 @@
           "id": "TFT11_Altruist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Soraka/HUD/TFT11_Soraka_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_soraka/hud/tft11_soraka_square.png"
     }
   },
   {
@@ -784,7 +784,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Sylas/HUD/TFT11_Sylas_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_sylas/hud/tft11_sylas_square.png"
     }
   },
   {
@@ -804,7 +804,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Syndra/HUD/TFT11_Syndra_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_syndra/hud/tft11_syndra_square.png"
     }
   },
   {
@@ -824,7 +824,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_TahmKench/HUD/TFT11_TahmKench_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_tahmkench/hud/tft11_tahmkench_square.png"
     }
   },
   {
@@ -844,7 +844,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Teemo/HUD/TFT11_Teemo_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_teemo/hud/tft11_teemo_square.png"
     }
   },
   {
@@ -864,7 +864,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Thresh/HUD/TFT11_Thresh_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_thresh/hud/tft11_thresh_square.png"
     }
   },
   {
@@ -884,7 +884,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Tristana/HUD/TFT11_Tristana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_tristana/hud/tft11_tristana_square.png"
     }
   },
   {
@@ -908,7 +908,7 @@
           "id": "TFT11_SpiritWalker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Udyr/HUD/TFT11_Udyr_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_udyr/hud/tft11_udyr_square.png"
     }
   },
   {
@@ -928,7 +928,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Volibear/HUD/TFT11_Volibear_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_volibear/hud/tft11_volibear_square.png"
     }
   },
   {
@@ -952,7 +952,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_WuKong/HUD/TFT11_WuKong_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_wukong/hud/tft11_wukong_square.png"
     }
   },
   {
@@ -972,7 +972,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Yasuo/HUD/TFT11_Yasuo_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_yasuo/hud/tft11_yasuo_square.png"
     }
   },
   {
@@ -992,7 +992,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Yone/HUD/TFT11_Yone_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_yone/hud/tft11_yone_square.png"
     }
   },
   {
@@ -1012,7 +1012,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Yorick/HUD/TFT11_Yorick_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_yorick/hud/tft11_yorick_square.png"
     }
   },
   {
@@ -1036,7 +1036,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Zoe/HUD/TFT11_Zoe_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_zoe/hud/tft11_zoe_square.png"
     }
   },
   {
@@ -1056,7 +1056,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Zyra/HUD/TFT11_Zyra_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_zyra/hud/tft11_zyra_square.png"
     }
   },
   {
@@ -1076,7 +1076,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_FortuneYord/HUD/TFT11_Kobuko_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_fortuneyord/hud/tft11_kobuko_square.png"
     }
   },
   {
@@ -1096,7 +1096,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_RekSai/HUD/TFT11_RekSai_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_reksai/hud/tft11_reksai_square.png"
     }
   },
   {
@@ -1107,7 +1107,7 @@
       "rarity": 4,
       "display_name": "Tibbers",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Tibbers/HUD/TFT11_Tibbers_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_tibbers/hud/tft11_tibbers_square.png"
     }
   },
   {
@@ -1118,7 +1118,7 @@
       "rarity": 9,
       "display_name": "Kayle",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kayle/HUD/TFT11_Kayle_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kayle/hud/tft11_kayle_square.png"
     }
   },
   {
@@ -1142,7 +1142,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Xayah/HUD/TFT11_Xayah_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_xayah/hud/tft11_xayah_square.png"
     }
   },
   {
@@ -1162,7 +1162,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Gnar/HUD/TFT11_Gnar_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_gnar/hud/tft11_gnar_square.png"
     }
   },
   {
@@ -1186,7 +1186,7 @@
           "id": "TFT11_Altruist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Rakan/HUD/TFT11_Rakan_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_rakan/hud/tft11_rakan_square.png"
     }
   },
   {
@@ -1206,7 +1206,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Jax/HUD/TFT11_Jax_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_jax/hud/tft11_jax_square.png"
     }
   },
   {
@@ -1226,7 +1226,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Diana/HUD/TFT11_Diana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_diana/hud/tft11_diana_square.png"
     }
   },
   {
@@ -1246,7 +1246,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Azir/HUD/TFT11_Azir_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_azir/hud/tft11_azir_square.png"
     }
   },
   {
@@ -1266,7 +1266,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Nautilus/HUD/TFT11_Nautilus_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_nautilus/hud/tft11_nautilus_square.png"
     }
   },
   {
@@ -1290,7 +1290,7 @@
           "id": "TFT11_TrickshotAltruist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_XayahRakanDummy/HUD/TFT11_XayahRakan_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_xayahrakandummy/hud/tft11_xayahrakan_square.png"
     }
   },
   {
@@ -1301,7 +1301,7 @@
       "rarity": 9,
       "display_name": "SightWard",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_ExaltedCore/HUD/TFT11_ExaltedCore_Circle.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_exaltedcore/hud/tft11_exaltedcore_circle.png"
     }
   },
   {
@@ -1312,7 +1312,7 @@
       "rarity": 9,
       "display_name": "Golden Tree",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_FortuneProp/Skins/Base/TFT11_FortuneProp_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_fortuneprop/skins/base/tft11_fortuneprop_square.png"
     }
   },
   {
@@ -1323,7 +1323,7 @@
       "rarity": 9,
       "display_name": "Dragonlord Flames",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_DragonlordFlames/HUD/TFT11_DragonlordFlames_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_dragonlordflames/hud/tft11_dragonlordflames_square.png"
     }
   },
   {
@@ -1334,7 +1334,7 @@
       "rarity": 9,
       "display_name": "Xayah",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_XayahBenchDummy/HUD/TFT11_XayahBenchDummy_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_xayahbenchdummy/hud/tft11_xayahbenchdummy_square.png"
     }
   },
   {
@@ -1345,7 +1345,7 @@
       "rarity": 9,
       "display_name": "Rakan",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_RakanBenchDummy/HUD/TFT11_RakanBenchDummy_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_rakanbenchdummy/hud/tft11_rakanbenchdummy_square.png"
     }
   },
   {
@@ -1356,7 +1356,7 @@
       "rarity": 9,
       "display_name": "AzirSoldier",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_AzirSoldier/HUD/TFT11_AzirSoldier_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_azirsoldier/hud/tft11_azirsoldier_square.png"
     }
   },
   {
@@ -1367,7 +1367,7 @@
       "rarity": 9,
       "display_name": "Golden Tree",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Augment/HUD/TFT11_Augment_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_augment/hud/tft11_augment_square.png"
     }
   },
   {
@@ -1391,7 +1391,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Aatrox/HUD/TFT11_Aatrox_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_aatrox/hud/tft11_aatrox_square.png"
     }
   },
   {
@@ -1411,7 +1411,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Ahri/HUD/TFT11_Ahri_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_ahri/hud/tft11_ahri_square.png"
     }
   },
   {
@@ -1431,7 +1431,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Amumu/HUD/TFT11_Amumu_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_amumu/hud/tft11_amumu_square.png"
     }
   },
   {
@@ -1451,7 +1451,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Annie/HUD/TFT11_Annie_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_annie/hud/tft11_annie_square.png"
     }
   },
   {
@@ -1471,7 +1471,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Aphelios/HUD/TFT11_Aphelios_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_aphelios/hud/tft11_aphelios_square.png"
     }
   },
   {
@@ -1491,7 +1491,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Ashe/HUD/TFT11_Ashe_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_ashe/hud/tft11_ashe_square.png"
     }
   },
   {
@@ -1511,7 +1511,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Alune/HUD/TFT11_Alune_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_alune/hud/tft11_alune_square.png"
     }
   },
   {
@@ -1531,7 +1531,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Bard/HUD/TFT11_Bard_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_bard/hud/tft11_bard_square.png"
     }
   },
   {
@@ -1551,7 +1551,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Caitlyn/HUD/TFT11_Caitlyn_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_caitlyn/hud/tft11_caitlyn_square.png"
     }
   },
   {
@@ -1571,7 +1571,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_ChoGath/HUD/TFT11_ChoGath_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_chogath/hud/tft11_chogath_square.png"
     }
   },
   {
@@ -1591,7 +1591,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Darius/HUD/TFT11_Darius_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_darius/hud/tft11_darius_square.png"
     }
   },
   {
@@ -1611,7 +1611,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Galio/HUD/TFT11_Galio_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_galio/hud/tft11_galio_square.png"
     }
   },
   {
@@ -1631,7 +1631,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Garen/HUD/TFT11_Garen_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_garen/hud/tft11_garen_square.png"
     }
   },
   {
@@ -1651,7 +1651,7 @@
           "id": "TFT11_Artist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Hwei/HUD/TFT11_Hwei_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_hwei/hud/tft11_hwei_square.png"
     }
   },
   {
@@ -1675,7 +1675,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Illaoi/HUD/TFT11_Illaoi_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_illaoi/hud/tft11_illaoi_square.png"
     }
   },
   {
@@ -1695,7 +1695,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Irelia/HUD/TFT11_Irelia_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_irelia/hud/tft11_irelia_square.png"
     }
   },
   {
@@ -1715,7 +1715,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Janna/HUD/TFT11_Janna_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_janna/hud/tft11_janna_square.png"
     }
   },
   {
@@ -1735,7 +1735,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kaisa/HUD/TFT11_Kaisa_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kaisa/hud/tft11_kaisa_square.png"
     }
   },
   {
@@ -1755,7 +1755,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kayn/HUD/TFT11_Kayn_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kayn/hud/tft11_kayn_square.png"
     }
   },
   {
@@ -1775,7 +1775,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_KhaZix/HUD/TFT11_KhaZix_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_khazix/hud/tft11_khazix_square.png"
     }
   },
   {
@@ -1799,7 +1799,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kindred/HUD/TFT11_Kindred_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kindred/hud/tft11_kindred_square.png"
     }
   },
   {
@@ -1823,7 +1823,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_KogMaw/HUD/TFT11_KogMaw_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kogmaw/hud/tft11_kogmaw_square.png"
     }
   },
   {
@@ -1843,7 +1843,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_LeeSin/HUD/TFT11_LeeSin_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_leesin/hud/tft11_leesin_square.png"
     }
   },
   {
@@ -1863,7 +1863,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Lillia/HUD/TFT11_Lillia_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_lillia/hud/tft11_lillia_square.png"
     }
   },
   {
@@ -1883,7 +1883,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Lissandra/HUD/TFT11_Lissandra_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_lissandra/hud/tft11_lissandra_square.png"
     }
   },
   {
@@ -1903,7 +1903,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Lux/HUD/TFT11_Lux_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_lux/hud/tft11_lux_square.png"
     }
   },
   {
@@ -1923,7 +1923,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Malphite/HUD/TFT11_Malphite_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_malphite/hud/tft11_malphite_square.png"
     }
   },
   {
@@ -1943,7 +1943,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Morgana/HUD/TFT11_Morgana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_morgana/hud/tft11_morgana_square.png"
     }
   },
   {
@@ -1967,7 +1967,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Neeko/HUD/TFT11_Neeko_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_neeko/hud/tft11_neeko_square.png"
     }
   },
   {
@@ -1987,7 +1987,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Ornn/HUD/TFT11_Ornn_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_ornn/hud/tft11_ornn_square.png"
     }
   },
   {
@@ -2007,7 +2007,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Qiyana/HUD/TFT11_Qiyana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_qiyana/hud/tft11_qiyana_square.png"
     }
   },
   {
@@ -2027,7 +2027,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Senna/HUD/TFT11_Senna_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_senna/hud/tft11_senna_square.png"
     }
   },
   {
@@ -2051,7 +2051,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Sett/HUD/TFT11_Sett_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_sett/hud/tft11_sett_square.png"
     }
   },
   {
@@ -2071,7 +2071,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Shen/HUD/TFT11_Shen_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_shen/hud/tft11_shen_square.png"
     }
   },
   {
@@ -2095,7 +2095,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Riven/HUD/TFT11_Riven_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_riven/hud/tft11_riven_square.png"
     }
   },
   {
@@ -2115,7 +2115,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Sivir/HUD/TFT11_Sivir_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_sivir/hud/tft11_sivir_square.png"
     }
   },
   {
@@ -2135,7 +2135,7 @@
           "id": "TFT11_Altruist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Soraka/HUD/TFT11_Soraka_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_soraka/hud/tft11_soraka_square.png"
     }
   },
   {
@@ -2155,7 +2155,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Sylas/HUD/TFT11_Sylas_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_sylas/hud/tft11_sylas_square.png"
     }
   },
   {
@@ -2175,7 +2175,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Syndra/HUD/TFT11_Syndra_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_syndra/hud/tft11_syndra_square.png"
     }
   },
   {
@@ -2195,7 +2195,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_TahmKench/HUD/TFT11_TahmKench_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_tahmkench/hud/tft11_tahmkench_square.png"
     }
   },
   {
@@ -2215,7 +2215,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Teemo/HUD/TFT11_Teemo_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_teemo/hud/tft11_teemo_square.png"
     }
   },
   {
@@ -2235,7 +2235,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Thresh/HUD/TFT11_Thresh_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_thresh/hud/tft11_thresh_square.png"
     }
   },
   {
@@ -2255,7 +2255,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Tristana/HUD/TFT11_Tristana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_tristana/hud/tft11_tristana_square.png"
     }
   },
   {
@@ -2279,7 +2279,7 @@
           "id": "TFT11_SpiritWalker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Udyr/HUD/TFT11_Udyr_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_udyr/hud/tft11_udyr_square.png"
     }
   },
   {
@@ -2299,7 +2299,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Volibear/HUD/TFT11_Volibear_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_volibear/hud/tft11_volibear_square.png"
     }
   },
   {
@@ -2323,7 +2323,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_WuKong/HUD/TFT11_WuKong_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_wukong/hud/tft11_wukong_square.png"
     }
   },
   {
@@ -2343,7 +2343,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Yasuo/HUD/TFT11_Yasuo_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_yasuo/hud/tft11_yasuo_square.png"
     }
   },
   {
@@ -2363,7 +2363,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Yone/HUD/TFT11_Yone_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_yone/hud/tft11_yone_square.png"
     }
   },
   {
@@ -2383,7 +2383,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Yorick/HUD/TFT11_Yorick_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_yorick/hud/tft11_yorick_square.png"
     }
   },
   {
@@ -2407,7 +2407,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Zoe/HUD/TFT11_Zoe_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_zoe/hud/tft11_zoe_square.png"
     }
   },
   {
@@ -2427,7 +2427,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Zyra/HUD/TFT11_Zyra_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_zyra/hud/tft11_zyra_square.png"
     }
   },
   {
@@ -2447,7 +2447,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_FortuneYord/HUD/TFT11_Kobuko_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_fortuneyord/hud/tft11_kobuko_square.png"
     }
   },
   {
@@ -2467,7 +2467,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_RekSai/HUD/TFT11_RekSai_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_reksai/hud/tft11_reksai_square.png"
     }
   },
   {
@@ -2478,7 +2478,7 @@
       "rarity": 4,
       "display_name": "Tibbers",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Tibbers/HUD/TFT11_Tibbers_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_tibbers/hud/tft11_tibbers_square.png"
     }
   },
   {
@@ -2489,7 +2489,7 @@
       "rarity": 9,
       "display_name": "Kayle",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kayle/HUD/TFT11_Kayle_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kayle/hud/tft11_kayle_square.png"
     }
   },
   {
@@ -2513,7 +2513,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Xayah/HUD/TFT11_Xayah_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_xayah/hud/tft11_xayah_square.png"
     }
   },
   {
@@ -2533,7 +2533,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Gnar/HUD/TFT11_Gnar_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_gnar/hud/tft11_gnar_square.png"
     }
   },
   {
@@ -2557,7 +2557,7 @@
           "id": "TFT11_Altruist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Rakan/HUD/TFT11_Rakan_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_rakan/hud/tft11_rakan_square.png"
     }
   },
   {
@@ -2577,7 +2577,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Jax/HUD/TFT11_Jax_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_jax/hud/tft11_jax_square.png"
     }
   },
   {
@@ -2597,7 +2597,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Diana/HUD/TFT11_Diana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_diana/hud/tft11_diana_square.png"
     }
   },
   {
@@ -2617,7 +2617,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Azir/HUD/TFT11_Azir_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_azir/hud/tft11_azir_square.png"
     }
   },
   {
@@ -2637,7 +2637,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Nautilus/HUD/TFT11_Nautilus_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_nautilus/hud/tft11_nautilus_square.png"
     }
   },
   {
@@ -2661,7 +2661,7 @@
           "id": "TFT11_TrickshotAltruist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_XayahRakanDummy/HUD/TFT11_XayahRakan_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_xayahrakandummy/hud/tft11_xayahrakan_square.png"
     }
   },
   {
@@ -2672,7 +2672,7 @@
       "rarity": 9,
       "display_name": "SightWard",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_ExaltedCore/HUD/TFT11_ExaltedCore_Circle.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_exaltedcore/hud/tft11_exaltedcore_circle.png"
     }
   },
   {
@@ -2683,7 +2683,7 @@
       "rarity": 9,
       "display_name": "Golden Tree",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_FortuneProp/Skins/Base/TFT11_FortuneProp_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_fortuneprop/skins/base/tft11_fortuneprop_square.png"
     }
   },
   {
@@ -2694,7 +2694,7 @@
       "rarity": 9,
       "display_name": "Dragonlord Flames",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_DragonlordFlames/HUD/TFT11_DragonlordFlames_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_dragonlordflames/hud/tft11_dragonlordflames_square.png"
     }
   },
   {
@@ -2705,7 +2705,7 @@
       "rarity": 9,
       "display_name": "Xayah",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_XayahBenchDummy/HUD/TFT11_XayahBenchDummy_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_xayahbenchdummy/hud/tft11_xayahbenchdummy_square.png"
     }
   },
   {
@@ -2716,7 +2716,7 @@
       "rarity": 9,
       "display_name": "Rakan",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_RakanBenchDummy/HUD/TFT11_RakanBenchDummy_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_rakanbenchdummy/hud/tft11_rakanbenchdummy_square.png"
     }
   },
   {
@@ -2727,7 +2727,7 @@
       "rarity": 9,
       "display_name": "AzirSoldier",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_AzirSoldier/HUD/TFT11_AzirSoldier_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_azirsoldier/hud/tft11_azirsoldier_square.png"
     }
   },
   {
@@ -2738,7 +2738,7 @@
       "rarity": 9,
       "display_name": "Golden Tree",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Augment/HUD/TFT11_Augment_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_augment/hud/tft11_augment_square.png"
     }
   },
   {
@@ -2762,7 +2762,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Aatrox/HUD/TFT11_Aatrox_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_aatrox/hud/tft11_aatrox_square.png"
     }
   },
   {
@@ -2782,7 +2782,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Ahri/HUD/TFT11_Ahri_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_ahri/hud/tft11_ahri_square.png"
     }
   },
   {
@@ -2802,7 +2802,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Amumu/HUD/TFT11_Amumu_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_amumu/hud/tft11_amumu_square.png"
     }
   },
   {
@@ -2822,7 +2822,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Annie/HUD/TFT11_Annie_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_annie/hud/tft11_annie_square.png"
     }
   },
   {
@@ -2842,7 +2842,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Aphelios/HUD/TFT11_Aphelios_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_aphelios/hud/tft11_aphelios_square.png"
     }
   },
   {
@@ -2862,7 +2862,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Ashe/HUD/TFT11_Ashe_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_ashe/hud/tft11_ashe_square.png"
     }
   },
   {
@@ -2882,7 +2882,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Alune/HUD/TFT11_Alune_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_alune/hud/tft11_alune_square.png"
     }
   },
   {
@@ -2902,7 +2902,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Bard/HUD/TFT11_Bard_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_bard/hud/tft11_bard_square.png"
     }
   },
   {
@@ -2922,7 +2922,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Caitlyn/HUD/TFT11_Caitlyn_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_caitlyn/hud/tft11_caitlyn_square.png"
     }
   },
   {
@@ -2942,7 +2942,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_ChoGath/HUD/TFT11_ChoGath_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_chogath/hud/tft11_chogath_square.png"
     }
   },
   {
@@ -2962,7 +2962,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Darius/HUD/TFT11_Darius_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_darius/hud/tft11_darius_square.png"
     }
   },
   {
@@ -2982,7 +2982,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Galio/HUD/TFT11_Galio_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_galio/hud/tft11_galio_square.png"
     }
   },
   {
@@ -3002,7 +3002,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Garen/HUD/TFT11_Garen_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_garen/hud/tft11_garen_square.png"
     }
   },
   {
@@ -3022,7 +3022,7 @@
           "id": "TFT11_Artist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Hwei/HUD/TFT11_Hwei_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_hwei/hud/tft11_hwei_square.png"
     }
   },
   {
@@ -3046,7 +3046,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Illaoi/HUD/TFT11_Illaoi_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_illaoi/hud/tft11_illaoi_square.png"
     }
   },
   {
@@ -3066,7 +3066,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Irelia/HUD/TFT11_Irelia_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_irelia/hud/tft11_irelia_square.png"
     }
   },
   {
@@ -3086,7 +3086,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Janna/HUD/TFT11_Janna_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_janna/hud/tft11_janna_square.png"
     }
   },
   {
@@ -3106,7 +3106,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kaisa/HUD/TFT11_Kaisa_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kaisa/hud/tft11_kaisa_square.png"
     }
   },
   {
@@ -3126,7 +3126,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kayn/HUD/TFT11_Kayn_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kayn/hud/tft11_kayn_square.png"
     }
   },
   {
@@ -3146,7 +3146,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_KhaZix/HUD/TFT11_KhaZix_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_khazix/hud/tft11_khazix_square.png"
     }
   },
   {
@@ -3170,7 +3170,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kindred/HUD/TFT11_Kindred_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kindred/hud/tft11_kindred_square.png"
     }
   },
   {
@@ -3194,7 +3194,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_KogMaw/HUD/TFT11_KogMaw_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kogmaw/hud/tft11_kogmaw_square.png"
     }
   },
   {
@@ -3214,7 +3214,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_LeeSin/HUD/TFT11_LeeSin_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_leesin/hud/tft11_leesin_square.png"
     }
   },
   {
@@ -3234,7 +3234,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Lillia/HUD/TFT11_Lillia_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_lillia/hud/tft11_lillia_square.png"
     }
   },
   {
@@ -3254,7 +3254,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Lissandra/HUD/TFT11_Lissandra_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_lissandra/hud/tft11_lissandra_square.png"
     }
   },
   {
@@ -3274,7 +3274,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Lux/HUD/TFT11_Lux_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_lux/hud/tft11_lux_square.png"
     }
   },
   {
@@ -3294,7 +3294,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Malphite/HUD/TFT11_Malphite_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_malphite/hud/tft11_malphite_square.png"
     }
   },
   {
@@ -3314,7 +3314,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Morgana/HUD/TFT11_Morgana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_morgana/hud/tft11_morgana_square.png"
     }
   },
   {
@@ -3338,7 +3338,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Neeko/HUD/TFT11_Neeko_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_neeko/hud/tft11_neeko_square.png"
     }
   },
   {
@@ -3358,7 +3358,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Ornn/HUD/TFT11_Ornn_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_ornn/hud/tft11_ornn_square.png"
     }
   },
   {
@@ -3378,7 +3378,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Qiyana/HUD/TFT11_Qiyana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_qiyana/hud/tft11_qiyana_square.png"
     }
   },
   {
@@ -3398,7 +3398,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Senna/HUD/TFT11_Senna_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_senna/hud/tft11_senna_square.png"
     }
   },
   {
@@ -3422,7 +3422,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Sett/HUD/TFT11_Sett_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_sett/hud/tft11_sett_square.png"
     }
   },
   {
@@ -3442,7 +3442,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Shen/HUD/TFT11_Shen_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_shen/hud/tft11_shen_square.png"
     }
   },
   {
@@ -3466,7 +3466,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Riven/HUD/TFT11_Riven_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_riven/hud/tft11_riven_square.png"
     }
   },
   {
@@ -3486,7 +3486,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Sivir/HUD/TFT11_Sivir_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_sivir/hud/tft11_sivir_square.png"
     }
   },
   {
@@ -3506,7 +3506,7 @@
           "id": "TFT11_Altruist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Soraka/HUD/TFT11_Soraka_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_soraka/hud/tft11_soraka_square.png"
     }
   },
   {
@@ -3526,7 +3526,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Sylas/HUD/TFT11_Sylas_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_sylas/hud/tft11_sylas_square.png"
     }
   },
   {
@@ -3546,7 +3546,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Syndra/HUD/TFT11_Syndra_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_syndra/hud/tft11_syndra_square.png"
     }
   },
   {
@@ -3566,7 +3566,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_TahmKench/HUD/TFT11_TahmKench_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_tahmkench/hud/tft11_tahmkench_square.png"
     }
   },
   {
@@ -3586,7 +3586,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Teemo/HUD/TFT11_Teemo_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_teemo/hud/tft11_teemo_square.png"
     }
   },
   {
@@ -3606,7 +3606,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Thresh/HUD/TFT11_Thresh_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_thresh/hud/tft11_thresh_square.png"
     }
   },
   {
@@ -3626,7 +3626,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Tristana/HUD/TFT11_Tristana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_tristana/hud/tft11_tristana_square.png"
     }
   },
   {
@@ -3650,7 +3650,7 @@
           "id": "TFT11_SpiritWalker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Udyr/HUD/TFT11_Udyr_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_udyr/hud/tft11_udyr_square.png"
     }
   },
   {
@@ -3670,7 +3670,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Volibear/HUD/TFT11_Volibear_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_volibear/hud/tft11_volibear_square.png"
     }
   },
   {
@@ -3694,7 +3694,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_WuKong/HUD/TFT11_WuKong_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_wukong/hud/tft11_wukong_square.png"
     }
   },
   {
@@ -3714,7 +3714,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Yasuo/HUD/TFT11_Yasuo_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_yasuo/hud/tft11_yasuo_square.png"
     }
   },
   {
@@ -3734,7 +3734,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Yone/HUD/TFT11_Yone_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_yone/hud/tft11_yone_square.png"
     }
   },
   {
@@ -3754,7 +3754,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Yorick/HUD/TFT11_Yorick_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_yorick/hud/tft11_yorick_square.png"
     }
   },
   {
@@ -3778,7 +3778,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Zoe/HUD/TFT11_Zoe_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_zoe/hud/tft11_zoe_square.png"
     }
   },
   {
@@ -3798,7 +3798,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Zyra/HUD/TFT11_Zyra_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_zyra/hud/tft11_zyra_square.png"
     }
   },
   {
@@ -3818,7 +3818,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_FortuneYord/HUD/TFT11_Kobuko_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_fortuneyord/hud/tft11_kobuko_square.png"
     }
   },
   {
@@ -3838,7 +3838,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_RekSai/HUD/TFT11_RekSai_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_reksai/hud/tft11_reksai_square.png"
     }
   },
   {
@@ -3849,7 +3849,7 @@
       "rarity": 4,
       "display_name": "Tibbers",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Tibbers/HUD/TFT11_Tibbers_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_tibbers/hud/tft11_tibbers_square.png"
     }
   },
   {
@@ -3860,7 +3860,7 @@
       "rarity": 9,
       "display_name": "Kayle",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kayle/HUD/TFT11_Kayle_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kayle/hud/tft11_kayle_square.png"
     }
   },
   {
@@ -3884,7 +3884,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Xayah/HUD/TFT11_Xayah_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_xayah/hud/tft11_xayah_square.png"
     }
   },
   {
@@ -3904,7 +3904,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Gnar/HUD/TFT11_Gnar_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_gnar/hud/tft11_gnar_square.png"
     }
   },
   {
@@ -3928,7 +3928,7 @@
           "id": "TFT11_Altruist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Rakan/HUD/TFT11_Rakan_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_rakan/hud/tft11_rakan_square.png"
     }
   },
   {
@@ -3948,7 +3948,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Jax/HUD/TFT11_Jax_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_jax/hud/tft11_jax_square.png"
     }
   },
   {
@@ -3968,7 +3968,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Diana/HUD/TFT11_Diana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_diana/hud/tft11_diana_square.png"
     }
   },
   {
@@ -3988,7 +3988,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Azir/HUD/TFT11_Azir_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_azir/hud/tft11_azir_square.png"
     }
   },
   {
@@ -4008,7 +4008,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Nautilus/HUD/TFT11_Nautilus_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_nautilus/hud/tft11_nautilus_square.png"
     }
   },
   {
@@ -4032,7 +4032,7 @@
           "id": "TFT11_TrickshotAltruist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_XayahRakanDummy/HUD/TFT11_XayahRakan_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_xayahrakandummy/hud/tft11_xayahrakan_square.png"
     }
   },
   {
@@ -4043,7 +4043,7 @@
       "rarity": 9,
       "display_name": "SightWard",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_ExaltedCore/HUD/TFT11_ExaltedCore_Circle.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_exaltedcore/hud/tft11_exaltedcore_circle.png"
     }
   },
   {
@@ -4054,7 +4054,7 @@
       "rarity": 9,
       "display_name": "Golden Tree",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_FortuneProp/Skins/Base/TFT11_FortuneProp_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_fortuneprop/skins/base/tft11_fortuneprop_square.png"
     }
   },
   {
@@ -4065,7 +4065,7 @@
       "rarity": 9,
       "display_name": "Dragonlord Flames",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_DragonlordFlames/HUD/TFT11_DragonlordFlames_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_dragonlordflames/hud/tft11_dragonlordflames_square.png"
     }
   },
   {
@@ -4076,7 +4076,7 @@
       "rarity": 9,
       "display_name": "Xayah",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_XayahBenchDummy/HUD/TFT11_XayahBenchDummy_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_xayahbenchdummy/hud/tft11_xayahbenchdummy_square.png"
     }
   },
   {
@@ -4087,7 +4087,7 @@
       "rarity": 9,
       "display_name": "Rakan",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_RakanBenchDummy/HUD/TFT11_RakanBenchDummy_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_rakanbenchdummy/hud/tft11_rakanbenchdummy_square.png"
     }
   },
   {
@@ -4098,7 +4098,7 @@
       "rarity": 9,
       "display_name": "AzirSoldier",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_AzirSoldier/HUD/TFT11_AzirSoldier_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_azirsoldier/hud/tft11_azirsoldier_square.png"
     }
   },
   {
@@ -4109,7 +4109,7 @@
       "rarity": 9,
       "display_name": "Golden Tree",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Augment/HUD/TFT11_Augment_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_augment/hud/tft11_augment_square.png"
     }
   },
   {
@@ -4133,7 +4133,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Aatrox/HUD/TFT11_Aatrox_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_aatrox/hud/tft11_aatrox_square.png"
     }
   },
   {
@@ -4153,7 +4153,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Ahri/HUD/TFT11_Ahri_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_ahri/hud/tft11_ahri_square.png"
     }
   },
   {
@@ -4173,7 +4173,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Amumu/HUD/TFT11_Amumu_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_amumu/hud/tft11_amumu_square.png"
     }
   },
   {
@@ -4193,7 +4193,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Annie/HUD/TFT11_Annie_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_annie/hud/tft11_annie_square.png"
     }
   },
   {
@@ -4213,7 +4213,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Aphelios/HUD/TFT11_Aphelios_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_aphelios/hud/tft11_aphelios_square.png"
     }
   },
   {
@@ -4233,7 +4233,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Ashe/HUD/TFT11_Ashe_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_ashe/hud/tft11_ashe_square.png"
     }
   },
   {
@@ -4253,7 +4253,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Alune/HUD/TFT11_Alune_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_alune/hud/tft11_alune_square.png"
     }
   },
   {
@@ -4273,7 +4273,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Bard/HUD/TFT11_Bard_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_bard/hud/tft11_bard_square.png"
     }
   },
   {
@@ -4293,7 +4293,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Caitlyn/HUD/TFT11_Caitlyn_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_caitlyn/hud/tft11_caitlyn_square.png"
     }
   },
   {
@@ -4313,7 +4313,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_ChoGath/HUD/TFT11_ChoGath_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_chogath/hud/tft11_chogath_square.png"
     }
   },
   {
@@ -4333,7 +4333,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Darius/HUD/TFT11_Darius_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_darius/hud/tft11_darius_square.png"
     }
   },
   {
@@ -4353,7 +4353,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Galio/HUD/TFT11_Galio_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_galio/hud/tft11_galio_square.png"
     }
   },
   {
@@ -4373,7 +4373,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Garen/HUD/TFT11_Garen_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_garen/hud/tft11_garen_square.png"
     }
   },
   {
@@ -4393,7 +4393,7 @@
           "id": "TFT11_Artist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Hwei/HUD/TFT11_Hwei_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_hwei/hud/tft11_hwei_square.png"
     }
   },
   {
@@ -4417,7 +4417,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Illaoi/HUD/TFT11_Illaoi_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_illaoi/hud/tft11_illaoi_square.png"
     }
   },
   {
@@ -4437,7 +4437,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Irelia/HUD/TFT11_Irelia_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_irelia/hud/tft11_irelia_square.png"
     }
   },
   {
@@ -4457,7 +4457,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Janna/HUD/TFT11_Janna_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_janna/hud/tft11_janna_square.png"
     }
   },
   {
@@ -4477,7 +4477,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kaisa/HUD/TFT11_Kaisa_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kaisa/hud/tft11_kaisa_square.png"
     }
   },
   {
@@ -4497,7 +4497,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kayn/HUD/TFT11_Kayn_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kayn/hud/tft11_kayn_square.png"
     }
   },
   {
@@ -4517,7 +4517,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_KhaZix/HUD/TFT11_KhaZix_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_khazix/hud/tft11_khazix_square.png"
     }
   },
   {
@@ -4541,7 +4541,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kindred/HUD/TFT11_Kindred_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kindred/hud/tft11_kindred_square.png"
     }
   },
   {
@@ -4565,7 +4565,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_KogMaw/HUD/TFT11_KogMaw_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kogmaw/hud/tft11_kogmaw_square.png"
     }
   },
   {
@@ -4585,7 +4585,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_LeeSin/HUD/TFT11_LeeSin_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_leesin/hud/tft11_leesin_square.png"
     }
   },
   {
@@ -4605,7 +4605,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Lillia/HUD/TFT11_Lillia_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_lillia/hud/tft11_lillia_square.png"
     }
   },
   {
@@ -4625,7 +4625,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Lissandra/HUD/TFT11_Lissandra_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_lissandra/hud/tft11_lissandra_square.png"
     }
   },
   {
@@ -4645,7 +4645,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Lux/HUD/TFT11_Lux_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_lux/hud/tft11_lux_square.png"
     }
   },
   {
@@ -4665,7 +4665,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Malphite/HUD/TFT11_Malphite_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_malphite/hud/tft11_malphite_square.png"
     }
   },
   {
@@ -4685,7 +4685,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Morgana/HUD/TFT11_Morgana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_morgana/hud/tft11_morgana_square.png"
     }
   },
   {
@@ -4709,7 +4709,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Neeko/HUD/TFT11_Neeko_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_neeko/hud/tft11_neeko_square.png"
     }
   },
   {
@@ -4729,7 +4729,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Ornn/HUD/TFT11_Ornn_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_ornn/hud/tft11_ornn_square.png"
     }
   },
   {
@@ -4749,7 +4749,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Qiyana/HUD/TFT11_Qiyana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_qiyana/hud/tft11_qiyana_square.png"
     }
   },
   {
@@ -4769,7 +4769,7 @@
           "id": "TFT11_Sniper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Senna/HUD/TFT11_Senna_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_senna/hud/tft11_senna_square.png"
     }
   },
   {
@@ -4793,7 +4793,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Sett/HUD/TFT11_Sett_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_sett/hud/tft11_sett_square.png"
     }
   },
   {
@@ -4813,7 +4813,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Shen/HUD/TFT11_Shen_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_shen/hud/tft11_shen_square.png"
     }
   },
   {
@@ -4837,7 +4837,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Riven/HUD/TFT11_Riven_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_riven/hud/tft11_riven_square.png"
     }
   },
   {
@@ -4857,7 +4857,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Sivir/HUD/TFT11_Sivir_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_sivir/hud/tft11_sivir_square.png"
     }
   },
   {
@@ -4877,7 +4877,7 @@
           "id": "TFT11_Altruist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Soraka/HUD/TFT11_Soraka_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_soraka/hud/tft11_soraka_square.png"
     }
   },
   {
@@ -4897,7 +4897,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Sylas/HUD/TFT11_Sylas_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_sylas/hud/tft11_sylas_square.png"
     }
   },
   {
@@ -4917,7 +4917,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Syndra/HUD/TFT11_Syndra_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_syndra/hud/tft11_syndra_square.png"
     }
   },
   {
@@ -4937,7 +4937,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_TahmKench/HUD/TFT11_TahmKench_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_tahmkench/hud/tft11_tahmkench_square.png"
     }
   },
   {
@@ -4957,7 +4957,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Teemo/HUD/TFT11_Teemo_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_teemo/hud/tft11_teemo_square.png"
     }
   },
   {
@@ -4977,7 +4977,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Thresh/HUD/TFT11_Thresh_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_thresh/hud/tft11_thresh_square.png"
     }
   },
   {
@@ -4997,7 +4997,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Tristana/HUD/TFT11_Tristana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_tristana/hud/tft11_tristana_square.png"
     }
   },
   {
@@ -5021,7 +5021,7 @@
           "id": "TFT11_SpiritWalker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Udyr/HUD/TFT11_Udyr_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_udyr/hud/tft11_udyr_square.png"
     }
   },
   {
@@ -5041,7 +5041,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Volibear/HUD/TFT11_Volibear_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_volibear/hud/tft11_volibear_square.png"
     }
   },
   {
@@ -5065,7 +5065,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_WuKong/HUD/TFT11_WuKong_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_wukong/hud/tft11_wukong_square.png"
     }
   },
   {
@@ -5085,7 +5085,7 @@
           "id": "TFT11_Duelist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Yasuo/HUD/TFT11_Yasuo_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_yasuo/hud/tft11_yasuo_square.png"
     }
   },
   {
@@ -5105,7 +5105,7 @@
           "id": "TFT11_Reaper"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Yone/HUD/TFT11_Yone_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_yone/hud/tft11_yone_square.png"
     }
   },
   {
@@ -5125,7 +5125,7 @@
           "id": "TFT11_Behemoth"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Yorick/HUD/TFT11_Yorick_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_yorick/hud/tft11_yorick_square.png"
     }
   },
   {
@@ -5149,7 +5149,7 @@
           "id": "TFT11_Arcanist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Zoe/HUD/TFT11_Zoe_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_zoe/hud/tft11_zoe_square.png"
     }
   },
   {
@@ -5169,7 +5169,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Zyra/HUD/TFT11_Zyra_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_zyra/hud/tft11_zyra_square.png"
     }
   },
   {
@@ -5189,7 +5189,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_FortuneYord/HUD/TFT11_Kobuko_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_fortuneyord/hud/tft11_kobuko_square.png"
     }
   },
   {
@@ -5209,7 +5209,7 @@
           "id": "TFT11_Bruiser"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_RekSai/HUD/TFT11_RekSai_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_reksai/hud/tft11_reksai_square.png"
     }
   },
   {
@@ -5220,7 +5220,7 @@
       "rarity": 4,
       "display_name": "Tibbers",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Tibbers/HUD/TFT11_Tibbers_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_tibbers/hud/tft11_tibbers_square.png"
     }
   },
   {
@@ -5231,7 +5231,7 @@
       "rarity": 9,
       "display_name": "Kayle",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Kayle/HUD/TFT11_Kayle_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_kayle/hud/tft11_kayle_square.png"
     }
   },
   {
@@ -5255,7 +5255,7 @@
           "id": "TFT11_Trickshot"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Xayah/HUD/TFT11_Xayah_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_xayah/hud/tft11_xayah_square.png"
     }
   },
   {
@@ -5275,7 +5275,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Gnar/HUD/TFT11_Gnar_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_gnar/hud/tft11_gnar_square.png"
     }
   },
   {
@@ -5299,7 +5299,7 @@
           "id": "TFT11_Altruist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Rakan/HUD/TFT11_Rakan_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_rakan/hud/tft11_rakan_square.png"
     }
   },
   {
@@ -5319,7 +5319,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Jax/HUD/TFT11_Jax_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_jax/hud/tft11_jax_square.png"
     }
   },
   {
@@ -5339,7 +5339,7 @@
           "id": "TFT11_Sage"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Diana/HUD/TFT11_Diana_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_diana/hud/tft11_diana_square.png"
     }
   },
   {
@@ -5359,7 +5359,7 @@
           "id": "TFT11_Invoker"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Azir/HUD/TFT11_Azir_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_azir/hud/tft11_azir_square.png"
     }
   },
   {
@@ -5379,7 +5379,7 @@
           "id": "TFT11_Warden"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Nautilus/HUD/TFT11_Nautilus_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_nautilus/hud/tft11_nautilus_square.png"
     }
   },
   {
@@ -5403,7 +5403,7 @@
           "id": "TFT11_TrickshotAltruist"
         }
       ],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_XayahRakanDummy/HUD/TFT11_XayahRakan_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_xayahrakandummy/hud/tft11_xayahrakan_square.png"
     }
   },
   {
@@ -5414,7 +5414,7 @@
       "rarity": 9,
       "display_name": "SightWard",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_ExaltedCore/HUD/TFT11_ExaltedCore_Circle.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_exaltedcore/hud/tft11_exaltedcore_circle.png"
     }
   },
   {
@@ -5425,7 +5425,7 @@
       "rarity": 9,
       "display_name": "Golden Tree",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_FortuneProp/Skins/Base/TFT11_FortuneProp_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_fortuneprop/skins/base/tft11_fortuneprop_square.png"
     }
   },
   {
@@ -5436,7 +5436,7 @@
       "rarity": 9,
       "display_name": "Dragonlord Flames",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_DragonlordFlames/HUD/TFT11_DragonlordFlames_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_dragonlordflames/hud/tft11_dragonlordflames_square.png"
     }
   },
   {
@@ -5447,7 +5447,7 @@
       "rarity": 9,
       "display_name": "Xayah",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_XayahBenchDummy/HUD/TFT11_XayahBenchDummy_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_xayahbenchdummy/hud/tft11_xayahbenchdummy_square.png"
     }
   },
   {
@@ -5458,7 +5458,7 @@
       "rarity": 9,
       "display_name": "Rakan",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_RakanBenchDummy/HUD/TFT11_RakanBenchDummy_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_rakanbenchdummy/hud/tft11_rakanbenchdummy_square.png"
     }
   },
   {
@@ -5469,7 +5469,7 @@
       "rarity": 9,
       "display_name": "AzirSoldier",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_AzirSoldier/HUD/TFT11_AzirSoldier_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_azirsoldier/hud/tft11_azirsoldier_square.png"
     }
   },
   {
@@ -5480,7 +5480,7 @@
       "rarity": 9,
       "display_name": "Golden Tree",
       "traits": [],
-      "squareIconPath": "/lol-game-data/assets/ASSETS/Characters/TFT11_Augment/HUD/TFT11_Augment_Square.png"
+      "squareIconPath": "plugins/rcp-be-lol-game-data/global/default//characters/tft11_augment/hud/tft11_augment_square.png"
     }
   }
 ]
