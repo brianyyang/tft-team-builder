@@ -3,9 +3,12 @@ const path = require('path');
 
 const filePath = process.argv[2];
 const setNumberToFilterBy = process.argv[3];
+const filterPlanner = process.argv[4];
 
 if (!filePath || !setNumberToFilterBy) {
-  console.log('Usage: node filterByName.js <filePath> <setNumber>');
+  console.log(
+    'Usage: node filterTFTData.js <filePath> <setNumber> <filterPlanner>'
+  );
   process.exit(1);
 }
 
@@ -27,6 +30,18 @@ function filterBySetNumber(data, setNumber) {
   }, []);
 }
 
+// Function to filter JSON data and change image icon paths for TFT planner
+function filterPlannerIconPaths(data) {
+  return data[Object.keys(data)[0]].reduce((result, champion) => {
+    result.push({
+      ...champion,
+      squareIconPath: mapPathFromJson(champion.squareIconPath),
+      squareSplashIconPath: mapPathFromJson(champion.squareSplashIconPath),
+    });
+    return result;
+  }, []);
+}
+
 // In the JSON files, asset paths can be mapped to URLs:
 // /lol-game-data/assets/ASSETS/<path> -> plugins/rcp-be-lol-game-data/global/default/<lowercased-path>.
 const mapPathFromJson = (pathFromJson) => {
@@ -39,7 +54,7 @@ const mapPathFromJson = (pathFromJson) => {
       .substring(keywordIndex + keyword.length)
       .toLowerCase()
       .replace('.tex', '.png');
-    return `plugins/rcp-be-lol-game-data/global/default/${result}`;
+    return `plugins/rcp-be-lol-game-data/global/default${result}`;
   } else {
     console.log(`Keyword not found in the path: ${pathFromJson}`);
     process.exit(1);
@@ -55,8 +70,13 @@ fs.readFile(path.resolve(filePath), 'utf8', (err, jsonString) => {
   try {
     const data = JSON.parse(jsonString);
 
-    // Filter data by name (e.g., 'Alice')
-    const filteredData = filterBySetNumber(data, setNumberToFilterBy);
+    let filteredData;
+    if (filterPlanner) {
+      filteredData = filterPlannerIconPaths(data);
+    } else {
+      // Filter data by set
+      filteredData = filterBySetNumber(data, setNumberToFilterBy);
+    }
 
     // Write filtered data to a new JSON file uin the same directory as the input file
     const outputFilePath = path.join(path.dirname(filePath), 'champions.json');
@@ -75,3 +95,8 @@ fs.readFile(path.resolve(filePath), 'utf8', (err, jsonString) => {
     console.log('Error parsing JSON:', err);
   }
 });
+/**
+ * 
+Hi, I'm Brian! My goal this year was to stream at least twice a week. Currently I'm playing two games, Celeste on Tuesdays and Outer Wilds on Thursdays. I'm excited to share my first playthroughs on stream with y'all :)
+Currently I'm playing two games, Celeste on Tuesdays and Outer Wilds on Thursdays. I'm excited to share my first playthroughs on stream with y'all :)
+*/
