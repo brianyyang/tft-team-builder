@@ -13,7 +13,9 @@ const ChampionImage: React.FC<ChampionImageProps> = ({
   championName,
   ...rest
 }) => {
-  return <Image src={imagePath} alt={championName} {...rest} />;
+  return (
+    <Image src={imagePath} alt={championName} id={championName} {...rest} />
+  );
 };
 
 export default ChampionImage;
