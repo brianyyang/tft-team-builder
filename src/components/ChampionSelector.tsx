@@ -22,6 +22,7 @@ const ChampionSelector: React.FC = () => {
     <div>
       {TIERS.map((tier) => (
         <ChampionGroup
+          key={'tier_' + tier + '_champions'}
           champions={tierMap.get(tier) as Champion[]}
           imageWidth={128}
           imageHeight={128}

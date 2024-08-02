@@ -1,4 +1,6 @@
-import ChampionImage from '@/components/ChampionImage';
+import ChampionSelectButton from '@/components/ChampionSelectButton';
+import { Flex } from '@mantine/core';
+import styles from '@/css/styles.module.css';
 
 interface ChampionGroupProps {
   champions: Champion[];
@@ -12,16 +14,17 @@ const ChampionGroup: React.FC<ChampionGroupProps> = ({
   imageHeight,
 }) => {
   return (
-    <div>
+    <Flex className={styles.container}>
       {champions.map((champion) => (
-        <ChampionImage
+        <ChampionSelectButton
+          key={champion.id}
           imagePath={champion.iconPath}
           championName={champion.name}
           width={imageWidth}
           height={imageHeight}
         />
       ))}
-    </div>
+    </Flex>
   );
 };
 

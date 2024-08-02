@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  flex-direction: row; /* Arrange items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 10px; /* Adds space between items */
+  margin: 50px;
+}
