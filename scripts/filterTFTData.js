@@ -75,7 +75,7 @@ const convertToProject = (filePath, championId) => {
 };
 
 // In the JSON files, asset paths can be mapped to URLs:
-// /lol-game-data/assets/ASSETS/<path> -> plugins/rcp-be-lol-game-data/global/default/<lowercased-path>.
+// /lol-game-data/assets/<path> -> plugins/rcp-be-lol-game-data/global/default/<lowercased-path>.
 const mapPathFromJson = (pathFromJson) => {
   const keyword = 'assets';
   const keywordIndex = pathFromJson.indexOf(keyword);

@@ -1,5 +1,7 @@
+import { Box } from '@mantine/core';
 import ChampionGroup from '@/components/ChampionGroup';
 import champions from '@/data/champions.json';
+import styles from '@/css/styles.module.css';
 
 const TIERS = [1, 2, 3, 4, 5];
 const typedChampions: Champion[] = champions;
@@ -19,16 +21,16 @@ const sortByTiers = (): Map<number, Champion[]> => {
 const ChampionSelector: React.FC = () => {
   const tierMap = sortByTiers();
   return (
-    <div>
+    <Box className={styles.container}>
       {TIERS.map((tier) => (
         <ChampionGroup
           key={'tier_' + tier + '_champions'}
           champions={tierMap.get(tier) as Champion[]}
-          imageWidth={128}
-          imageHeight={128}
+          imageWidth={64}
+          imageHeight={64}
         />
       ))}
-    </div>
+    </Box>
   );
 };
 
