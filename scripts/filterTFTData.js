@@ -2,13 +2,11 @@ const fs = require('fs');
 const path = require('path');
 
 const filePath = process.argv[2];
-const setNumberToFilterBy = process.argv[3];
-const filterPlanner = process.argv[4];
+// const setNumberToFilterBy = process.argv[3];
+const filterIconPaths = process.argv[3];
 
-if (!filePath || !setNumberToFilterBy) {
-  console.log(
-    'Usage: node filterTFTData.js <filePath> <setNumber> <filterPlanner>'
-  );
+if (!filePath || !filterIconPaths) {
+  console.log('Usage: node filterTFTData.js <filePath> <filterIconPaths>');
   process.exit(1);
 }
 
@@ -42,10 +40,44 @@ function filterPlannerIconPaths(data) {
   }, []);
 }
 
+// Function to filter JSON data and change image icon paths for TFT planner
+function filterToChampionType(data) {
+  return data[Object.keys(data)[0]].reduce((result, champion) => {
+    const championId = champion.character_id.toLowerCase();
+    result.push({
+      id: championId,
+      name: champion.display_name,
+      tier: champion.tier,
+      traits: convertTraits(champion.traits),
+      iconPath: convertToProject(
+        mapPathFromJson(champion.squareIconPath),
+        championId
+      ),
+      splashPath: convertToProject(
+        mapPathFromJson(champion.squareSplashIconPath),
+        championId
+      ),
+    });
+    return result;
+  }, []);
+}
+
+function convertTraits(traits) {
+  return traits.reduce((result, trait) => {
+    result.push({ id: trait.id.toLowerCase(), name: trait.name });
+    return result;
+  }, []);
+}
+
+const convertToProject = (filePath, championId) => {
+  const pathParts = path.parse(filePath);
+  return `/assets/champions/${championId}/${pathParts.base}`;
+};
+
 // In the JSON files, asset paths can be mapped to URLs:
 // /lol-game-data/assets/ASSETS/<path> -> plugins/rcp-be-lol-game-data/global/default/<lowercased-path>.
 const mapPathFromJson = (pathFromJson) => {
-  const keyword = 'ASSETS';
+  const keyword = 'assets';
   const keywordIndex = pathFromJson.indexOf(keyword);
 
   if (keywordIndex !== -1) {
@@ -53,7 +85,8 @@ const mapPathFromJson = (pathFromJson) => {
     const result = pathFromJson
       .substring(keywordIndex + keyword.length)
       .toLowerCase()
-      .replace('.tex', '.png');
+      .replace('.tex', '.png')
+      .replace('.jpg', '.png');
     return `plugins/rcp-be-lol-game-data/global/default${result}`;
   } else {
     console.log(`Keyword not found in the path: ${pathFromJson}`);
@@ -71,15 +104,17 @@ fs.readFile(path.resolve(filePath), 'utf8', (err, jsonString) => {
     const data = JSON.parse(jsonString);
 
     let filteredData;
-    if (filterPlanner) {
+    if (filterIconPaths === 'true') {
       filteredData = filterPlannerIconPaths(data);
     } else {
-      // Filter data by set
-      filteredData = filterBySetNumber(data, setNumberToFilterBy);
+      // Filter data into typescript champion
+      filteredData = filterToChampionType(data);
     }
 
-    // Write filtered data to a new JSON file uin the same directory as the input file
-    const outputFilePath = path.join(path.dirname(filePath), 'champions.json');
+    // Write filtered data to a new JSON file in the same directory as the input file
+    const outputFileName =
+      filterIconPaths === 'true' ? 'icons.json' : 'champions.json';
+    const outputFilePath = path.join(path.dirname(filePath), outputFileName);
     fs.writeFile(
       outputFilePath,
       JSON.stringify(filteredData, null, 2),
@@ -95,8 +130,3 @@ fs.readFile(path.resolve(filePath), 'utf8', (err, jsonString) => {
     console.log('Error parsing JSON:', err);
   }
 });
-/**
- * 
-Hi, I'm Brian! My goal this year was to stream at least twice a week. Currently I'm playing two games, Celeste on Tuesdays and Outer Wilds on Thursdays. I'm excited to share my first playthroughs on stream with y'all :)
-Currently I'm playing two games, Celeste on Tuesdays and Outer Wilds on Thursdays. I'm excited to share my first playthroughs on stream with y'all :)
-*/

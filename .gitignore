@@ -34,6 +34,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-public/data/tftchampions.json
-public/data/oldchampions.json
-public/data/tftplanner.json
+src/data/tftplanner.json
+src/data/icons.json
