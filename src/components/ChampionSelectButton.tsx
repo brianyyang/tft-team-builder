@@ -3,10 +3,10 @@ import { Button } from '@mantine/core';
 
 // Define the props interface
 interface ChampionSelectButtonProps {
-  imagePath: string;
-  championName: string;
+  champion: Champion;
   height: number;
   width: number;
+  onClick: (champion: Champion) => void;
 }
 
 const circleButtonStyles = (width: number, height: number) => ({
@@ -20,19 +20,20 @@ const circleButtonStyles = (width: number, height: number) => ({
 });
 
 const ChampionSelectButton: React.FC<ChampionSelectButtonProps> = ({
-  imagePath,
-  championName,
+  champion,
   width,
   height,
+  onClick,
 }) => {
   return (
     <Button style={circleButtonStyles(width, height)}>
       <Image
-        src={imagePath}
-        alt={championName}
-        id={championName}
+        src={champion.iconPath}
+        alt={champion.name}
+        id={champion.id}
         width={width}
         height={height}
+        onClick={() => onClick(champion)}
       />
     </Button>
   );

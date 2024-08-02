@@ -1,4 +1,7 @@
-import { Box } from '@mantine/core';
+'use client';
+
+import { useState } from 'react';
+import { Box, Title } from '@mantine/core';
 import ChampionGroup from '@/components/ChampionGroup';
 import champions from '@/data/champions.json';
 import styles from '@/css/styles.module.css';
@@ -19,17 +22,37 @@ const sortByTiers = (): Map<number, Champion[]> => {
 };
 
 const ChampionSelector: React.FC = () => {
+  const [team, setTeam] = useState<Champion[]>([]);
   const tierMap = sortByTiers();
+
+  const toggleChampion = (champion: Champion) => {
+    if (team.some((teamChamp) => teamChamp.id === champion.id)) {
+      setTeam(team.filter((teamChamp) => teamChamp.id !== champion.id));
+    } else {
+      setTeam([...team, champion]);
+    }
+  };
+
   return (
-    <Box className={styles.container}>
-      {TIERS.map((tier) => (
-        <ChampionGroup
-          key={'tier_' + tier + '_champions'}
-          champions={tierMap.get(tier) as Champion[]}
-          imageWidth={64}
-          imageHeight={64}
-        />
-      ))}
+    <Box style={{ display: 'flex', flexDirection: 'row' }}>
+      <Box className={styles.columnContainer}>
+        <Title>Champion Selector</Title>
+        {TIERS.map((tier) => (
+          <ChampionGroup
+            key={'tier_' + tier + '_champions'}
+            champions={tierMap.get(tier) as Champion[]}
+            imageWidth={64}
+            imageHeight={64}
+            onClick={toggleChampion}
+          />
+        ))}
+      </Box>
+      <Box className={styles.columnContainer}>
+        <Title>Selected Champions</Title>
+        {team.map((champion) => (
+          <Box className={styles.rowContainer}>{champion.name}</Box>
+        ))}
+      </Box>
     </Box>
   );
 };

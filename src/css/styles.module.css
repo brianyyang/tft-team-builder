@@ -1,7 +1,17 @@
-.container {
+.columnContainer {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 10px; /* Adds space between items */
+  margin: 25px;
+  width: 40%;
+}
+
+.rowContainer {
   display: flex;
   flex-direction: row; /* Arrange items horizontally */
   flex-wrap: wrap; /* Allow items to wrap to the next line */
   gap: 10px; /* Adds space between items */
-  margin: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
