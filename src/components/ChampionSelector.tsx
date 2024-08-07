@@ -5,8 +5,8 @@ import { Box, Title } from '@mantine/core';
 import ChampionGroup from '@/components/ChampionGroup';
 import champions from '@/data/champions.json';
 import styles from '@/css/styles.module.css';
+import { TIERS } from '@/utils/TiersUtils';
 
-const TIERS = [1, 2, 3, 4, 5];
 const typedChampions: Champion[] = champions;
 
 const sortByTiers = (): Map<number, Champion[]> => {
@@ -36,11 +36,12 @@ const ChampionSelector: React.FC = () => {
   return (
     <Box style={{ display: 'flex', flexDirection: 'row' }}>
       <Box className={styles.columnContainer}>
-        <Title>Champion Selector</Title>
+        <Title>Team Planner</Title>
         {TIERS.map((tier) => (
           <ChampionGroup
             key={'tier_' + tier + '_champions'}
             champions={tierMap.get(tier) as Champion[]}
+            isFullImage={false}
             imageWidth={64}
             imageHeight={64}
             onClick={toggleChampion}
@@ -49,9 +50,14 @@ const ChampionSelector: React.FC = () => {
       </Box>
       <Box className={styles.columnContainer}>
         <Title>Selected Champions</Title>
-        {team.map((champion) => (
-          <Box className={styles.rowContainer}>{champion.name}</Box>
-        ))}
+        <ChampionGroup
+          key={'champions_on_team'}
+          champions={team}
+          isFullImage={true}
+          imageWidth={128}
+          imageHeight={128}
+          onClick={toggleChampion}
+        />
       </Box>
     </Box>
   );
