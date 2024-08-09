@@ -2,7 +2,9 @@
 
 import { useState } from 'react';
 import { Box, Title } from '@mantine/core';
-import ChampionGroup from '@/components/ChampionGroup';
+import ChampionOptionsGroup from '@/components/ChampionOptionsGroup';
+import SelectedTeamGroup from '@/components/SelectedTeamGroup';
+import { SelectedTeamProvider } from './contexts/SelectedTeamContext';
 import champions from '@/data/champions.json';
 import styles from '@/css/styles.module.css';
 import { TIERS } from '@/utils/TiersUtils';
@@ -22,44 +24,32 @@ const sortByTiers = (): Map<number, Champion[]> => {
 };
 
 const ChampionSelector: React.FC = () => {
-  const [team, setTeam] = useState<Champion[]>([]);
   const tierMap = sortByTiers();
 
-  const toggleChampion = (champion: Champion) => {
-    if (team.some((teamChamp) => teamChamp.id === champion.id)) {
-      setTeam(team.filter((teamChamp) => teamChamp.id !== champion.id));
-    } else {
-      setTeam([...team, champion]);
-    }
-  };
-
   return (
-    <Box style={{ display: 'flex', flexDirection: 'row' }}>
-      <Box className={styles.columnContainer}>
-        <Title>Team Planner</Title>
-        {TIERS.map((tier) => (
-          <ChampionGroup
-            key={'tier_' + tier + '_champions'}
-            champions={tierMap.get(tier) as Champion[]}
-            isFullImage={false}
-            imageWidth={64}
-            imageHeight={64}
-            onClick={toggleChampion}
+    <SelectedTeamProvider>
+      <Box style={{ display: 'flex', flexDirection: 'row' }}>
+        <Box className={styles.columnContainer}>
+          <Title>Team Planner</Title>
+          {TIERS.map((tier) => (
+            <ChampionOptionsGroup
+              key={'tier_' + tier + '_champions'}
+              champions={tierMap.get(tier) as Champion[]}
+              imageWidth={64}
+              imageHeight={64}
+            />
+          ))}
+        </Box>
+        <Box className={styles.columnContainer}>
+          <Title>Selected Champions</Title>
+          <SelectedTeamGroup
+            key={'selected_champions'}
+            imageWidth={128}
+            imageHeight={128}
           />
-        ))}
+        </Box>
       </Box>
-      <Box className={styles.columnContainer}>
-        <Title>Selected Champions</Title>
-        <ChampionGroup
-          key={'champions_on_team'}
-          champions={team}
-          isFullImage={true}
-          imageWidth={128}
-          imageHeight={128}
-          onClick={toggleChampion}
-        />
-      </Box>
-    </Box>
+    </SelectedTeamProvider>
   );
 };
 
