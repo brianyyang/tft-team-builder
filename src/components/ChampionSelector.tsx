@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import { Box, Title } from '@mantine/core';
 import ChampionOptionsGroup from '@/components/ChampionOptionsGroup';
 import SelectedTeamGroup from '@/components/SelectedTeamGroup';
