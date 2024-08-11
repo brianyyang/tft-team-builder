@@ -10,12 +10,12 @@ import { TIERS } from '@/utils/TiersUtils';
 
 const typedChampions: Champion[] = champions;
 
-const sortByTiers = (): Map<number, Champion[]> => {
+const sortByTiers = (champions: Champion[]): Map<number, Champion[]> => {
   let tierMap = new Map<number, Champion[]>();
   TIERS.forEach((tier) => {
     tierMap.set(tier, []);
   });
-  typedChampions.forEach((champion) => {
+  champions.forEach((champion) => {
     tierMap.get(champion.tier)?.push(champion);
   });
 
@@ -23,7 +23,7 @@ const sortByTiers = (): Map<number, Champion[]> => {
 };
 
 const ChampionSelector: React.FC = () => {
-  const tierMap = sortByTiers();
+  const tierMap = sortByTiers(typedChampions);
 
   return (
     <SelectedTeamProvider>

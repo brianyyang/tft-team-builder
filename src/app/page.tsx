@@ -1,9 +1,10 @@
 import { MantineProvider, Box } from '@mantine/core';
 import ChampionSelector from '@/components/ChampionSelector';
+import theme from '@/theme/theme';
 
 export default function Home() {
   return (
-    <MantineProvider>
+    <MantineProvider theme={theme}>
       <Box>
         <ChampionSelector />
       </Box>

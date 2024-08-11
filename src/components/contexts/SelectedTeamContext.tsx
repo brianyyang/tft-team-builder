@@ -33,19 +33,37 @@ export const SelectedTeamProvider: React.FC<SelectedTeamProviderProps> = ({
   );
 
   const toggleChampion = (champion: Champion) => {
-    if (
-      selectedChampions.some(
-        (selectedChamp) => selectedChamp.id === champion.id
-      )
-    ) {
-      setSelectedChampions(
-        selectedChampions.filter(
-          (selectedChamp) => selectedChamp.id !== champion.id
-        )
-      );
-    } else {
-      setSelectedChampions([...selectedChampions, champion]);
+    const newList: Champion[] = [];
+    let championAdded = false;
+    let championFound = false;
+
+    for (const currentChampion of selectedChampions) {
+      if (currentChampion.id === champion.id) {
+        // Champion is already in the list; do not add it
+        championFound = true;
+        continue;
+      }
+
+      if (
+        !championFound &&
+        !championAdded &&
+        currentChampion.tier > champion.tier
+      ) {
+        // Add the new champion before the first champion with a greater tier
+        newList.push(champion);
+        championAdded = true;
+      }
+
+      // Add the current champion
+      newList.push(currentChampion);
     }
+
+    // If the champion was not added, it means it should be added at the end
+    if (!championFound && !championAdded) {
+      newList.push(champion);
+    }
+
+    setSelectedChampions(newList);
   };
 
   return (

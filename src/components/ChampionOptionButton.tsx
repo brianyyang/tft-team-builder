@@ -1,6 +1,6 @@
-import { Button } from '@mantine/core';
+import { useMantineTheme, Button } from '@mantine/core';
+import { CustomMantineTheme } from '@/theme/CustomMantineTheme';
 import { useSelectedTeam } from './contexts/SelectedTeamContext';
-import { TierToColorMap } from '@/utils/TiersUtils';
 import { useState } from 'react';
 
 interface ChampionOptionButtonProps {
@@ -9,39 +9,47 @@ interface ChampionOptionButtonProps {
   width: number;
 }
 
-const circleButtonStyles = (
-  width: number,
-  height: number,
-  tier: number,
-  imageUrl: string,
-  isHighlighted: boolean,
-  isHovered: boolean
-) => ({
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  borderStyle: 'solid',
-  borderColor: isHighlighted ? 'white' : TierToColorMap[tier],
-  outline: isHighlighted ? '1px solid white' : '',
-  width: width,
-  height: height,
-  overflow: 'hidden',
-  backgroundImage: `${
-    isHighlighted || isHovered
-      ? 'radial-gradient(circle, rgba(0,0,0,0) 25%, rgba(100,255,255,0.5) 75%, rgba(150,150,150,0.8) 100%),'
-      : ''
-  } url(${imageUrl})`,
-  backgroundSize: '100%',
-  cursor: 'pointer',
-});
-
 const ChampionOptionButton: React.FC<ChampionOptionButtonProps> = ({
   champion,
   width,
   height,
 }) => {
+  const theme = useMantineTheme() as CustomMantineTheme;
   const { selectedChampions, toggleChampion } = useSelectedTeam();
   const [isHovered, setIsHovered] = useState<boolean>(false);
+
+  const circleButtonStyles = (
+    width: number,
+    height: number,
+    tier: number,
+    imageUrl: string,
+    isHighlighted: boolean,
+    isHovered: boolean
+  ) => ({
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderSize: '2px',
+    borderStyle: 'solid',
+    borderColor: isHighlighted
+      ? 'rgb(209 207 189)'
+      : theme.tierToColorMap[tier],
+    borderWidth: '3px',
+    outline: isHighlighted ? '1px solid rgb(209 207 189)' : '',
+    width: width,
+    height: height,
+    overflow: 'hidden',
+    backgroundImage: `${
+      isHighlighted || isHovered
+        ? 'radial-gradient(circle, rgba(0,0,0,0) 25%, rgba(100,255,255,0.5) 75%, rgba(150,150,150,0.8) 100%),'
+        : ''
+    } url(${imageUrl})`,
+    backgroundSize: '100%',
+    cursor: 'pointer',
+    boxShadow: isHighlighted ? '0px 0px 10px 2px rgba(255, 255, 190, .75)' : '',
+    borderRadius: '5px',
+  });
+
   return (
     <Button
       style={circleButtonStyles(

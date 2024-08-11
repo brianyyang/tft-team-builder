@@ -1,6 +1,6 @@
 export const TIERS = [1, 2, 3, 4, 5];
 
-export const TierToColorMap: { [key: number]: string } = {
+export const tierToColorMap = {
   1: '#78746e',
   2: '#0fb740',
   3: '#4ea0f9',
