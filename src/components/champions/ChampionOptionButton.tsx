@@ -1,6 +1,5 @@
 import { useMantineTheme, Button } from '@mantine/core';
-import { CustomMantineTheme } from '@/theme/CustomMantineTheme';
-import { useSelectedTeam } from './contexts/SelectedTeamContext';
+import { useSelectedTeam } from '../contexts/SelectedTeamContext';
 import { useState } from 'react';
 
 interface ChampionOptionButtonProps {
@@ -14,11 +13,11 @@ const ChampionOptionButton: React.FC<ChampionOptionButtonProps> = ({
   width,
   height,
 }) => {
-  const theme = useMantineTheme() as CustomMantineTheme;
+  const theme = useMantineTheme();
   const { selectedChampions, toggleChampion } = useSelectedTeam();
   const [isHovered, setIsHovered] = useState<boolean>(false);
 
-  const circleButtonStyles = (
+  const buttonStyles = (
     width: number,
     height: number,
     tier: number,
@@ -33,7 +32,7 @@ const ChampionOptionButton: React.FC<ChampionOptionButtonProps> = ({
     borderStyle: 'solid',
     borderColor: isHighlighted
       ? 'rgb(209 207 189)'
-      : theme.tierToColorMap[tier],
+      : theme.other.tierToColorMap[tier],
     borderWidth: '3px',
     outline: isHighlighted ? '1px solid rgb(209 207 189)' : '',
     width: width,
@@ -52,7 +51,7 @@ const ChampionOptionButton: React.FC<ChampionOptionButtonProps> = ({
 
   return (
     <Button
-      style={circleButtonStyles(
+      style={buttonStyles(
         width,
         height,
         champion.tier,

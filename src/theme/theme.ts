@@ -1,16 +1,12 @@
-import { CustomMantineTheme } from './CustomMantineTheme';
 import { colors, typography, otherSettings } from './themeObjects';
 import { tierToColorMap } from '@/utils/TiersUtils';
-import { MantineThemeOverride } from '@mantine/core';
+import { createTheme, MantineThemeOverride } from '@mantine/core';
 
-// Create a theme override object to get the default properties of a MantineTheme
-const defaultThemeValues: MantineThemeOverride = {
+const theme: MantineThemeOverride = createTheme({
   colors: colors,
-};
-
-const theme: CustomMantineTheme = {
-  ...defaultThemeValues,
-  tierToColorMap: tierToColorMap,
-} as CustomMantineTheme;
+  other: {
+    tierToColorMap: tierToColorMap,
+  },
+});
 
 export default theme;

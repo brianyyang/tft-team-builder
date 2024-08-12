@@ -1,5 +1,5 @@
 import { MantineProvider, Box } from '@mantine/core';
-import ChampionSelector from '@/components/ChampionSelector';
+import ChampionSelector from '@/components/champions/ChampionSelector';
 import theme from '@/theme/theme';
 
 export default function Home() {

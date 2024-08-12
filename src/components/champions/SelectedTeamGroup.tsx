@@ -1,6 +1,6 @@
 import { Flex } from '@mantine/core';
-import SelectedChampionButton from '@/components/SelectedChampionButton';
-import { useSelectedTeam } from './contexts/SelectedTeamContext';
+import SelectedChampionCard from '@/components/champions/SelectedChampionCard';
+import { useSelectedTeam } from '../contexts/SelectedTeamContext';
 import styles from '@/css/styles.module.css';
 
 interface SelectedTeamGroupProps {
@@ -16,7 +16,7 @@ const SelectedTeamGroup: React.FC<SelectedTeamGroupProps> = ({
   return (
     <Flex className={styles.rowContainer}>
       {selectedChampions.map((champion) => (
-        <SelectedChampionButton
+        <SelectedChampionCard
           key={champion.id + 'big'}
           champion={champion}
           width={imageWidth}

@@ -1,5 +1,5 @@
 import { Flex } from '@mantine/core';
-import ChampionOptionButton from '@/components/ChampionOptionButton';
+import ChampionOptionButton from '@/components/champions/ChampionOptionButton';
 import styles from '@/css/styles.module.css';
 
 interface ChampionOptionGroupProps {

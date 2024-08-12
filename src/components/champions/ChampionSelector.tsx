@@ -1,9 +1,9 @@
 'use client';
 
 import { Box, Title } from '@mantine/core';
-import ChampionOptionsGroup from '@/components/ChampionOptionsGroup';
-import SelectedTeamGroup from '@/components/SelectedTeamGroup';
-import { SelectedTeamProvider } from './contexts/SelectedTeamContext';
+import ChampionOptionsGroup from '@/components/champions/ChampionOptionsGroup';
+import SelectedTeamGroup from '@/components/champions/SelectedTeamGroup';
+import { SelectedTeamProvider } from '../contexts/SelectedTeamContext';
 import champions from '@/data/champions.json';
 import styles from '@/css/styles.module.css';
 import { TIERS } from '@/utils/TiersUtils';
