@@ -34,7 +34,9 @@ const ChampionOptionButton: React.FC<ChampionOptionButtonProps> = ({
       ? 'rgb(209 207 189)'
       : theme.other.tierToColorMap[tier],
     borderWidth: '3px',
-    outline: isHighlighted ? '1px solid rgb(209 207 189)' : '',
+    outline: isHighlighted
+      ? `1px solid ${theme.colors.selectedChampionHighlight}`
+      : '',
     width: width,
     height: height,
     overflow: 'hidden',
