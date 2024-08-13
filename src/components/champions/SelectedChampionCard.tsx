@@ -1,4 +1,6 @@
-import { useMantineTheme, Card, Image, Badge, Group } from '@mantine/core';
+import { useMantineTheme, MantineStyleProp, Box } from '@mantine/core';
+import { useState } from 'react';
+import { IoCloseOutline } from 'react-icons/io5';
 import { useSelectedTeam } from '../contexts/SelectedTeamContext';
 import TraitHex from '../traits/TraitHex';
 
@@ -8,6 +10,24 @@ interface SelectedChampionCardProps {
   width: number;
 }
 
+const traitContainer = {
+  display: 'flex',
+  width: '100%',
+  height: '50%',
+  flexDirection: 'column',
+  flexWrap: 'wrap',
+  justifyContent: 'end',
+  alignContent: 'start',
+  marginBottom: '2px',
+} as MantineStyleProp;
+
+const closeButtonContainer = {
+  display: 'flex',
+  justifyContent: 'end',
+  width: '100%',
+  height: '50%',
+};
+
 const SelectedChampionCard: React.FC<SelectedChampionCardProps> = ({
   champion,
   width,
@@ -15,35 +35,73 @@ const SelectedChampionCard: React.FC<SelectedChampionCardProps> = ({
 }) => {
   const theme = useMantineTheme();
   const { toggleChampion } = useSelectedTeam();
+  const [isHovered, setIsHovered] = useState<boolean>(false);
 
-  const cardStyles = {
+  const cardStyles = (isHovered: boolean) => ({
     overflow: 'hidden',
-    cursor: 'pointer',
-    borderRadius: '5px',
+    borderRadius: '10px',
+    outline: isHovered
+      ? `3px solid ${theme.other.tierToColorMap[champion.tier].light}`
+      : '',
+    boxShadow: isHovered ? '0px 0px 10px 2px rgba(255, 255, 190, .75)' : '',
+  });
+
+  const imageStyles = (width: number, height: number, imageUrl: string) =>
+    ({
+      display: 'flex',
+      width: width,
+      height: height,
+      backgroundImage: `url(${imageUrl})`,
+      backgroundSize: '100%',
+      alignItems: 'end',
+      flexDirection: 'column',
+    } as MantineStyleProp);
+
+  const labelStyles = {
+    background: `linear-gradient(315deg, ${
+      theme.other.tierToColorMap[champion.tier].light
+    }, ${theme.other.tierToColorMap[champion.tier].mid}, ${
+      theme.other.tierToColorMap[champion.tier].dark
+    })`,
+    display: 'flex',
+    justifyContent: 'center',
+    fontSize: '1.25em',
   };
 
-  const imageStyles = (width: number, height: number) => ({
-    width: width,
-    height: height,
+  const closeButtonStyles = (isHovered: boolean) => ({
+    cursor: 'pointer',
+    width: '25%',
+    height: '50%',
+    backgroundColor: 'transparent',
+    display: isHovered ? 'block' : 'none',
   });
 
   return (
-    <Card style={cardStyles} onClick={() => toggleChampion(champion)}>
-      <Group justify="center">
-        <Card.Section>
-          <Image
-            src={champion.splashPath}
-            style={imageStyles(width, height)}
-          ></Image>
-        </Card.Section>
-        <Badge color={theme.other.tierToColorMap[champion.tier]} radius="sm">
-          {champion.name}
-        </Badge>
-        {champion.traits.map((trait) => (
-          <TraitHex trait={trait} width={36} height={36} />
-        ))}
-      </Group>
-    </Card>
+    <Box
+      style={cardStyles(isHovered)}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      <Box style={imageStyles(width, height, champion.splashPath)}>
+        <Box style={closeButtonContainer}>
+          <IoCloseOutline
+            style={closeButtonStyles(isHovered)}
+            onClick={() => toggleChampion(champion)}
+          />
+        </Box>
+        <Box style={traitContainer}>
+          {champion.traits.map((trait) => (
+            <TraitHex
+              trait={trait}
+              width={width / 5}
+              height={height / 5}
+              key={`${champion.name}_${trait.name}`}
+            />
+          ))}
+        </Box>
+      </Box>
+      <Box style={labelStyles}>{champion.name}</Box>
+    </Box>
   );
 };
 

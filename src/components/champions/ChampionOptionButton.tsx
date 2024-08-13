@@ -28,11 +28,10 @@ const ChampionOptionButton: React.FC<ChampionOptionButtonProps> = ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    borderSize: '2px',
     borderStyle: 'solid',
     borderColor: isHighlighted
       ? 'rgb(209 207 189)'
-      : theme.other.tierToColorMap[tier],
+      : theme.other.tierToColorMap[tier].light,
     borderWidth: '3px',
     outline: isHighlighted
       ? `1px solid ${theme.colors.selectedChampionHighlight}`

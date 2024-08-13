@@ -4,7 +4,6 @@
   flex-wrap: wrap; /* Allow items to wrap to the next line */
   gap: 10px; /* Adds space between items */
   margin: 25px;
-  width: 40%;
 }
 
 .rowContainer {
@@ -14,4 +13,12 @@
   gap: 10px; /* Adds space between items */
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.championOptionsContainer {
+  width: 40%;
+}
+
+.selectedChampionsContainer {
+  width: 60%;
 }
