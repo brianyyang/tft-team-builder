@@ -1,0 +1,170 @@
+[
+  {
+    "id": "tft12_arcana",
+    "name": "Arcana",
+    "activeCount": 0,
+    "breakpoints": [2, 3, 4, 5]
+  },
+  {
+    "id": "tft12_ascendant",
+    "name": "Ascendant",
+    "activeCount": 0,
+    "breakpoints": [1]
+  },
+  {
+    "id": "tft12_bastion",
+    "name": "Bastion",
+    "activeCount": 0,
+    "breakpoints": [2, 4, 6, 8]
+  },
+  {
+    "id": "tft12_batqueen",
+    "name": "Bat Queen",
+    "activeCount": 0,
+    "breakpoints": [1]
+  },
+  {
+    "id": "tft12_blaster",
+    "name": "Blaster",
+    "activeCount": 0,
+    "breakpoints": [2, 4, 6]
+  },
+  {
+    "id": "tft12_chrono",
+    "name": "Chrono",
+    "activeCount": 0,
+    "breakpoints": [2, 4, 6]
+  },
+  {
+    "id": "tft12_dragon",
+    "name": "Dragon",
+    "activeCount": 0,
+    "breakpoints": [2, 3]
+  },
+  {
+    "id": "tft12_druid",
+    "name": "Druid",
+    "activeCount": 0,
+    "breakpoints": [1]
+  },
+  {
+    "id": "tft12_eldritch",
+    "name": "Eldritch",
+    "activeCount": 0,
+    "breakpoints": [3, 5, 7, 10]
+  },
+  {
+    "id": "tft12_explorer",
+    "name": "Best Friends",
+    "activeCount": 0,
+    "breakpoints": [1]
+  },
+  {
+    "id": "tft12_faerie",
+    "name": "Faerie",
+    "activeCount": 0,
+    "breakpoints": [2, 4, 6, 9]
+  },
+  {
+    "id": "tft12_frost",
+    "name": "Frost",
+    "activeCount": 0,
+    "breakpoints": [3, 5, 7, 9]
+  },
+  {
+    "id": "tft12_honeymancy",
+    "name": "Honeymancy",
+    "activeCount": 0,
+    "breakpoints": [3, 5, 7]
+  },
+  {
+    "id": "tft12_hunter",
+    "name": "Hunter",
+    "activeCount": 0,
+    "breakpoints": [2, 4, 6]
+  },
+  {
+    "id": "tft12_incantor",
+    "name": "Incantor",
+    "activeCount": 0,
+    "breakpoints": [2, 4]
+  },
+  {
+    "id": "tft12_mage",
+    "name": "Mage",
+    "activeCount": 0,
+    "breakpoints": [3, 5, 7, 9]
+  },
+  {
+    "id": "tft12_multistriker",
+    "name": "Multistriker",
+    "activeCount": 0,
+    "breakpoints": [3, 5, 7, 9]
+  },
+  {
+    "id": "tft12_portal",
+    "name": "Portal",
+    "activeCount": 0,
+    "breakpoints": [3, 6, 8, 10]
+  },
+  {
+    "id": "tft12_preserver",
+    "name": "Preserver",
+    "activeCount": 0,
+    "breakpoints": [2, 3, 4, 5]
+  },
+  {
+    "id": "tft12_pyro",
+    "name": "Pyro",
+    "activeCount": 0,
+    "breakpoints": [2, 3, 4, 5]
+  },
+  {
+    "id": "tft12_ravenous",
+    "name": "Ravenous",
+    "activeCount": 0,
+    "breakpoints": [1]
+  },
+  {
+    "id": "tft12_relic",
+    "name": "Relic",
+    "activeCount": 0,
+    "breakpoints": [1]
+  },
+  {
+    "id": "tft12_scholar",
+    "name": "Scholar",
+    "activeCount": 0,
+    "breakpoints": [2, 4, 6]
+  },
+  {
+    "id": "tft12_shapeshifter",
+    "name": "Shapeshifter",
+    "activeCount": 0,
+    "breakpoints": [2, 4, 6, 8]
+  },
+  {
+    "id": "tft12_sugarcraft",
+    "name": "Sugarcraft",
+    "activeCount": 0,
+    "breakpoints": [2, 4, 6]
+  },
+  {
+    "id": "tft12_vanguard",
+    "name": "Vanguard",
+    "activeCount": 0,
+    "breakpoints": [2, 4, 6]
+  },
+  {
+    "id": "tft12_warrior",
+    "name": "Warrior",
+    "activeCount": 0,
+    "breakpoints": [2, 4, 6]
+  },
+  {
+    "id": "tft12_witchcraft",
+    "name": "Witchcraft",
+    "activeCount": 0,
+    "breakpoints": [2, 4, 6, 8]
+  }
+]

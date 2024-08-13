@@ -6,7 +6,7 @@ const filePath = process.argv[2];
 const filterIconPaths = process.argv[3];
 
 if (!filePath || !filterIconPaths) {
-  console.log('Usage: node filterTFTData.js <filePath> <filterIconPaths>');
+  console.log('Usage: node filterChampionData.js <filePath> <filterIconPaths>');
   process.exit(1);
 }
 

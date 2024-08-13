@@ -36,3 +36,4 @@ yarn-error.log*
 next-env.d.ts
 src/data/tftplanner.json
 src/data/icons.json
+src/data/tfttraits.json
