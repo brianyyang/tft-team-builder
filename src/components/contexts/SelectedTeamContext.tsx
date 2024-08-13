@@ -1,6 +1,7 @@
+import { createContext, useContext, useState, ReactNode } from 'react';
 import { Champion } from '@/types/gameplay/champion';
 import { ActiveTrait, Trait } from '@/types/gameplay/trait';
-import { createContext, useContext, useState, ReactNode } from 'react';
+import { setTraitsMap } from '@/utils/ActiveTraitUtils';
 
 interface SelectedTeamContextType {
   selectedChampions: Champion[];
@@ -31,26 +32,24 @@ export const SelectedTeamProvider: React.FC<SelectedTeamProviderProps> = ({
   defaultChampions,
   children,
 }) => {
-  const addTraitToMap = (map: Map<string, ActiveTrait>, trait: Trait) => {
-    map.has(trait.id)
-      ? map.get(trait.id)?.addChampion()
-      : map.set(trait.id, new ActiveTrait(trait.id, trait.name, 1, []));
-    return map;
-  };
-
-  const removeTraitFromMap = (map: Map<string, ActiveTrait>, trait: Trait) => {
-    map.get(trait.id)?.removeChampion();
-    return map;
-  };
-
   const startingActiveTraits = () => {
-    const startingTraitsMap = new Map<string, ActiveTrait>();
+    const startingTraitsMap = setTraitsMap();
     if (defaultChampions) {
       defaultChampions.map((champion) =>
         champion.traits.map((trait) => addTraitToMap(startingTraitsMap, trait))
       );
     }
     return startingTraitsMap;
+  };
+
+  const addTraitToMap = (map: Map<string, ActiveTrait>, trait: Trait) => {
+    map.get(trait.id)?.addChampion();
+    return map;
+  };
+
+  const removeTraitFromMap = (map: Map<string, ActiveTrait>, trait: Trait) => {
+    map.get(trait.id)?.removeChampion();
+    return map;
   };
 
   const [selectedChampions, setSelectedChampions] = useState<Champion[]>(
@@ -61,7 +60,6 @@ export const SelectedTeamProvider: React.FC<SelectedTeamProviderProps> = ({
   );
 
   const toggleChampion = (champion: Champion) => {
-    console.log(activeTraits);
     const newList: Champion[] = [];
     let championAdded = false;
     let championFound = false;

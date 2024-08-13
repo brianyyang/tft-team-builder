@@ -10,7 +10,7 @@ const ActiveTraitGroup: React.FC = () => {
   return (
     <Box style={{ display: 'flex', flexDirection: 'row' }}>
       {activeTraitsFlattened
-        .toSorted((trait1, trait2) => trait1.activeCount - trait2.activeCount)
+        .toSorted((trait1, trait2) => trait2.activeCount - trait1.activeCount)
         .map(
           (trait: ActiveTrait) =>
             trait.activeCount > 0 && (
@@ -20,6 +20,7 @@ const ActiveTraitGroup: React.FC = () => {
                   alignItems: 'center',
                   flexDirection: 'column',
                 }}
+                key={`${trait.name}_count_container`}
               >
                 <TraitHex
                   trait={trait}
