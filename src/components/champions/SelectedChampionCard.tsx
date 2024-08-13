@@ -35,15 +35,17 @@ const SelectedChampionCard: React.FC<SelectedChampionCardProps> = ({
 }) => {
   const theme = useMantineTheme();
   const { toggleChampion } = useSelectedTeam();
-  const [isHovered, setIsHovered] = useState<boolean>(false);
+  const [isCardHovered, setIsCardHovered] = useState<boolean>(false);
+  const [isCloseButtonHovered, setIsCloseButtonHovered] =
+    useState<boolean>(false);
 
-  const cardStyles = (isHovered: boolean) => ({
+  const cardStyles = (isCardHovered: boolean) => ({
     overflow: 'hidden',
     borderRadius: '10px',
-    outline: isHovered
+    outline: isCardHovered
       ? `3px solid ${theme.other.tierToColorMap[champion.tier].light}`
       : '',
-    boxShadow: isHovered ? '0px 0px 10px 2px rgba(255, 255, 190, .75)' : '',
+    boxShadow: isCardHovered ? '0px 0px 10px 2px rgba(255, 255, 190, .75)' : '',
   });
 
   const imageStyles = (width: number, height: number, imageUrl: string) =>
@@ -68,25 +70,33 @@ const SelectedChampionCard: React.FC<SelectedChampionCardProps> = ({
     fontSize: '1.25em',
   };
 
-  const closeButtonStyles = (isHovered: boolean) => ({
+  const closeButtonStyles = (
+    isCardHovered: boolean,
+    isCloseButtonHovered: boolean
+  ) => ({
     cursor: 'pointer',
     width: '25%',
     height: '50%',
-    backgroundColor: 'transparent',
-    display: isHovered ? 'block' : 'none',
+    backgroundColor: isCloseButtonHovered
+      ? `${theme.other.tierToColorMap[champion.tier].light}80`
+      : 'transparent',
+    display: isCardHovered ? 'block' : 'none',
+    borderRadius: '0% 0% 0% 10px',
   });
 
   return (
     <Box
-      style={cardStyles(isHovered)}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
+      style={cardStyles(isCardHovered)}
+      onMouseEnter={() => setIsCardHovered(true)}
+      onMouseLeave={() => setIsCardHovered(false)}
     >
       <Box style={imageStyles(width, height, champion.splashPath)}>
         <Box style={closeButtonContainer}>
           <IoCloseOutline
-            style={closeButtonStyles(isHovered)}
+            style={closeButtonStyles(isCardHovered, isCloseButtonHovered)}
             onClick={() => toggleChampion(champion)}
+            onMouseEnter={() => setIsCloseButtonHovered(true)}
+            onMouseLeave={() => setIsCloseButtonHovered(false)}
           />
         </Box>
         <Box style={traitContainer}>
