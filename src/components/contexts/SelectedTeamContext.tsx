@@ -1,7 +1,9 @@
+import { ActiveTrait, Trait } from '@/types/gameplay/trait';
 import { createContext, useContext, useState, ReactNode } from 'react';
 
 interface SelectedTeamContextType {
   selectedChampions: Champion[];
+  activeTraits: Map<string, ActiveTrait>;
   toggleChampion: (champion: Champion) => void;
 }
 
@@ -28,19 +30,48 @@ export const SelectedTeamProvider: React.FC<SelectedTeamProviderProps> = ({
   defaultChampions,
   children,
 }) => {
+  const addTraitToMap = (map: Map<string, ActiveTrait>, trait: Trait) => {
+    map.has(trait.id)
+      ? map.get(trait.id)?.addChampion()
+      : map.set(trait.id, new ActiveTrait(trait.id, trait.name, 1, []));
+    return map;
+  };
+
+  const removeTraitFromMap = (map: Map<string, ActiveTrait>, trait: Trait) => {
+    map.get(trait.id)?.removeChampion();
+    return map;
+  };
+
+  const startingActiveTraits = () => {
+    const startingTraitsMap = new Map<string, ActiveTrait>();
+    if (defaultChampions) {
+      defaultChampions.map((champion) =>
+        champion.traits.map((trait) => addTraitToMap(startingTraitsMap, trait))
+      );
+    }
+    return startingTraitsMap;
+  };
+
   const [selectedChampions, setSelectedChampions] = useState<Champion[]>(
     defaultChampions || []
   );
+  const [activeTraits, setActiveTraits] = useState<Map<string, ActiveTrait>>(
+    startingActiveTraits()
+  );
 
   const toggleChampion = (champion: Champion) => {
+    console.log(activeTraits);
     const newList: Champion[] = [];
     let championAdded = false;
     let championFound = false;
 
     for (const currentChampion of selectedChampions) {
       if (currentChampion.id === champion.id) {
-        // Champion is already in the list; do not add it
+        // Champion is already in the list; do not add it and remove its traits
         championFound = true;
+        champion.traits.map((trait) =>
+          setActiveTraits(removeTraitFromMap(activeTraits, trait))
+        );
         continue;
       }
 
@@ -52,6 +83,9 @@ export const SelectedTeamProvider: React.FC<SelectedTeamProviderProps> = ({
         // Add the new champion before the first champion with a greater tier
         newList.push(champion);
         championAdded = true;
+        champion.traits.map((trait) =>
+          setActiveTraits(addTraitToMap(activeTraits, trait))
+        );
       }
 
       // Add the current champion
@@ -61,13 +95,18 @@ export const SelectedTeamProvider: React.FC<SelectedTeamProviderProps> = ({
     // If the champion was not added, it means it should be added at the end
     if (!championFound && !championAdded) {
       newList.push(champion);
+      champion.traits.map((trait) =>
+        setActiveTraits(addTraitToMap(activeTraits, trait))
+      );
     }
 
     setSelectedChampions(newList);
   };
 
   return (
-    <SelectedTeamContext.Provider value={{ selectedChampions, toggleChampion }}>
+    <SelectedTeamContext.Provider
+      value={{ selectedChampions, activeTraits, toggleChampion }}
+    >
       {children}
     </SelectedTeamContext.Provider>
   );

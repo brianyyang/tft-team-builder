@@ -7,6 +7,7 @@ import { SelectedTeamProvider } from '../contexts/SelectedTeamContext';
 import champions from '@/data/champions.json';
 import styles from '@/css/styles.module.css';
 import { TIERS } from '@/utils/TiersUtils';
+import ActiveTraitGroup from '../traits/ActiveTraitGroup';
 
 const typedChampions: Champion[] = champions;
 
@@ -50,6 +51,7 @@ const ChampionSelector: React.FC = () => {
             imageWidth={192}
             imageHeight={192}
           />
+          <ActiveTraitGroup />
         </Box>
       </Box>
     </SelectedTeamProvider>
