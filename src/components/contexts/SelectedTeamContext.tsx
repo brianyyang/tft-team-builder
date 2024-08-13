@@ -1,3 +1,4 @@
+import { Champion } from '@/types/gameplay/champion';
 import { ActiveTrait, Trait } from '@/types/gameplay/trait';
 import { createContext, useContext, useState, ReactNode } from 'react';
 

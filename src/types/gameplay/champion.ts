@@ -1,4 +1,6 @@
-class Champion {
+import { Trait } from './trait';
+
+export class Champion {
   id: string;
   name: string;
   tier: number;

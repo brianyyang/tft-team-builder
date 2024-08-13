@@ -8,6 +8,7 @@ import champions from '@/data/champions.json';
 import styles from '@/css/styles.module.css';
 import { TIERS } from '@/utils/TiersUtils';
 import ActiveTraitGroup from '../traits/ActiveTraitGroup';
+import { Champion } from '@/types/gameplay/champion';
 
 const typedChampions: Champion[] = champions;
 

@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { IoCloseOutline } from 'react-icons/io5';
 import { useSelectedTeam } from '../contexts/SelectedTeamContext';
 import TraitHex from '../traits/TraitHex';
+import { Trait } from '@/types/gameplay/trait';
+import { Champion } from '@/types/gameplay/champion';
 
 interface SelectedChampionCardProps {
   champion: Champion;
@@ -100,7 +102,7 @@ const SelectedChampionCard: React.FC<SelectedChampionCardProps> = ({
           />
         </Box>
         <Box style={traitContainer}>
-          {champion.traits.map((trait) => (
+          {champion.traits.map((trait: Trait) => (
             <TraitHex
               trait={trait}
               width={width / 5}
