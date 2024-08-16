@@ -14,7 +14,12 @@ const ActiveTraitGroup: React.FC = () => {
         .map(
           (trait: ActiveTrait) =>
             trait.activeCount > 0 && (
-              <ActiveTraitHex trait={trait} width={48} height={48} />
+              <ActiveTraitHex
+                trait={trait}
+                width={48}
+                height={48}
+                key={`active_${trait.name}_hex`}
+              />
             )
         )}
     </Box>
