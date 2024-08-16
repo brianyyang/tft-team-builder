@@ -31,6 +31,11 @@ export class ActiveTrait extends Trait {
     this.activeCount -= 1;
   }
 
+  /* 
+    returns an object containing:
+    - the next unachieved breakpoint for this trait
+    - the current tier activated for this trait
+  */
   currentBreakpointState() {
     for (let i = 0; i < this.breakpoints.length; i++) {
       const breakpoint = this.breakpoints[i];
@@ -46,7 +51,44 @@ export class ActiveTrait extends Trait {
       currentColor: this.breakpoints[this.breakpoints.length - 1].color,
     };
   }
+
+  // a comparator for two active traits that returns whether
+  // this trait has higher tier activated than the given trait
+  compareActiveTrait(otherTrait: ActiveTrait) {
+    const thisBreakpointState = this.currentBreakpointState();
+    const otherBreakpointState = otherTrait.currentBreakpointState();
+    const thisTierValue = breakpointTierMap(thisBreakpointState.currentColor);
+    const otherTierValue = breakpointTierMap(otherBreakpointState.currentColor);
+    if (thisTierValue > otherTierValue) {
+      return 1;
+    } else if (thisTierValue === otherTierValue) {
+      // if they are the same tier trait, the one with more units active is greater
+      return this.activeCount - otherTrait.activeCount;
+    } else {
+      return -1;
+    }
+  }
 }
+
+// used to compare the different tiers of traits
+const breakpointTierMap = (tier: string) => {
+  switch (tier) {
+    case 'unactivated':
+      return 0;
+    case 'bronze':
+      return 1;
+    case 'silver':
+      return 2;
+    case 'gold':
+      return 3;
+    case 'chromatic':
+      return 4;
+    case 'unique':
+      return 5;
+    default:
+      return -1;
+  }
+};
 
 export type TraitBreakpoint = {
   championsRequired: number;

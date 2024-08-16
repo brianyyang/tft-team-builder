@@ -85,6 +85,7 @@ const SelectedChampionCard: React.FC<SelectedChampionCardProps> = ({
       : 'transparent',
     display: isCardHovered ? 'block' : 'none',
     borderRadius: '0% 0% 0% 10px',
+    color: 'white',
   });
 
   return (

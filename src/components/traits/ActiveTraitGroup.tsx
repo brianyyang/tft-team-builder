@@ -1,6 +1,5 @@
 import { Box } from '@mantine/core';
 import { useSelectedTeam } from '../contexts/SelectedTeamContext';
-import TraitHex from './TraitHex';
 import { ActiveTrait } from '@/types/gameplay/trait';
 import ActiveTraitHex from './ActiveTraitHex';
 
@@ -11,11 +10,11 @@ const ActiveTraitGroup: React.FC = () => {
   return (
     <Box style={{ display: 'flex', flexDirection: 'row' }}>
       {activeTraitsFlattened
-        .toSorted((trait1, trait2) => trait2.activeCount - trait1.activeCount)
+        .toSorted((trait1, trait2) => trait2.compareActiveTrait(trait1))
         .map(
           (trait: ActiveTrait) =>
             trait.activeCount > 0 && (
-              <ActiveTraitHex trait={trait} width={64} height={64} />
+              <ActiveTraitHex trait={trait} width={48} height={48} />
             )
         )}
     </Box>
