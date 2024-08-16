@@ -33,7 +33,7 @@ const ChampionSelector: React.FC = () => {
         <Box
           className={`${styles.columnContainer} ${styles.championOptionsContainer}`}
         >
-          <Title>Team Planner</Title>
+          <Title className={styles.whiteText}>Team Planner</Title>
           {TIERS.map((tier) => (
             <ChampionOptionsGroup
               key={'tier_' + tier + '_champions'}
@@ -46,7 +46,7 @@ const ChampionSelector: React.FC = () => {
         <Box
           className={`${styles.columnContainer} ${styles.selectedChampionsContainer}`}
         >
-          <Title>Selected Champions</Title>
+          <Title className={styles.whiteText}>Selected Champions</Title>
           <SelectedTeamGroup
             key={'selected_champions'}
             imageWidth={192}

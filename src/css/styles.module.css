@@ -22,3 +22,7 @@
 .selectedChampionsContainer {
   width: 60%;
 }
+
+.whiteText {
+  color: white;
+}

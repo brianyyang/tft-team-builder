@@ -70,6 +70,7 @@ const SelectedChampionCard: React.FC<SelectedChampionCardProps> = ({
     display: 'flex',
     justifyContent: 'center',
     fontSize: '1.25em',
+    color: 'white',
   };
 
   const closeButtonStyles = (
