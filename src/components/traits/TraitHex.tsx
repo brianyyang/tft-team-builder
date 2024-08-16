@@ -5,6 +5,8 @@ interface TraitHexProps {
   trait: Trait;
   width: number;
   height: number;
+  backgroundColor: string;
+  invertIconColor: boolean;
 }
 
 const border = (width: number, height: number) =>
@@ -32,20 +34,37 @@ const hexagon = (width: number, height: number, backgroundColor: string) =>
     background: backgroundColor,
   } as MantineStyleProp);
 
-const imageStyles = (width: number, height: number, imageUrl: string) => ({
+const imageStyles = (
+  width: number,
+  height: number,
+  imageUrl: string,
+  invertIconColor: boolean
+) => ({
   width: width / 1.5,
   height: height / 1.5,
   backgroundImage: `url(${imageUrl})`,
   backgroundSize: '100%',
+  filter: invertIconColor ? 'brightness(0) saturate(100%)' : '',
 });
 
-const TraitHex: React.FC<TraitHexProps> = ({ trait, width, height }) => {
+const TraitHex: React.FC<TraitHexProps> = ({
+  trait,
+  width,
+  height,
+  backgroundColor,
+  invertIconColor,
+}) => {
   const theme = useMantineTheme();
   return (
     <Box style={border(width, height)}>
-      <Box style={hexagon(width, height, theme.colors.backgroundColor[1])}>
+      <Box style={hexagon(width, height, backgroundColor)}>
         <Box
-          style={imageStyles(width, height, `/assets/traits/${trait.id}.png`)}
+          style={imageStyles(
+            width,
+            height,
+            `/assets/traits/${trait.id}.png`,
+            invertIconColor
+          )}
         />
       </Box>
     </Box>

@@ -31,9 +31,14 @@ function convertTrait(trait) {
 function convertTraitBreakpoints(breakpoints) {
   const convertedBreakpoints = [];
   breakpoints.map((breakpoint) =>
-    convertedBreakpoints.push(breakpoint.min_units)
+    convertedBreakpoints.push({
+      championsRequired: breakpoint.min_units,
+      color: breakpoint.style_name.substring(1).toLowerCase(),
+    })
   );
-  convertedBreakpoints.sort((a, b) => a - b);
+  convertedBreakpoints.sort(
+    (a, b) => a.championsRequired - b.championsRequired
+  );
   return convertedBreakpoints;
 }
 

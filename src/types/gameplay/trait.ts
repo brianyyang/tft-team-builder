@@ -10,13 +10,13 @@ export class Trait {
 
 export class ActiveTrait extends Trait {
   activeCount: number;
-  breakpoints: number[];
+  breakpoints: TraitBreakpoint[];
 
   constructor(
     id: string,
     name: string,
     activeCount: number,
-    breakpoints: number[]
+    breakpoints: TraitBreakpoint[]
   ) {
     super(id, name);
     this.activeCount = activeCount;
@@ -30,4 +30,25 @@ export class ActiveTrait extends Trait {
   removeChampion() {
     this.activeCount -= 1;
   }
+
+  currentBreakpointState() {
+    for (let i = 0; i < this.breakpoints.length; i++) {
+      const breakpoint = this.breakpoints[i];
+      if (this.activeCount < breakpoint.championsRequired) {
+        return {
+          nextBreakpoint: this.breakpoints[i].championsRequired,
+          currentColor: i === 0 ? 'unactivated' : this.breakpoints[i - 1].color,
+        };
+      }
+    }
+    return {
+      nextBreakpoint: -1,
+      currentColor: this.breakpoints[this.breakpoints.length - 1].color,
+    };
+  }
 }
+
+export type TraitBreakpoint = {
+  championsRequired: number;
+  color: string;
+};

@@ -108,6 +108,10 @@ const SelectedChampionCard: React.FC<SelectedChampionCardProps> = ({
               width={width / 5}
               height={height / 5}
               key={`${champion.name}_${trait.name}`}
+              backgroundColor={
+                theme.other.breakpointToColorMap.unactivated.light
+              }
+              invertIconColor={false}
             />
           ))}
         </Box>
