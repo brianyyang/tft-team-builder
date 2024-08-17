@@ -18,9 +18,10 @@
   display: flex;
   flex-direction: column; /* Arrange items vertically */
   gap: 10px; /* Adds space between items */
-  padding: 25px;
-  height: 100vh;
+  margin: 25px;
+  height: 84vh;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .selectedChampionsContainer {
@@ -29,4 +30,17 @@
 
 .whiteText {
   color: white;
+}
+
+.championOptionsContainer::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+.championOptionsContainer::-webkit-scrollbar-thumb {
+  background: rgb(var(--background-rgb-light));
+  border-radius: 50px;
+}
+
+.championOptionsContainer::-webkit-scrollbar-track {
+  background: rgb(var(--background-rgb));
 }
