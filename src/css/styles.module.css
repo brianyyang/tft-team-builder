@@ -1,8 +1,7 @@
 .columnContainer {
   display: flex;
   flex-direction: column; /* Arrange items vertically */
-  flex-wrap: wrap; /* Allow items to wrap to the next line */
-  gap: 10px; /* Adds space between items */
+  width: 40%;
   margin: 25px;
 }
 
@@ -16,7 +15,12 @@
 }
 
 .championOptionsContainer {
-  width: 40%;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  gap: 10px; /* Adds space between items */
+  padding: 25px;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 .selectedChampionsContainer {

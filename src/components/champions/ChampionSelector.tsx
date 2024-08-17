@@ -30,18 +30,20 @@ const ChampionSelector: React.FC = () => {
   return (
     <SelectedTeamProvider>
       <Box style={{ display: 'flex', flexDirection: 'row', width: '100%' }}>
-        <Box
-          className={`${styles.columnContainer} ${styles.championOptionsContainer}`}
-        >
-          <Title className={styles.whiteText}>Team Planner</Title>
-          {TIERS.map((tier) => (
-            <ChampionOptionsGroup
-              key={'tier_' + tier + '_champions'}
-              champions={tierMap.get(tier) as Champion[]}
-              imageWidth={64}
-              imageHeight={64}
-            />
-          ))}
+        <Box className={styles.columnContainer}>
+          <Title className={styles.whiteText} style={{ marginLeft: '25px' }}>
+            Team Planner
+          </Title>
+          <Box className={styles.championOptionsContainer}>
+            {TIERS.map((tier) => (
+              <ChampionOptionsGroup
+                key={'tier_' + tier + '_champions'}
+                champions={tierMap.get(tier) as Champion[]}
+                imageWidth={76}
+                imageHeight={76}
+              />
+            ))}
+          </Box>
         </Box>
         <Box
           className={`${styles.columnContainer} ${styles.selectedChampionsContainer}`}
