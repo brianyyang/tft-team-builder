@@ -111,21 +111,21 @@ fs.readFile(path.resolve(filePath), 'utf8', (err, jsonString) => {
       filteredData = filterToChampionType(data);
     }
 
+    const sortedData = filterData.sort((champion1, champion2) =>
+      champion1.name < champion2.name ? -1 : 1
+    );
+
     // Write filtered data to a new JSON file in the same directory as the input file
     const outputFileName =
       filterIconPaths === 'true' ? 'icons.json' : 'champions.json';
     const outputFilePath = path.join(path.dirname(filePath), outputFileName);
-    fs.writeFile(
-      outputFilePath,
-      JSON.stringify(filteredData, null, 2),
-      (err) => {
-        if (err) {
-          console.log('Error writing file:', err);
-          return;
-        }
-        console.log(`Filtered data written to '${outputFilePath}'`);
+    fs.writeFile(outputFilePath, JSON.stringify(sortedData, null, 2), (err) => {
+      if (err) {
+        console.log('Error writing file:', err);
+        return;
       }
-    );
+      console.log(`Filtered data written to '${outputFilePath}'`);
+    });
   } catch (err) {
     console.log('Error parsing JSON:', err);
   }
