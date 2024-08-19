@@ -391,17 +391,6 @@
     ]
   },
   {
-    "id": "tft12_relic",
-    "name": "Relic",
-    "activeCount": 0,
-    "breakpoints": [
-      {
-        "championsRequired": 1,
-        "color": "unique"
-      }
-    ]
-  },
-  {
     "id": "tft12_scholar",
     "name": "Scholar",
     "activeCount": 0,
