@@ -1,12 +1,18 @@
-import { useMantineTheme, Button } from '@mantine/core';
+import { useEffect, useState } from 'react';
+import { useMantineTheme, Button, Box } from '@mantine/core';
 import { useSelectedTeam } from '../contexts/SelectedTeamContext';
-import { useState } from 'react';
 import { Champion } from '@/types/gameplay/champion';
+import ChampionTooltip from './ChampionTooltip';
 
 interface ChampionOptionButtonProps {
   champion: Champion;
   height: number;
   width: number;
+}
+
+interface Position {
+  top: number;
+  right: number;
 }
 
 const ChampionOptionButton: React.FC<ChampionOptionButtonProps> = ({
@@ -17,54 +23,88 @@ const ChampionOptionButton: React.FC<ChampionOptionButtonProps> = ({
   const theme = useMantineTheme();
   const { selectedChampions, toggleChampion } = useSelectedTeam();
   const [isHovered, setIsHovered] = useState<boolean>(false);
+  const [isLongHovered, setIsLongHovered] = useState<boolean>(false);
+  const [position, setPosition] = useState<Position>({ top: 0, right: 0 });
+  const componentId = `${champion.id}_option_button`;
+
+  useEffect(() => {
+    let timer: string | number | NodeJS.Timeout | undefined;
+    if (isHovered) {
+      timer = setTimeout(() => {
+        const component = document.querySelector('.' + componentId);
+        console.log(component);
+        if (component) {
+          const rect = component.getBoundingClientRect();
+          setPosition({ top: rect.top, right: rect.right });
+          setIsLongHovered(true);
+        }
+      }, 500); // show tooltip after half a second of hovering
+    } else {
+      clearTimeout(timer);
+      setIsLongHovered(false);
+    }
+
+    // Cleanup the timer when the component is unmounted or hover state changes
+    return () => clearTimeout(timer);
+  }, [isHovered]);
 
   const buttonStyles = (
     width: number,
     height: number,
     tier: number,
     imageUrl: string,
-    isHighlighted: boolean,
-    isHovered: boolean
+    isSelected: boolean
   ) => ({
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
     borderStyle: 'solid',
-    borderColor: isHighlighted
+    borderColor: isSelected
       ? 'rgb(209 207 189)'
       : theme.other.tierToColorMap[tier].light,
     borderWidth: '3px',
-    outline: isHighlighted
+    outline: isSelected
       ? `1px solid ${theme.colors.selectedChampionHighlight}`
       : '',
     width: width,
     height: height,
     overflow: 'hidden',
     backgroundImage: `${
-      isHighlighted || isHovered
+      isSelected || isHovered
         ? 'radial-gradient(circle, rgba(0,0,0,0) 25%, rgba(100,255,255,0.5) 75%, rgba(150,150,150,0.8) 100%),'
         : ''
     } url(${imageUrl})`,
     backgroundSize: '100%',
     cursor: 'pointer',
-    boxShadow: isHighlighted ? '0px 0px 10px 2px rgba(255, 255, 190, .75)' : '',
+    boxShadow: isSelected ? '0px 0px 10px 2px rgba(255, 255, 190, .75)' : '',
     borderRadius: '5px',
   });
 
   return (
-    <Button
-      style={buttonStyles(
-        width,
-        height,
-        champion.tier,
-        champion.iconPath,
-        selectedChampions.includes(champion),
-        isHovered
+    <Box>
+      <Button
+        className={componentId}
+        style={buttonStyles(
+          width,
+          height,
+          champion.tier,
+          champion.iconPath,
+          selectedChampions.includes(champion)
+        )}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+        onClick={() => {
+          toggleChampion(champion);
+          setIsLongHovered(false);
+        }}
+      />
+      {isLongHovered && !selectedChampions.includes(champion) && (
+        <ChampionTooltip
+          champion={champion}
+          top={position.top + height / 10}
+          left={position.right + width / 10}
+          width={width * 2}
+          height={(height * 8) / 10}
+        />
       )}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-      onClick={() => toggleChampion(champion)}
-    />
+    </Box>
   );
 };
 
