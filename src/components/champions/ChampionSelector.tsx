@@ -5,10 +5,26 @@ import ChampionOptionsGroup from '@/components/champions/ChampionOptionsGroup';
 import SelectedTeamGroup from '@/components/champions/SelectedTeamGroup';
 import { SelectedTeamProvider } from '../contexts/SelectedTeamContext';
 import champions from '@/data/champions.json';
+import traits from '@/data/traits.json';
 import styles from '@/css/styles.module.css';
 import { TIERS } from '@/utils/TiersUtils';
 import ActiveTraitGroup from '../traits/ActiveTraitGroup';
 import { Champion } from '@/types/gameplay/champion';
+import { useEffect } from 'react';
+
+// preload all images
+const preloadImages = () => {
+  champions.forEach((champion) => {
+    const img = new Image();
+    img.src = champion.iconPath;
+    img.src = champion.splashPath;
+  });
+
+  traits.forEach((trait) => {
+    const img = new Image();
+    img.src = `/assets/traits/${trait.id}.png`;
+  });
+};
 
 const typedChampions: Champion[] = champions;
 
@@ -26,6 +42,10 @@ const sortByTiers = (champions: Champion[]): Map<number, Champion[]> => {
 
 const ChampionSelector: React.FC = () => {
   const tierMap = sortByTiers(typedChampions);
+
+  useEffect(() => {
+    preloadImages();
+  }, []);
 
   return (
     <SelectedTeamProvider>

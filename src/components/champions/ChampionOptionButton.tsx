@@ -32,7 +32,6 @@ const ChampionOptionButton: React.FC<ChampionOptionButtonProps> = ({
     if (isHovered) {
       timer = setTimeout(() => {
         const component = document.querySelector('.' + componentId);
-        console.log(component);
         if (component) {
           const rect = component.getBoundingClientRect();
           setPosition({ top: rect.top, right: rect.right });
