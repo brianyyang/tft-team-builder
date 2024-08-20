@@ -97,10 +97,9 @@ const ChampionOptionButton: React.FC<ChampionOptionButtonProps> = ({
       {isLongHovered && !selectedChampions.includes(champion) && (
         <ChampionTooltip
           champion={champion}
-          top={position.top + height / 10}
+          top={position.top}
           left={position.right + width / 10}
-          width={width * 2}
-          height={(height * 8) / 10}
+          height={height}
         />
       )}
     </Box>
