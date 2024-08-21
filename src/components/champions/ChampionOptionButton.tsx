@@ -98,8 +98,9 @@ const ChampionOptionButton: React.FC<ChampionOptionButtonProps> = ({
         <ChampionTooltip
           champion={champion}
           top={position.top}
-          left={position.right + width / 10}
+          left={position.right + 10}
           height={height}
+          width={width}
         />
       )}
     </Box>
