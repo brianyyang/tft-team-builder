@@ -1,7 +1,7 @@
 import { Flex } from '@mantine/core';
-import ChampionOptionButton from '@/components/champions/ChampionOptionButton';
-import styles from '@/css/styles.module.css';
-import { Champion } from '@/types/gameplay/champion';
+import ChampionOptionButton from '@/client/components/champions/ChampionOptionButton';
+import styles from '@/client/css/styles.module.css';
+import { Champion } from '@/client/types/gameplay/champion';
 
 interface ChampionOptionGroupProps {
   champions: Champion[];

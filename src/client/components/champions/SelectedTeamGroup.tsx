@@ -1,7 +1,7 @@
 import { Flex } from '@mantine/core';
-import SelectedChampionCard from '@/components/champions/SelectedChampionCard';
-import { useSelectedTeam } from '../contexts/SelectedTeamContext';
-import styles from '@/css/styles.module.css';
+import SelectedChampionCard from '@/client/components/champions/SelectedChampionCard';
+import { useSelectedTeam } from '../../contexts/SelectedTeamContext';
+import styles from '@/client/css/styles.module.css';
 
 interface SelectedTeamGroupProps {
   imageWidth: number;

@@ -1,4 +1,4 @@
-import { ActiveTrait } from '@/types/gameplay/trait';
+import { ActiveTrait } from '@/client/types/gameplay/trait';
 import traits from '@/data/traits.json';
 
 export const setTraitsMap: () => Map<string, ActiveTrait> = () => {

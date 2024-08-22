@@ -1,5 +1,5 @@
 import { Box, MantineStyleProp, useMantineTheme } from '@mantine/core';
-import { Champion } from '@/types/gameplay/champion';
+import { Champion } from '@/client/types/gameplay/champion';
 
 interface ChampionTooltipProps {
   champion: Champion;

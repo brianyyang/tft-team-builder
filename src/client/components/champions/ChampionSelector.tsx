@@ -1,14 +1,14 @@
 'use client';
 
 import { Box, Title } from '@mantine/core';
-import ChampionOptionsGroup from '@/components/champions/ChampionOptionsGroup';
-import SelectedTeamGroup from '@/components/champions/SelectedTeamGroup';
-import { SelectedTeamProvider } from '../contexts/SelectedTeamContext';
+import ChampionOptionsGroup from '@/client/components/champions/ChampionOptionsGroup';
+import SelectedTeamGroup from '@/client/components/champions/SelectedTeamGroup';
+import { SelectedTeamProvider } from '../../contexts/SelectedTeamContext';
 import champions from '@/data/champions.json';
-import styles from '@/css/styles.module.css';
-import { TIERS } from '@/utils/TiersUtils';
+import styles from '@/client/css/styles.module.css';
+import { TIERS } from '@/client/utils/TiersUtils';
 import ActiveTraitGroup from '../traits/ActiveTraitGroup';
-import { Champion } from '@/types/gameplay/champion';
+import { Champion } from '@/client/types/gameplay/champion';
 import { useEffect } from 'react';
 
 const typedChampions: Champion[] = champions;
