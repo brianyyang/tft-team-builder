@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, ReactNode } from 'react';
-import { Champion } from '@/client/types/gameplay/champion';
-import { ActiveTrait, Trait } from '@/client/types/gameplay/trait';
+import { Champion } from '@/types/gameplay/champion';
+import { ActiveTrait, Trait } from '@/types/gameplay/trait';
 import { setTraitsMap } from '@/client/utils/ActiveTraitUtils';
 
 interface SelectedTeamContextType {

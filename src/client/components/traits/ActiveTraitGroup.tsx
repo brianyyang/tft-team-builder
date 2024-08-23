@@ -1,6 +1,6 @@
 import { Box } from '@mantine/core';
 import { useSelectedTeam } from '../../contexts/SelectedTeamContext';
-import { ActiveTrait } from '@/client/types/gameplay/trait';
+import { ActiveTrait } from '@/types/gameplay/trait';
 import ActiveTraitHex from './ActiveTraitHex';
 
 const ActiveTraitGroup: React.FC = () => {

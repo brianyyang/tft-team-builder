@@ -3,8 +3,8 @@ import { useState } from 'react';
 import { IoCloseOutline } from 'react-icons/io5';
 import { useSelectedTeam } from '../../contexts/SelectedTeamContext';
 import TraitHex from '../traits/TraitHex';
-import { Trait } from '@/client/types/gameplay/trait';
-import { Champion } from '@/client/types/gameplay/champion';
+import { Trait } from '@/types/gameplay/trait';
+import { Champion } from '@/types/gameplay/champion';
 
 interface SelectedChampionCardProps {
   champion: Champion;

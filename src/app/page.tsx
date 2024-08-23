@@ -1,29 +1,16 @@
-import { MantineProvider, Box } from '@mantine/core';
-import ChampionSelector from '@/client/components/champions/ChampionSelector';
+'use client';
+
+import { MantineProvider } from '@mantine/core';
+import { UserProvider } from '@/client/contexts/UserContext';
 import theme from '@/client/theme/theme';
+import { Homepage } from '@/client/components/Homepage';
 
 export default function Home() {
   return (
     <MantineProvider theme={theme}>
-      <Box>
-        <ChampionSelector />
-      </Box>
+      <UserProvider>
+        <Homepage />
+      </UserProvider>
     </MantineProvider>
   );
 }
-
-/*
-  <a
-    href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-    className={styles.card}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <h2>
-      Deploy <span>-&gt;</span>
-    </h2>
-    <p>
-      Instantly deploy your Next.js site to a shareable URL with Vercel.
-    </p>
-  </a>
-*/
