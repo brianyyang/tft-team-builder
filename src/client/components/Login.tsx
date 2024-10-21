@@ -1,9 +1,15 @@
 import { useState } from 'react';
-import { Box, Button, TextInput } from '@mantine/core';
+import { Box, Button, MantineStyleProp, TextInput } from '@mantine/core';
 
 interface LoginProps {
   onSubmitUsername: (username: string) => void;
 }
+
+const LoginContainerStyles = {
+  fontSize: '24px',
+  textAlign: 'center',
+  margin: '20px',
+} as MantineStyleProp;
 
 const Login: React.FC<LoginProps> = ({ onSubmitUsername }) => {
   const [username, setUsername] = useState('');
@@ -16,10 +22,18 @@ const Login: React.FC<LoginProps> = ({ onSubmitUsername }) => {
     }
   };
 
+  const keySubmitName: React.KeyboardEventHandler<HTMLInputElement> = (e) => {
+    if (e.key === 'Enter') onSubmitUsername(username);
+  };
+
   return (
-    <Box>
+    <Box style={LoginContainerStyles}>
       <Box>Enter your username</Box>
-      <TextInput value={username} onChange={onNameChange} />
+      <TextInput
+        value={username}
+        onChange={onNameChange}
+        onKeyDown={keySubmitName}
+      />
       <Button onClick={() => onSubmitUsername(username)}>Submit</Button>
     </Box>
   );

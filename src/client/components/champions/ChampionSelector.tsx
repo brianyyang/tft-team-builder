@@ -29,11 +29,14 @@ const ChampionSelector: React.FC = () => {
 
   return (
     <SelectedTeamProvider>
-      <Box style={{ display: 'flex', flexDirection: 'row', width: '100%' }}>
+      <Box
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          width: '100%',
+        }}
+      >
         <Box className={styles.columnContainer}>
-          <Title className={styles.whiteText} style={{ marginLeft: '25px' }}>
-            Team Planner
-          </Title>
           <Box className={styles.championOptionsContainer}>
             {TIERS.map((tier) => (
               <ChampionOptionsGroup

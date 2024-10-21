@@ -5,6 +5,7 @@ import { Box } from '@mantine/core';
 import { useUser } from '@/client/contexts/UserContext';
 import ChampionSelector from '@/client/components/champions/ChampionSelector';
 import Login from '@/client/components/Login';
+import Header from './Header';
 
 export const Homepage = () => {
   const { username, setUsername } = useUser();
@@ -21,11 +22,16 @@ export const Homepage = () => {
     setUsername(username);
   };
 
+  const onLogout = () => {
+    window.localStorage.removeItem('username');
+    setUsername('');
+  };
+
   return (
     <Box>
       {username ? (
         <>
-          {username}
+          <Header username={username} onLogout={onLogout} />
           <ChampionSelector />
         </>
       ) : (

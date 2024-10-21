@@ -15,7 +15,7 @@ const ChampionOptionsGroup: React.FC<ChampionOptionGroupProps> = ({
   imageHeight,
 }) => {
   return (
-    <Flex className={styles.rowContainer}>
+    <Flex className={`${styles.rowContainer} ${styles.championOptionsGroup}`}>
       {champions.map((champion) => (
         <ChampionOptionButton
           key={champion.id + 'small'}
