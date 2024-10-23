@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Title } from '@mantine/core';
+import { Box, TextInput, Title, useMantineTheme } from '@mantine/core';
 import ChampionOptionsGroup from '@/client/components/champions/ChampionOptionsGroup';
 import SelectedTeamGroup from '@/client/components/champions/SelectedTeamGroup';
 import { SelectedTeamProvider } from '../../contexts/SelectedTeamContext';
@@ -9,9 +9,10 @@ import styles from '@/client/css/styles.module.css';
 import { TIERS } from '@/client/utils/TiersUtils';
 import ActiveTraitGroup from '../traits/ActiveTraitGroup';
 import { Champion } from '@/types/gameplay/champion';
+import { CiEdit } from 'react-icons/ci';
+import { useState } from 'react';
 
 const typedChampions: Champion[] = champions;
-
 const sortByTiers = (champions: Champion[]): Map<number, Champion[]> => {
   let tierMap = new Map<number, Champion[]>();
   TIERS.forEach((tier) => {
@@ -23,9 +24,35 @@ const sortByTiers = (champions: Champion[]): Map<number, Champion[]> => {
 
   return tierMap;
 };
-
 const ChampionSelector: React.FC = () => {
   const tierMap = sortByTiers(typedChampions);
+  const theme = useMantineTheme();
+  const [isEditTeamNameHovered, setIsEditTeamNameHovered] =
+    useState<boolean>(false);
+  const [isEditingTeamName, setIsEditingTeamName] = useState<boolean>(false);
+  const [teamName, setTeamName] = useState<string>('Selected Champions');
+
+  const editTeamNameButtonStyles = (isEditTeamNameHovered: boolean) => ({
+    cursor: 'pointer',
+    width: 'auto',
+    height: '100%',
+    color: 'white',
+    borderRadius: '10px',
+    backgroundColor: isEditTeamNameHovered
+      ? `${theme.other.tierToColorMap[1].light}80`
+      : 'transparent',
+    marginLeft: '5px',
+  });
+
+  const teamNameTextInputStyles = {
+    fontSize: '2em',
+    fontWeight: 'bold',
+    height: 'auto',
+    backgroundColor: `${theme.other.tierToColorMap[1].light}80`,
+    paddingLeft: '5px',
+    borderStyle: 'solid',
+    borderRadius: '10px',
+  };
 
   return (
     <SelectedTeamProvider>
@@ -51,7 +78,48 @@ const ChampionSelector: React.FC = () => {
         <Box
           className={`${styles.columnContainer} ${styles.selectedChampionsContainer}`}
         >
-          <Title className={styles.whiteText}>Selected Champions</Title>
+          <Box
+            style={{
+              display: 'flex',
+              flexDirection: 'row',
+              width: '100%',
+            }}
+          >
+            {isEditingTeamName ? (
+              <>
+                <TextInput
+                  value={teamName}
+                  onChange={(e) => {
+                    const newTeamName = e.target.value;
+                    if (newTeamName.length > 24) {
+                      setTeamName(e.target.value.substring(0, 24));
+                    } else {
+                      setTeamName(e.target.value);
+                    }
+                  }}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') setIsEditingTeamName(false);
+                  }}
+                  styles={{
+                    input: teamNameTextInputStyles,
+                  }}
+                />
+              </>
+            ) : (
+              <>
+                <Title>{teamName}</Title>
+                <CiEdit
+                  style={editTeamNameButtonStyles(isEditTeamNameHovered)}
+                  onClick={() => {
+                    setIsEditingTeamName(true);
+                    setIsEditTeamNameHovered(false);
+                  }}
+                  onMouseEnter={() => setIsEditTeamNameHovered(true)}
+                  onMouseLeave={() => setIsEditTeamNameHovered(false)}
+                />
+              </>
+            )}
+          </Box>
           <SelectedTeamGroup
             key={'selected_champions'}
             imageWidth={192}
