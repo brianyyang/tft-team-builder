@@ -53,17 +53,6 @@ const Header = ({ username, onLogout }: HeaderProps) => {
       cursor: 'pointer',
     } as MantineStyleProp);
 
-  const usernameInputStyles = {
-    fontSize: '2em',
-    fontWeight: 'bold',
-    height: 'auto',
-    backgroundColor: `${theme.other.tierToColorMap[1].light}10`,
-    color: 'white',
-    paddingLeft: '5px',
-    borderStyle: 'solid',
-    borderRadius: '10px',
-  };
-
   return (
     <Box style={headerContainerStyles}>
       <Title order={1} style={{ marginLeft: '50px' }}>

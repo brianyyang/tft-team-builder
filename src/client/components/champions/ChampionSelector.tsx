@@ -1,6 +1,12 @@
 'use client';
 
-import { Box, TextInput, Title, useMantineTheme } from '@mantine/core';
+import {
+  Box,
+  MantineStyleProp,
+  TextInput,
+  Title,
+  useMantineTheme,
+} from '@mantine/core';
 import ChampionOptionsGroup from '@/client/components/champions/ChampionOptionsGroup';
 import SelectedTeamGroup from '@/client/components/champions/SelectedTeamGroup';
 import { SelectedTeamProvider } from '../../contexts/SelectedTeamContext';
@@ -35,6 +41,12 @@ const ChampionSelector: React.FC = () => {
     useState<boolean>(false);
   const [teamName, setTeamName] = useState<string>('Selected Champions');
 
+  const flexRowStyles = {
+    display: 'flex',
+    flexDirection: 'row',
+    width: '100%',
+  } as MantineStyleProp;
+
   const buttonStyles = (isButtonHovered: boolean) => ({
     cursor: 'pointer',
     width: 'auto',
@@ -60,13 +72,7 @@ const ChampionSelector: React.FC = () => {
 
   return (
     <SelectedTeamProvider>
-      <Box
-        style={{
-          display: 'flex',
-          flexDirection: 'row',
-          width: '100%',
-        }}
-      >
+      <Box style={flexRowStyles}>
         <Box className={styles.columnContainer}>
           <Box className={styles.championOptionsContainer}>
             {TIERS.map((tier) => (
@@ -82,13 +88,7 @@ const ChampionSelector: React.FC = () => {
         <Box
           className={`${styles.columnContainer} ${styles.selectedChampionsContainer}`}
         >
-          <Box
-            style={{
-              display: 'flex',
-              flexDirection: 'row',
-              width: '100%',
-            }}
-          >
+          <Box style={flexRowStyles}>
             {isEditingTeamName ? (
               <>
                 <TextInput

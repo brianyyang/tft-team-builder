@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { CSSProperties, useState } from 'react';
 import {
   Box,
   Button,
@@ -14,7 +14,7 @@ interface LoginProps {
 
 const LoginContainerStyles = {
   display: 'flex',
-  height: '100%',
+  height: '75%',
   fontSize: '24px',
   textAlign: 'center',
   margin: '20px',
@@ -34,15 +34,27 @@ const Login: React.FC<LoginProps> = ({ onSubmitUsername }) => {
         ? 'indigo'
         : theme.colors.backgroundColor[0],
       color: 'white',
-      height: '2rem',
+      height: 'auto',
       borderStyle: 'solid',
-      fontSize: '1rem',
+      fontSize: '0.8em',
       borderRadius: '5px',
       borderColor: 'white',
-      padding: '5px 10px 5px 10px',
+      padding: '5px 25px 5px 25px',
       cursor: 'pointer',
-      margin: '1rem',
     } as MantineStyleProp);
+
+  const usernameInputStyles = {
+    fontSize: '1em',
+    height: 'auto',
+    backgroundColor: `${theme.other.tierToColorMap[1].light}10`,
+    color: 'white',
+    borderStyle: 'solid',
+    borderRadius: '10px',
+    textAlign: 'center',
+    padding: '5px',
+    margin: '1.5em',
+    borderColor: 'white',
+  } as CSSProperties;
 
   const onNameChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
     if (e.target.value.length > 16) {
@@ -63,6 +75,7 @@ const Login: React.FC<LoginProps> = ({ onSubmitUsername }) => {
         value={username}
         onChange={onNameChange}
         onKeyDown={keySubmitName}
+        styles={{ input: usernameInputStyles }}
       />
       <Button
         onClick={() => onSubmitUsername(username)}
