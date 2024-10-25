@@ -29,7 +29,6 @@ const Header = ({ username, onLogout }: HeaderProps) => {
   };
 
   const infoBarStyles = {
-    height: '8%',
     top: '0px',
     width: '50%',
     paddingLeft: '25px',
@@ -53,6 +52,17 @@ const Header = ({ username, onLogout }: HeaderProps) => {
       padding: '5px 10px 5px 10px',
       cursor: 'pointer',
     } as MantineStyleProp);
+
+  const usernameInputStyles = {
+    fontSize: '2em',
+    fontWeight: 'bold',
+    height: 'auto',
+    backgroundColor: `${theme.other.tierToColorMap[1].light}10`,
+    color: 'white',
+    paddingLeft: '5px',
+    borderStyle: 'solid',
+    borderRadius: '10px',
+  };
 
   return (
     <Box style={headerContainerStyles}>

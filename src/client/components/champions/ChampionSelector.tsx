@@ -11,6 +11,7 @@ import ActiveTraitGroup from '../traits/ActiveTraitGroup';
 import { Champion } from '@/types/gameplay/champion';
 import { CiEdit } from 'react-icons/ci';
 import { useState } from 'react';
+import { IoCheckmarkOutline } from 'react-icons/io5';
 
 const typedChampions: Champion[] = champions;
 const sortByTiers = (champions: Champion[]): Map<number, Champion[]> => {
@@ -30,15 +31,17 @@ const ChampionSelector: React.FC = () => {
   const [isEditTeamNameHovered, setIsEditTeamNameHovered] =
     useState<boolean>(false);
   const [isEditingTeamName, setIsEditingTeamName] = useState<boolean>(false);
+  const [isSaveTeamNameHovered, setIsSaveTeamNameHovered] =
+    useState<boolean>(false);
   const [teamName, setTeamName] = useState<string>('Selected Champions');
 
-  const editTeamNameButtonStyles = (isEditTeamNameHovered: boolean) => ({
+  const buttonStyles = (isButtonHovered: boolean) => ({
     cursor: 'pointer',
     width: 'auto',
     height: '100%',
     color: 'white',
     borderRadius: '10px',
-    backgroundColor: isEditTeamNameHovered
+    backgroundColor: isButtonHovered
       ? `${theme.other.tierToColorMap[1].light}80`
       : 'transparent',
     marginLeft: '5px',
@@ -48,7 +51,8 @@ const ChampionSelector: React.FC = () => {
     fontSize: '2em',
     fontWeight: 'bold',
     height: 'auto',
-    backgroundColor: `${theme.other.tierToColorMap[1].light}80`,
+    backgroundColor: `${theme.other.tierToColorMap[1].light}10`,
+    color: 'white',
     paddingLeft: '5px',
     borderStyle: 'solid',
     borderRadius: '10px',
@@ -98,18 +102,30 @@ const ChampionSelector: React.FC = () => {
                     }
                   }}
                   onKeyDown={(e) => {
-                    if (e.key === 'Enter') setIsEditingTeamName(false);
+                    if (e.key === 'Enter') {
+                      setIsSaveTeamNameHovered(false);
+                      setIsEditingTeamName(false);
+                    }
                   }}
                   styles={{
                     input: teamNameTextInputStyles,
                   }}
+                />
+                <IoCheckmarkOutline
+                  style={buttonStyles(isSaveTeamNameHovered)}
+                  onClick={() => {
+                    setIsEditingTeamName(false);
+                    setIsSaveTeamNameHovered(false);
+                  }}
+                  onMouseEnter={() => setIsSaveTeamNameHovered(true)}
+                  onMouseLeave={() => setIsSaveTeamNameHovered(false)}
                 />
               </>
             ) : (
               <>
                 <Title>{teamName}</Title>
                 <CiEdit
-                  style={editTeamNameButtonStyles(isEditTeamNameHovered)}
+                  style={buttonStyles(isEditTeamNameHovered)}
                   onClick={() => {
                     setIsEditingTeamName(true);
                     setIsEditTeamNameHovered(false);

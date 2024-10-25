@@ -28,7 +28,7 @@ export const Homepage = () => {
   };
 
   return (
-    <Box>
+    <Box style={{ height: '100%' }}>
       {username ? (
         <>
           <Header username={username} onLogout={onLogout} />
