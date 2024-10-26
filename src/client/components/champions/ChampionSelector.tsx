@@ -15,7 +15,7 @@ import styles from '@/client/css/styles.module.css';
 import { TIERS } from '@/client/utils/TiersUtils';
 import ActiveTraitGroup from '../traits/ActiveTraitGroup';
 import { Champion } from '@/types/gameplay/champion';
-import { CiEdit } from 'react-icons/ci';
+import { CiEdit, CiFloppyDisk } from 'react-icons/ci';
 import { useState } from 'react';
 import { IoCheckmarkOutline } from 'react-icons/io5';
 
@@ -34,12 +34,15 @@ const sortByTiers = (champions: Champion[]): Map<number, Champion[]> => {
 const ChampionSelector: React.FC = () => {
   const tierMap = sortByTiers(typedChampions);
   const theme = useMantineTheme();
+  const [teamName, setTeamName] = useState<string>('Selected Champions');
+  const [isEditingTeamName, setIsEditingTeamName] = useState<boolean>(false);
   const [isEditTeamNameHovered, setIsEditTeamNameHovered] =
     useState<boolean>(false);
-  const [isEditingTeamName, setIsEditingTeamName] = useState<boolean>(false);
+  const [isSaveTeamHovered, setIsSaveTeamHovered] = useState<boolean>(false);
   const [isSaveTeamNameHovered, setIsSaveTeamNameHovered] =
     useState<boolean>(false);
-  const [teamName, setTeamName] = useState<string>('Selected Champions');
+  const [showSaveConfirmation, setShowSaveConfirmation] =
+    useState<boolean>(false);
 
   const flexRowStyles = {
     display: 'flex',
@@ -132,6 +135,15 @@ const ChampionSelector: React.FC = () => {
                   }}
                   onMouseEnter={() => setIsEditTeamNameHovered(true)}
                   onMouseLeave={() => setIsEditTeamNameHovered(false)}
+                />
+                <CiFloppyDisk
+                  style={buttonStyles(isSaveTeamHovered)}
+                  onClick={() => {
+                    setShowSaveConfirmation(true);
+                    setIsSaveTeamHovered(false);
+                  }}
+                  onMouseEnter={() => setIsSaveTeamHovered(true)}
+                  onMouseLeave={() => setIsSaveTeamHovered(false)}
                 />
               </>
             )}

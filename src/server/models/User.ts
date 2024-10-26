@@ -8,7 +8,7 @@ const UserSchema: Schema<IUser> = new Schema({
   username: { type: String, required: true, unique: true },
 });
 
-// Export the model, or use an existing one if it already exists (for hot reloading in development)
+// export the User model
 const User: Model<IUser> =
   mongoose.models.User || mongoose.model<IUser>('User', UserSchema);
 
