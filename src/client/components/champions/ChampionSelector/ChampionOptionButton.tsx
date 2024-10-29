@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useMantineTheme, Button, Box } from '@mantine/core';
-import { useSelectedTeam } from '../../contexts/SelectedTeamContext';
+import { useSelectedTeam } from '@/client/contexts/SelectedTeamContext';
 import { Champion } from '@/types/gameplay/champion';
 import ChampionTooltip from './ChampionTooltip';
 

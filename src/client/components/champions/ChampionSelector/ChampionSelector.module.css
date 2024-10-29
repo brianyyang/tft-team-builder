@@ -47,3 +47,18 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+.modalTitle {
+  font-weight: bold;
+  color: black;
+}
+
+.modalHeader {
+  justify-content: center;
+}
+
+.modalContent {
+  background: rgb(var(--background-rgb-light));
+  justify-content: center;
+  text-align: center;
+}

@@ -3,9 +3,10 @@
 import { useEffect } from 'react';
 import { Box } from '@mantine/core';
 import { useUser } from '@/client/contexts/UserContext';
-import ChampionSelector from '@/client/components/champions/ChampionSelector';
+import ChampionSelector from '@/client/components/champions/ChampionSelector/ChampionSelector';
 import Login from '@/client/components/Login';
 import Header from './Header';
+import { SelectedTeamProvider } from '../contexts/SelectedTeamContext';
 
 export const Homepage = () => {
   const { username, setUsername } = useUser();
@@ -32,7 +33,10 @@ export const Homepage = () => {
       {username ? (
         <>
           <Header username={username} onLogout={onLogout} />
-          <ChampionSelector />
+
+          <SelectedTeamProvider>
+            <ChampionSelector />
+          </SelectedTeamProvider>
         </>
       ) : (
         <Login onSubmitUsername={onSubmitUsername} />

@@ -42,6 +42,7 @@ const ChampionTooltip: React.FC<ChampionTooltipProps> = ({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+    zIndex: 200,
   } as MantineStyleProp;
 
   return (

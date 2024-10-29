@@ -1,10 +1,10 @@
 import { useMantineTheme, MantineStyleProp, Box } from '@mantine/core';
 import { useState } from 'react';
 import { IoCloseOutline } from 'react-icons/io5';
-import { useSelectedTeam } from '../../contexts/SelectedTeamContext';
-import TraitHex from '../traits/TraitHex';
 import { Trait } from '@/types/gameplay/trait';
 import { Champion } from '@/types/gameplay/champion';
+import TraitHex from '@/client/components/traits/TraitHex';
+import { useSelectedTeam } from '@/client/contexts/SelectedTeamContext';
 
 interface SelectedChampionCardProps {
   champion: Champion;

@@ -52,7 +52,7 @@ const Login: React.FC<LoginProps> = ({ onSubmitUsername }) => {
     borderRadius: '10px',
     textAlign: 'center',
     padding: '5px',
-    margin: '1.5em',
+    margin: '1.5em 0',
     borderColor: 'white',
   } as CSSProperties;
 

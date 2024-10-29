@@ -56,24 +56,28 @@ export default async function handler(
       }
 
       try {
-        let user = await User.findOne(username);
+        let user = await User.findOne({ username: username });
         if (!user) {
           // create a new user record if not found
           user = new User({ username: username });
           await user.save();
         }
 
-        const team = new Team({ teamName, championIds, user: user.username });
-        await team.save();
+        const team = new Team({ name: teamName, championIds, user: user });
+        const savedTeam = await team.save();
 
-        return res.status(201).json({ message: 'Team created successfully' });
+        return res
+          .status(201)
+          .json({ message: 'Team created successfully', team: savedTeam });
       } catch (error: any) {
         if (isDuplicateKeyError(error)) {
           return res
             .status(409)
             .json({ message: 'Team name already exists for this user' });
         }
-        return res.status(500).json({ message: 'Error creating team' });
+        return res
+          .status(500)
+          .json({ message: 'Error creating team: ' + error.message });
       }
 
     case 'PATCH': // modify an existing team for a user
@@ -81,14 +85,14 @@ export default async function handler(
         const { teamId, teamName, championIds, username } = req.body;
 
         // check if the user exists
-        let user = await User.findOne({ username });
+        let user = await User.findOne({ username: username });
 
         if (!user) {
           return res.status(404).json({ message: 'User not found' });
         }
 
         // find the existing team by ID
-        const team = await Team.findOne({ _id: teamId, user: user.username });
+        const team = await Team.findOne({ _id: teamId, user: user });
 
         if (!team) {
           return res
