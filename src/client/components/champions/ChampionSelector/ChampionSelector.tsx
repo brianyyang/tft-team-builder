@@ -18,10 +18,16 @@ import styles from './ChampionSelector.module.css';
 import { TIERS } from '@/client/utils/TiersUtils';
 import ActiveTraitGroup from '../../traits/ActiveTraitGroup';
 import { Champion } from '@/types/gameplay/champion';
-import { CiEdit, CiFloppyDisk } from 'react-icons/ci';
+import {
+  CiBoxList,
+  CiEdit,
+  CiFloppyDisk,
+  CiStickyNote,
+  CiTrash,
+} from 'react-icons/ci';
 import { useState } from 'react';
 import { IoCheckmarkOutline } from 'react-icons/io5';
-import { createTeam } from '@/client/apis/teamAPI';
+import { createTeam, updateTeam } from '@/client/apis/teamAPI';
 import { Team } from '@/types/team';
 import { useUser } from '@/client/contexts/UserContext';
 
@@ -45,14 +51,22 @@ const ChampionSelector: React.FC = () => {
   const { username } = useUser();
   const [teamId, setTeamId] = useState<string>('');
   const [teamName, setTeamName] = useState<string>('Selected Champions');
+
+  // states for modals and other workflows
   const [isEditingTeamName, setIsEditingTeamName] = useState<boolean>(false);
+  const [showSaveConfirmation, setShowSaveConfirmation] =
+    useState<boolean>(false);
+
+  // hover states for team button actions
   const [isEditTeamNameHovered, setIsEditTeamNameHovered] =
     useState<boolean>(false);
   const [isSaveTeamHovered, setIsSaveTeamHovered] = useState<boolean>(false);
   const [isSaveTeamNameHovered, setIsSaveTeamNameHovered] =
     useState<boolean>(false);
-  const [showSaveConfirmation, setShowSaveConfirmation] =
+  const [isLoadLibraryHovered, setIsLoadLibraryHovered] =
     useState<boolean>(false);
+  const [isCreateNewHovered, setIsCreateNewHovered] = useState<boolean>(false);
+  const [isTrashHovered, setIsTrashHovered] = useState<boolean>(false);
 
   const flexRowStyles = {
     display: 'flex',
@@ -96,6 +110,18 @@ const ChampionSelector: React.FC = () => {
         username
       );
       setTeamId(response.team._id);
+      console.log(response.message);
+    } catch (err) {
+      console.error('Error fetching team:', err);
+    }
+  };
+
+  const handlePatchTeam = async () => {
+    try {
+      const response = await updateTeam(
+        new Team(teamName, selectedChampions, teamId),
+        username
+      );
       console.log(response.message);
     } catch (err) {
       console.error('Error fetching team:', err);
@@ -173,6 +199,24 @@ const ChampionSelector: React.FC = () => {
                 onMouseEnter={() => setIsSaveTeamHovered(true)}
                 onMouseLeave={() => setIsSaveTeamHovered(false)}
               />
+              <CiBoxList
+                style={buttonStyles(isLoadLibraryHovered)}
+                onClick={() => {}}
+                onMouseEnter={() => setIsLoadLibraryHovered(true)}
+                onMouseLeave={() => setIsLoadLibraryHovered(false)}
+              />
+              <CiStickyNote
+                style={buttonStyles(isCreateNewHovered)}
+                onClick={() => {}}
+                onMouseEnter={() => setIsCreateNewHovered(true)}
+                onMouseLeave={() => setIsCreateNewHovered(false)}
+              />
+              <CiTrash
+                style={buttonStyles(isTrashHovered)}
+                onClick={() => {}}
+                onMouseEnter={() => setIsTrashHovered(true)}
+                onMouseLeave={() => setIsTrashHovered(false)}
+              />
             </>
           )}
         </Box>
@@ -206,7 +250,7 @@ const ChampionSelector: React.FC = () => {
           </Button>
           <Button
             onClick={() => {
-              handlePostTeam();
+              teamId == '' ? handlePostTeam() : handlePatchTeam();
               setShowSaveConfirmation(false);
             }}
             color='red'
