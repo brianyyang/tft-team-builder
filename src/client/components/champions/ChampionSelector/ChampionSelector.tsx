@@ -1,13 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import {
-  CiBoxList,
-  CiEdit,
-  CiFloppyDisk,
-  CiStickyNote,
-  CiTrash,
-} from 'react-icons/ci';
+import { CiEdit, CiFloppyDisk, CiShuffle, CiTrash } from 'react-icons/ci';
 import { IoCheckmarkOutline } from 'react-icons/io5';
 import {
   Box,
@@ -30,6 +24,7 @@ import ActiveTraitGroup from '@/client/components/traits/ActiveTraitGroup';
 import { Champion } from '@/types/gameplay/champion';
 import { createTeam, updateTeam } from '@/client/apis/teamAPI';
 import { Team } from '@/types/team';
+import { randomChampions } from '@/client/utils/ChampionUtils';
 
 const typedChampions: Champion[] = champions;
 const sortByTiers = (champions: Champion[]): Map<number, Champion[]> => {
@@ -47,7 +42,7 @@ const sortByTiers = (champions: Champion[]): Map<number, Champion[]> => {
 const ChampionSelector: React.FC = () => {
   const theme = useMantineTheme();
   const tierMap = sortByTiers(typedChampions);
-  const { selectedChampions } = useSelectedTeam();
+  const { selectedChampions, setSelectedTeam } = useSelectedTeam();
   const { username } = useUser();
   const [teamId, setTeamId] = useState<string>('');
   const [teamName, setTeamName] = useState<string>('Selected Champions');
@@ -63,9 +58,7 @@ const ChampionSelector: React.FC = () => {
   const [isSaveTeamHovered, setIsSaveTeamHovered] = useState<boolean>(false);
   const [isSaveTeamNameHovered, setIsSaveTeamNameHovered] =
     useState<boolean>(false);
-  const [isLoadLibraryHovered, setIsLoadLibraryHovered] =
-    useState<boolean>(false);
-  const [isCreateNewHovered, setIsCreateNewHovered] = useState<boolean>(false);
+  const [isRandomHovered, setIsRandomHovered] = useState<boolean>(false);
   const [isTrashHovered, setIsTrashHovered] = useState<boolean>(false);
 
   const flexRowStyles = {
@@ -199,17 +192,13 @@ const ChampionSelector: React.FC = () => {
                 onMouseEnter={() => setIsSaveTeamHovered(true)}
                 onMouseLeave={() => setIsSaveTeamHovered(false)}
               />
-              <CiBoxList
-                style={buttonStyles(isLoadLibraryHovered)}
-                onClick={() => {}}
-                onMouseEnter={() => setIsLoadLibraryHovered(true)}
-                onMouseLeave={() => setIsLoadLibraryHovered(false)}
-              />
-              <CiStickyNote
-                style={buttonStyles(isCreateNewHovered)}
-                onClick={() => {}}
-                onMouseEnter={() => setIsCreateNewHovered(true)}
-                onMouseLeave={() => setIsCreateNewHovered(false)}
+              <CiShuffle
+                style={buttonStyles(isRandomHovered)}
+                onClick={() => {
+                  setSelectedTeam(randomChampions(typedChampions, 8));
+                }}
+                onMouseEnter={() => setIsRandomHovered(true)}
+                onMouseLeave={() => setIsRandomHovered(false)}
               />
               <CiTrash
                 style={buttonStyles(isTrashHovered)}

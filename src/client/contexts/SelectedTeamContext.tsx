@@ -7,7 +7,7 @@ interface SelectedTeamContextType {
   selectedChampions: Champion[];
   activeTraits: Map<string, ActiveTrait>;
   toggleChampion: (champion: Champion) => void;
-  loadTeam: (champions: Champion[]) => void;
+  setSelectedTeam: (champions: Champion[]) => void;
 }
 
 const SelectedTeamContext = createContext<SelectedTeamContextType | undefined>(
@@ -101,7 +101,7 @@ export const SelectedTeamProvider: React.FC<SelectedTeamProviderProps> = ({
     setSelectedChampions(newList);
   };
 
-  const loadTeam = (champions: Champion[]) => {
+  const setSelectedTeam = (champions: Champion[]) => {
     setSelectedChampions(champions);
     setActiveTraits(activeTraitsFromChampions(champions));
   };
@@ -112,7 +112,7 @@ export const SelectedTeamProvider: React.FC<SelectedTeamProviderProps> = ({
         selectedChampions,
         activeTraits,
         toggleChampion,
-        loadTeam,
+        setSelectedTeam,
       }}
     >
       {children}
