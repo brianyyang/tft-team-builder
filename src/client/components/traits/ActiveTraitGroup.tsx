@@ -1,5 +1,5 @@
 import { Box } from '@mantine/core';
-import { useSelectedTeam } from '../contexts/SelectedTeamContext';
+import { useSelectedTeam } from '../../contexts/SelectedTeamContext';
 import { ActiveTrait } from '@/types/gameplay/trait';
 import ActiveTraitHex from './ActiveTraitHex';
 

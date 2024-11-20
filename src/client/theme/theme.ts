@@ -1,6 +1,6 @@
-import { breakpointToColorMap } from '@/utils/ActiveTraitUtils';
+import { breakpointToColorMap } from '@/client/utils/ActiveTraitUtils';
 import { colors, typography, otherSettings } from './themeObjects';
-import { tierToColorMap } from '@/utils/TiersUtils';
+import { tierToColorMap } from '@/client/utils/TiersUtils';
 import { createTheme, MantineThemeOverride } from '@mantine/core';
 
 const theme: MantineThemeOverride = createTheme({

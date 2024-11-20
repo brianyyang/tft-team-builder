@@ -1,7 +1,7 @@
 import { Flex } from '@mantine/core';
-import SelectedChampionCard from '@/components/champions/SelectedChampionCard';
-import { useSelectedTeam } from '../contexts/SelectedTeamContext';
-import styles from '@/css/styles.module.css';
+import SelectedChampionCard from './SelectedChampionCard';
+import { useSelectedTeam } from '../../../contexts/SelectedTeamContext';
+import styles from './ChampionSelector.module.css';
 
 interface SelectedTeamGroupProps {
   imageWidth: number;
@@ -14,7 +14,10 @@ const SelectedTeamGroup: React.FC<SelectedTeamGroupProps> = ({
 }) => {
   const { selectedChampions } = useSelectedTeam();
   return (
-    <Flex className={styles.rowContainer} style={{ gap: '15px' }}>
+    <Flex
+      className={`${styles.rowContainer} ${styles.selectedChampionsGroup}`}
+      style={{ gap: '15px' }}
+    >
       {selectedChampions.map((champion) => (
         <SelectedChampionCard
           key={champion.id + 'big'}

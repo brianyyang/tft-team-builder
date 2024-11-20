@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useMantineTheme, Button, Box } from '@mantine/core';
-import { useSelectedTeam } from '../contexts/SelectedTeamContext';
+import { useSelectedTeam } from '@/client/contexts/SelectedTeamContext';
 import { Champion } from '@/types/gameplay/champion';
 import ChampionTooltip from './ChampionTooltip';
 
@@ -98,8 +98,9 @@ const ChampionOptionButton: React.FC<ChampionOptionButtonProps> = ({
         <ChampionTooltip
           champion={champion}
           top={position.top}
-          left={position.right + width / 10}
+          left={position.right + 10}
           height={height}
+          width={width}
         />
       )}
     </Box>

@@ -6,6 +6,7 @@ interface ChampionTooltipProps {
   top: number;
   left: number;
   height: number;
+  width: number;
 }
 
 const ChampionTooltip: React.FC<ChampionTooltipProps> = ({
@@ -13,8 +14,14 @@ const ChampionTooltip: React.FC<ChampionTooltipProps> = ({
   top,
   left,
   height,
+  width,
 }) => {
   const theme = useMantineTheme();
+  const traitsLetterCount = champion.traits.reduce(
+    (count, trait) => count + trait.name.length,
+    0
+  );
+
   const tooltipStyles = {
     position: 'absolute',
     top: top,
@@ -29,10 +36,13 @@ const ChampionTooltip: React.FC<ChampionTooltipProps> = ({
     padding: '10px',
     borderRadius: '5px',
     height: height,
+    width: traitsLetterCount > 15 ? width * 3 + 20 : width * 2 + 10,
     color: 'black',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
+    alignItems: 'center',
+    zIndex: 200,
   } as MantineStyleProp;
 
   return (

@@ -1,5 +1,5 @@
 import { ActiveTrait } from '@/types/gameplay/trait';
-import { Box, MantineStyleProp, useMantineTheme } from '@mantine/core';
+import { Box, useMantineTheme } from '@mantine/core';
 import TraitHex from './TraitHex';
 
 interface ActiveTraitHexProps {

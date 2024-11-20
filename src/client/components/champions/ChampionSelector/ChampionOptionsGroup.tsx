@@ -1,6 +1,6 @@
 import { Flex } from '@mantine/core';
-import ChampionOptionButton from '@/components/champions/ChampionOptionButton';
-import styles from '@/css/styles.module.css';
+import ChampionOptionButton from './ChampionOptionButton';
+import styles from './ChampionSelector.module.css';
 import { Champion } from '@/types/gameplay/champion';
 
 interface ChampionOptionGroupProps {
@@ -15,7 +15,7 @@ const ChampionOptionsGroup: React.FC<ChampionOptionGroupProps> = ({
   imageHeight,
 }) => {
   return (
-    <Flex className={styles.rowContainer}>
+    <Flex className={`${styles.rowContainer} ${styles.championOptionsGroup}`}>
       {champions.map((champion) => (
         <ChampionOptionButton
           key={champion.id + 'small'}

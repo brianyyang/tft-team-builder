@@ -1,12 +1,13 @@
 import { createContext, useContext, useState, ReactNode } from 'react';
 import { Champion } from '@/types/gameplay/champion';
 import { ActiveTrait, Trait } from '@/types/gameplay/trait';
-import { setTraitsMap } from '@/utils/ActiveTraitUtils';
+import { setTraitsMap } from '@/client/utils/ActiveTraitUtils';
 
 interface SelectedTeamContextType {
   selectedChampions: Champion[];
   activeTraits: Map<string, ActiveTrait>;
   toggleChampion: (champion: Champion) => void;
+  loadTeam: (champions: Champion[]) => void;
 }
 
 const SelectedTeamContext = createContext<SelectedTeamContextType | undefined>(
@@ -32,14 +33,12 @@ export const SelectedTeamProvider: React.FC<SelectedTeamProviderProps> = ({
   defaultChampions,
   children,
 }) => {
-  const startingActiveTraits = () => {
-    const startingTraitsMap = setTraitsMap();
-    if (defaultChampions) {
-      defaultChampions.map((champion) =>
-        champion.traits.map((trait) => addTraitToMap(startingTraitsMap, trait))
-      );
-    }
-    return startingTraitsMap;
+  const activeTraitsFromChampions = (champions: Champion[]) => {
+    const traitsMap = setTraitsMap();
+    champions.map((champion) =>
+      champion.traits.map((trait) => addTraitToMap(traitsMap, trait))
+    );
+    return traitsMap;
   };
 
   const addTraitToMap = (map: Map<string, ActiveTrait>, trait: Trait) => {
@@ -56,7 +55,7 @@ export const SelectedTeamProvider: React.FC<SelectedTeamProviderProps> = ({
     defaultChampions || []
   );
   const [activeTraits, setActiveTraits] = useState<Map<string, ActiveTrait>>(
-    startingActiveTraits()
+    activeTraitsFromChampions(defaultChampions || [])
   );
 
   const toggleChampion = (champion: Champion) => {
@@ -102,9 +101,19 @@ export const SelectedTeamProvider: React.FC<SelectedTeamProviderProps> = ({
     setSelectedChampions(newList);
   };
 
+  const loadTeam = (champions: Champion[]) => {
+    setSelectedChampions(champions);
+    setActiveTraits(activeTraitsFromChampions(champions));
+  };
+
   return (
     <SelectedTeamContext.Provider
-      value={{ selectedChampions, activeTraits, toggleChampion }}
+      value={{
+        selectedChampions,
+        activeTraits,
+        toggleChampion,
+        loadTeam,
+      }}
     >
       {children}
     </SelectedTeamContext.Provider>

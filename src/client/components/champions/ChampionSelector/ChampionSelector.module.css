@@ -10,26 +10,16 @@
   flex-direction: row; /* Arrange items horizontally */
   flex-wrap: wrap; /* Allow items to wrap to the next line */
   gap: 10px; /* Adds space between items */
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 .championOptionsContainer {
   display: flex;
   flex-direction: column; /* Arrange items vertically */
   gap: 10px; /* Adds space between items */
-  margin: 25px;
-  height: 84vh;
+  margin: 0px 25px 25px 25px;
+  height: 87vh;
   overflow-y: scroll;
   overflow-x: hidden;
-}
-
-.selectedChampionsContainer {
-  width: 60%;
-}
-
-.whiteText {
-  color: white;
 }
 
 .championOptionsContainer::-webkit-scrollbar {
@@ -43,4 +33,32 @@
 
 .championOptionsContainer::-webkit-scrollbar-track {
   background: rgb(var(--background-rgb));
+}
+
+.championOptionsGroup {
+  margin-bottom: 30px;
+}
+
+.selectedChampionsContainer {
+  width: 60%;
+}
+
+.selectedChampionsGroup {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.modalTitle {
+  font-weight: bold;
+  color: black;
+}
+
+.modalHeader {
+  justify-content: center;
+}
+
+.modalContent {
+  background: rgb(var(--background-rgb-light));
+  justify-content: center;
+  text-align: center;
 }
