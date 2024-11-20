@@ -16,4 +16,5 @@
 
 #### Minor Nice to Haves
 
+- Remove laggy image loading
 - Focus team name text input when edit button is pressed

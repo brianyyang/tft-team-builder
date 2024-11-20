@@ -1,5 +1,14 @@
 'use client';
 
+import { useState } from 'react';
+import {
+  CiBoxList,
+  CiEdit,
+  CiFloppyDisk,
+  CiStickyNote,
+  CiTrash,
+} from 'react-icons/ci';
+import { IoCheckmarkOutline } from 'react-icons/io5';
 import {
   Box,
   Button,
@@ -10,26 +19,17 @@ import {
   Title,
   useMantineTheme,
 } from '@mantine/core';
-import ChampionOptionsGroup from '@/client/components/champions/ChampionSelector/ChampionOptionsGroup';
-import SelectedTeamGroup from '@/client/components/champions/ChampionSelector/SelectedTeamGroup';
-import { useSelectedTeam } from '../../../contexts/SelectedTeamContext';
+import ChampionOptionsGroup from './ChampionOptionsGroup';
+import SelectedTeamGroup from './SelectedTeamGroup';
+import { useSelectedTeam } from '@/client/contexts/SelectedTeamContext';
+import { useUser } from '@/client/contexts/UserContext';
 import champions from '@/data/champions.json';
 import styles from './ChampionSelector.module.css';
 import { TIERS } from '@/client/utils/TiersUtils';
-import ActiveTraitGroup from '../../traits/ActiveTraitGroup';
+import ActiveTraitGroup from '@/client/components/traits/ActiveTraitGroup';
 import { Champion } from '@/types/gameplay/champion';
-import {
-  CiBoxList,
-  CiEdit,
-  CiFloppyDisk,
-  CiStickyNote,
-  CiTrash,
-} from 'react-icons/ci';
-import { useState } from 'react';
-import { IoCheckmarkOutline } from 'react-icons/io5';
 import { createTeam, updateTeam } from '@/client/apis/teamAPI';
 import { Team } from '@/types/team';
-import { useUser } from '@/client/contexts/UserContext';
 
 const typedChampions: Champion[] = champions;
 const sortByTiers = (champions: Champion[]): Map<number, Champion[]> => {
@@ -93,7 +93,7 @@ const ChampionSelector: React.FC = () => {
   };
 
   const teamNameTextInputStyles = {
-    fontSize: '2em',
+    fontSize: 'var(--mantine-h1-font-size)',
     fontWeight: 'bold',
     height: 'auto',
     backgroundColor: `${theme.other.tierToColorMap[1].light}10`,

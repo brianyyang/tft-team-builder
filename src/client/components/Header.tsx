@@ -56,7 +56,7 @@ const Header = ({ username, onLogout }: HeaderProps) => {
   return (
     <Box style={headerContainerStyles}>
       <Title order={1} style={{ marginLeft: '50px' }}>
-        TFT Team Builder
+        Hippo 🦛 TFT Team Builder
       </Title>
       <Box style={infoBarStyles}>
         <Button
