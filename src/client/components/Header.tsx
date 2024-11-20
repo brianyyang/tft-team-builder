@@ -26,7 +26,8 @@ const Header = ({ username, onLogout }: HeaderProps) => {
     alignItems: 'center',
     fontSize: '18px',
     marginTop: '25px',
-  };
+    userSelect: 'none',
+  } as MantineStyleProp;
 
   const infoBarStyles = {
     top: '0px',

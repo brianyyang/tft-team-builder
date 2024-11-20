@@ -83,7 +83,8 @@ const ChampionSelector: React.FC = () => {
     textDecoration: `${isEditTeamNameHovered ? 'underline' : 'none'}${
       theme.other.tierToColorMap[1].light
     }80`,
-  };
+    userSelect: 'none',
+  } as MantineStyleProp;
 
   const teamNameTextInputStyles = {
     fontSize: 'var(--mantine-h1-font-size)',
@@ -202,7 +203,7 @@ const ChampionSelector: React.FC = () => {
               />
               <CiTrash
                 style={buttonStyles(isTrashHovered)}
-                onClick={() => {}}
+                onClick={() => setSelectedTeam([])}
                 onMouseEnter={() => setIsTrashHovered(true)}
                 onMouseLeave={() => setIsTrashHovered(false)}
               />
