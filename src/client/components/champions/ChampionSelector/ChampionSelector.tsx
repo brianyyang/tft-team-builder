@@ -1,12 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { CiEdit, CiFloppyDisk, CiShuffle, CiTrash } from 'react-icons/ci';
 import { IoCheckmarkOutline } from 'react-icons/io5';
 import {
   Box,
   Button,
   Group,
+  Loader,
   MantineStyleProp,
   Modal,
   TextInput,
@@ -48,6 +49,7 @@ const ChampionSelector: React.FC = () => {
   const [teamName, setTeamName] = useState<string>('Selected Champions');
 
   // states for modals and other workflows
+  const [areImagesLoading, setAreImagesLoading] = useState<boolean>(true);
   const [isEditingTeamName, setIsEditingTeamName] = useState<boolean>(false);
   const [showSaveConfirmation, setShowSaveConfirmation] =
     useState<boolean>(false);
@@ -97,6 +99,31 @@ const ChampionSelector: React.FC = () => {
     borderRadius: '10px',
   };
 
+  // cache all champion images
+  useEffect(() => {
+    const cacheImagePromises: Promise<any>[] = [];
+    typedChampions.map((champion) => {
+      cacheImagePromises.push(cacheImagePromise(champion.iconPath));
+      cacheImagePromises.push(cacheImagePromise(champion.splashPath));
+    });
+    resolveCacheImagePromises(cacheImagePromises);
+  }, []);
+
+  const cacheImagePromise = async (imagePath: string) => {
+    const promise = new Promise((resolve, reject) => {
+      const image = new Image();
+      image.addEventListener('load', () => resolve(image));
+      image.addEventListener('error', (err) => reject(err));
+      image.src = imagePath;
+    });
+    return promise;
+  };
+
+  const resolveCacheImagePromises = async (promises: Promise<any>[]) => {
+    await Promise.all(promises);
+    setAreImagesLoading(false);
+  };
+
   const handlePostTeam = async () => {
     try {
       const response = await createTeam(
@@ -123,133 +150,149 @@ const ChampionSelector: React.FC = () => {
   };
 
   return (
-    <Box style={flexRowStyles}>
-      <Box className={styles.columnContainer}>
-        <Box className={styles.championOptionsContainer}>
-          {TIERS.map((tier) => (
-            <ChampionOptionsGroup
-              key={'tier_' + tier + '_champions'}
-              champions={tierMap.get(tier) as Champion[]}
-              imageWidth={76}
-              imageHeight={76}
-            />
-          ))}
+    <>
+      {areImagesLoading ? (
+        <Box
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '80%',
+            width: '100%',
+          }}
+        >
+          <Loader type='dots' color='violet' />
         </Box>
-      </Box>
-      <Box
-        className={`${styles.columnContainer} ${styles.selectedChampionsContainer}`}
-      >
+      ) : (
         <Box style={flexRowStyles}>
-          {isEditingTeamName ? (
-            <>
-              <TextInput
-                value={teamName}
-                onChange={(e) => {
-                  const newTeamName = e.target.value;
-                  if (newTeamName.length > 24) {
-                    setTeamName(e.target.value.substring(0, 24));
-                  } else {
-                    setTeamName(e.target.value);
-                  }
-                }}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter') {
-                    setIsSaveTeamNameHovered(false);
-                    setIsEditingTeamName(false);
-                  }
-                }}
-                styles={{
-                  input: teamNameTextInputStyles,
-                }}
-              />
-              <IoCheckmarkOutline
-                style={buttonStyles(isSaveTeamNameHovered)}
-                onClick={() => {
-                  setIsEditingTeamName(false);
-                  setIsSaveTeamNameHovered(false);
-                }}
-                onMouseEnter={() => setIsSaveTeamNameHovered(true)}
-                onMouseLeave={() => setIsSaveTeamNameHovered(false)}
-              />
-            </>
-          ) : (
-            <>
-              <Title style={teamNameTitleStyles}>{teamName}</Title>
-              <CiEdit
-                style={buttonStyles(isEditTeamNameHovered)}
-                onClick={() => {
-                  setIsEditingTeamName(true);
-                  setIsEditTeamNameHovered(false);
-                }}
-                onMouseEnter={() => setIsEditTeamNameHovered(true)}
-                onMouseLeave={() => setIsEditTeamNameHovered(false)}
-              />
-              <CiFloppyDisk
-                style={buttonStyles(isSaveTeamHovered)}
-                onClick={() => {
-                  setShowSaveConfirmation(!showSaveConfirmation);
-                  setIsSaveTeamHovered(false);
-                }}
-                onMouseEnter={() => setIsSaveTeamHovered(true)}
-                onMouseLeave={() => setIsSaveTeamHovered(false)}
-              />
-              <CiShuffle
-                style={buttonStyles(isRandomHovered)}
-                onClick={() => {
-                  setSelectedTeam(randomChampions(typedChampions, 8));
-                }}
-                onMouseEnter={() => setIsRandomHovered(true)}
-                onMouseLeave={() => setIsRandomHovered(false)}
-              />
-              <CiTrash
-                style={buttonStyles(isTrashHovered)}
-                onClick={() => setSelectedTeam([])}
-                onMouseEnter={() => setIsTrashHovered(true)}
-                onMouseLeave={() => setIsTrashHovered(false)}
-              />
-            </>
-          )}
-        </Box>
-        <SelectedTeamGroup
-          key={'selected_champions'}
-          imageWidth={192}
-          imageHeight={192}
-        />
-        <ActiveTraitGroup />
-      </Box>
-      <Modal
-        opened={showSaveConfirmation}
-        onClose={() => setShowSaveConfirmation(false)}
-        title='Do you want to save the following team?'
-        size={'md'}
-        classNames={{
-          header: styles.modalHeader,
-          title: styles.modalTitle,
-          content: styles.modalContent,
-        }}
-        centered
-        withCloseButton={false}
-      >
-        <Group justify='center' mt='md'>
-          <Button
-            onClick={() => setShowSaveConfirmation(false)}
-            variant='outline'
-            color='white'
+          <Box className={styles.columnContainer}>
+            <Box className={styles.championOptionsContainer}>
+              {TIERS.map((tier) => (
+                <ChampionOptionsGroup
+                  key={'tier_' + tier + '_champions'}
+                  champions={tierMap.get(tier) as Champion[]}
+                  imageWidth={76}
+                  imageHeight={76}
+                />
+              ))}
+            </Box>
+          </Box>
+          <Box
+            className={`${styles.columnContainer} ${styles.selectedChampionsContainer}`}
           >
-            Cancel
-          </Button>
-          <Button
-            onClick={() => {
-              teamId == '' ? handlePostTeam() : handlePatchTeam();
-              setShowSaveConfirmation(false);
+            <Box style={flexRowStyles}>
+              {isEditingTeamName ? (
+                <>
+                  <TextInput
+                    value={teamName}
+                    onChange={(e) => {
+                      const newTeamName = e.target.value;
+                      if (newTeamName.length > 24) {
+                        setTeamName(e.target.value.substring(0, 24));
+                      } else {
+                        setTeamName(e.target.value);
+                      }
+                    }}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') {
+                        setIsSaveTeamNameHovered(false);
+                        setIsEditingTeamName(false);
+                      }
+                    }}
+                    styles={{
+                      input: teamNameTextInputStyles,
+                    }}
+                  />
+                  <IoCheckmarkOutline
+                    style={buttonStyles(isSaveTeamNameHovered)}
+                    onClick={() => {
+                      setIsEditingTeamName(false);
+                      setIsSaveTeamNameHovered(false);
+                    }}
+                    onMouseEnter={() => setIsSaveTeamNameHovered(true)}
+                    onMouseLeave={() => setIsSaveTeamNameHovered(false)}
+                  />
+                </>
+              ) : (
+                <>
+                  <Title style={teamNameTitleStyles}>{teamName}</Title>
+                  <CiEdit
+                    style={buttonStyles(isEditTeamNameHovered)}
+                    onClick={() => {
+                      setIsEditingTeamName(true);
+                      setIsEditTeamNameHovered(false);
+                    }}
+                    onMouseEnter={() => setIsEditTeamNameHovered(true)}
+                    onMouseLeave={() => setIsEditTeamNameHovered(false)}
+                  />
+                  <CiFloppyDisk
+                    style={buttonStyles(isSaveTeamHovered)}
+                    onClick={() => {
+                      setShowSaveConfirmation(!showSaveConfirmation);
+                      setIsSaveTeamHovered(false);
+                    }}
+                    onMouseEnter={() => setIsSaveTeamHovered(true)}
+                    onMouseLeave={() => setIsSaveTeamHovered(false)}
+                  />
+                  <CiShuffle
+                    style={buttonStyles(isRandomHovered)}
+                    onClick={() => {
+                      setSelectedTeam(randomChampions(typedChampions, 8));
+                    }}
+                    onMouseEnter={() => setIsRandomHovered(true)}
+                    onMouseLeave={() => setIsRandomHovered(false)}
+                  />
+                  <CiTrash
+                    style={buttonStyles(isTrashHovered)}
+                    onClick={() => setSelectedTeam([])}
+                    onMouseEnter={() => setIsTrashHovered(true)}
+                    onMouseLeave={() => setIsTrashHovered(false)}
+                  />
+                </>
+              )}
+            </Box>
+            <SelectedTeamGroup
+              key={'selected_champions'}
+              imageWidth={192}
+              imageHeight={192}
+            />
+            <ActiveTraitGroup />
+          </Box>
+          <Modal
+            opened={showSaveConfirmation}
+            onClose={() => setShowSaveConfirmation(false)}
+            title='Do you want to save the following team?'
+            size={'md'}
+            classNames={{
+              header: styles.modalHeader,
+              title: styles.modalTitle,
+              content: styles.modalContent,
             }}
-            color='red'
+            centered
+            withCloseButton={false}
           >
-            Confirm
-          </Button>
-        </Group>
-      </Modal>
-    </Box>
+            <Group justify='center' mt='md'>
+              <Button
+                onClick={() => setShowSaveConfirmation(false)}
+                variant='outline'
+                color='white'
+              >
+                Cancel
+              </Button>
+              <Button
+                onClick={() => {
+                  teamId == '' ? handlePostTeam() : handlePatchTeam();
+                  setShowSaveConfirmation(false);
+                }}
+                color='red'
+              >
+                Confirm
+              </Button>
+            </Group>
+          </Modal>
+        </Box>
+      )}
+    </>
   );
 };
 
