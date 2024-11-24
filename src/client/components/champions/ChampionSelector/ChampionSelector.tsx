@@ -18,7 +18,6 @@ import ChampionOptionsGroup from './ChampionOptionsGroup';
 import SelectedTeamGroup from './SelectedTeamGroup';
 import { useSelectedTeam } from '@/client/contexts/SelectedTeamContext';
 import { useUser } from '@/client/contexts/UserContext';
-import champions from '@/data/champions.json';
 import styles from './ChampionSelector.module.css';
 import { TIERS } from '@/client/utils/TiersUtils';
 import ActiveTraitGroup from '@/client/components/traits/ActiveTraitGroup';
@@ -26,23 +25,23 @@ import { Champion } from '@/types/gameplay/champion';
 import { createTeam, updateTeam } from '@/client/apis/teamAPI';
 import { Team } from '@/types/team';
 import { randomChampions } from '@/client/utils/ChampionUtils';
-
-const typedChampions: Champion[] = champions;
-const sortByTiers = (champions: Champion[]): Map<number, Champion[]> => {
-  let tierMap = new Map<number, Champion[]>();
-  TIERS.forEach((tier) => {
-    tierMap.set(tier, []);
-  });
-  champions.forEach((champion) => {
-    tierMap.get(champion.tier)?.push(champion);
-  });
-
-  return tierMap;
-};
+import { useChampionDataset } from '@/client/contexts/ChampionDatasetContext';
 
 const ChampionSelector: React.FC = () => {
-  const theme = useMantineTheme();
-  const tierMap = sortByTiers(typedChampions);
+  const { championDataset } = useChampionDataset();
+  const sortByTiers = (champions: Champion[]): Map<number, Champion[]> => {
+    let tierMap = new Map<number, Champion[]>();
+    TIERS.forEach((tier) => {
+      tierMap.set(tier, []);
+    });
+    champions.forEach((champion) => {
+      tierMap.get(champion.tier)?.push(champion);
+    });
+
+    return tierMap;
+  };
+
+  const tierMap = sortByTiers(championDataset);
   const { selectedChampions, setSelectedTeam } = useSelectedTeam();
   const { username } = useUser();
   const [teamId, setTeamId] = useState<string>('');
@@ -62,6 +61,8 @@ const ChampionSelector: React.FC = () => {
     useState<boolean>(false);
   const [isRandomHovered, setIsRandomHovered] = useState<boolean>(false);
   const [isTrashHovered, setIsTrashHovered] = useState<boolean>(false);
+
+  const theme = useMantineTheme();
 
   const flexRowStyles = {
     display: 'flex',
@@ -102,7 +103,7 @@ const ChampionSelector: React.FC = () => {
   // cache all champion images
   useEffect(() => {
     const cacheImagePromises: Promise<any>[] = [];
-    typedChampions.map((champion) => {
+    championDataset.map((champion) => {
       cacheImagePromises.push(cacheImagePromise(champion.iconPath));
       cacheImagePromises.push(cacheImagePromise(champion.splashPath));
     });
@@ -237,7 +238,7 @@ const ChampionSelector: React.FC = () => {
                   <CiShuffle
                     style={buttonStyles(isRandomHovered)}
                     onClick={() => {
-                      setSelectedTeam(randomChampions(typedChampions, 8));
+                      setSelectedTeam(randomChampions(championDataset, 8));
                     }}
                     onMouseEnter={() => setIsRandomHovered(true)}
                     onMouseLeave={() => setIsRandomHovered(false)}

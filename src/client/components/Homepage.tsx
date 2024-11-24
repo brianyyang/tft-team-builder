@@ -7,6 +7,8 @@ import ChampionSelector from '@/client/components/champions/ChampionSelector/Cha
 import Login from '@/client/components/Login';
 import Header from './Header';
 import { SelectedTeamProvider } from '../contexts/SelectedTeamContext';
+import { CURRENT_SET_NUMBER } from '../utils/EnvironmentVariables';
+import { ChampionDatasetProvider } from '../contexts/ChampionDatasetContext';
 
 export const Homepage = () => {
   const { username, setUsername } = useUser();
@@ -33,10 +35,11 @@ export const Homepage = () => {
       {username ? (
         <>
           <Header username={username} onLogout={onLogout} />
-
-          <SelectedTeamProvider>
-            <ChampionSelector />
-          </SelectedTeamProvider>
+          <ChampionDatasetProvider defaultSetNumber={CURRENT_SET_NUMBER}>
+            <SelectedTeamProvider>
+              <ChampionSelector />
+            </SelectedTeamProvider>
+          </ChampionDatasetProvider>
         </>
       ) : (
         <Login onSubmitUsername={onSubmitUsername} />

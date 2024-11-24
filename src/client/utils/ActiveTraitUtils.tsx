@@ -1,9 +1,10 @@
 import { ActiveTrait } from '@/types/gameplay/trait';
-import traits from '@/data/traits.json';
+import { useChampionDataset } from '../contexts/ChampionDatasetContext';
 
 export const setTraitsMap: () => Map<string, ActiveTrait> = () => {
+  const { traitDataset } = useChampionDataset();
   const traitsMap = new Map<string, ActiveTrait>();
-  traits.map((trait) =>
+  traitDataset.map((trait) =>
     traitsMap.set(
       trait.id,
       new ActiveTrait(

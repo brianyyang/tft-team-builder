@@ -2,11 +2,13 @@ const fs = require('fs');
 const path = require('path');
 
 const filePath = process.argv[2];
-// const setNumberToFilterBy = process.argv[3];
 const filterIconPaths = process.argv[3];
+const setNumber = process.argv[4];
 
-if (!filePath || !filterIconPaths) {
-  console.log('Usage: node filterChampionData.js <filePath> <filterIconPaths>');
+if (!filePath || !filterIconPaths || !setNumber) {
+  console.log(
+    'Usage: node filterChampionData.js <filePath> <filterIconPaths> <setNumber>'
+  );
   process.exit(1);
 }
 
@@ -71,7 +73,7 @@ function convertTraits(traits) {
 
 const convertToProject = (filePath, championId) => {
   const pathParts = path.parse(filePath);
-  return `/assets/champions/${championId}/${pathParts.base}`;
+  return `/assets/set${setNumber}/champions/${championId}/${pathParts.base}`;
 };
 
 // In the JSON files, asset paths can be mapped to URLs:
@@ -111,7 +113,7 @@ fs.readFile(path.resolve(filePath), 'utf8', (err, jsonString) => {
       filteredData = filterToChampionType(data);
     }
 
-    const sortedData = filterData.sort((champion1, champion2) =>
+    const sortedData = filteredData.sort((champion1, champion2) =>
       champion1.name < champion2.name ? -1 : 1
     );
 

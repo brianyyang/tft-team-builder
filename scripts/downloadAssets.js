@@ -106,7 +106,7 @@ async function processChampionFile(filePath) {
     // download champion assets
     data.map((champion) => {
       const championId = champion.id.toLowerCase();
-      const outputPath = '../public/assets/champions/' + championId;
+      const outputPath = `../public/assets/set${setNumber}/champions/${championId}`;
       runCommunityDragonDirectoryDownloader(
         BASEURL + champion.iconPath,
         outputPath
@@ -132,7 +132,7 @@ async function processChampionFile(filePath) {
 
 async function donwloadTraitAssets() {
   try {
-    const outputPath = '../public/assets/traits';
+    const outputPath = `../public/assets/set${setNumber}/traits`;
     runCommunityDragonDirectoryDownloader(BASEURL + TRAIT_ICON_URL, outputPath);
 
     // wait 7 seconds for all the downloads, then we can delete the unwanted downloaded stuff
@@ -149,6 +149,10 @@ switch (downloadType) {
   case 'champions':
     if (championFilePath == '') {
       console.log('Not given file path for the champion json.');
+      process.exit(1);
+    }
+    if (setNumber <= 0) {
+      console.log('Not given set number for the champion assets download.');
       process.exit(1);
     }
     processChampionFile(championFilePath);

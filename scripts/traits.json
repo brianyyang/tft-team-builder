@@ -1,0 +1,601 @@
+[
+  {
+    "id": "tft13_academy",
+    "name": "Academy",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 3,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 5,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 6,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_ambassador",
+    "name": "Emissary",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 1,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_ambusher",
+    "name": "Ambusher",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 3,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 4,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 5,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_bruiser",
+    "name": "Bruiser",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 6,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_cabal",
+    "name": "Black Rose",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 3,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 5,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 7,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_challenger",
+    "name": "Quickstriker",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 3,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 4,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_crime",
+    "name": "Chem-Baron",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 3,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 5,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 6,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 7,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_experiment",
+    "name": "Experiment",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 3,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 5,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 7,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_family",
+    "name": "Family",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 3,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 4,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 5,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_formswapper",
+    "name": "Form Swapper",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_hextech",
+    "name": "Automata",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 6,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_highroller",
+    "name": "High Roller",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 1,
+        "color": "unique"
+      }
+    ]
+  },
+  {
+    "id": "tft13_hoverboard",
+    "name": "Firelight",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 3,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 4,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_infused",
+    "name": "Dominator",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 6,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_invoker",
+    "name": "Visionary",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 6,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 8,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_junkerking",
+    "name": "Junker King",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 1,
+        "color": "unique"
+      }
+    ]
+  },
+  {
+    "id": "tft13_martialist",
+    "name": "Artillerist",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 6,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_pugilist",
+    "name": "Pit Fighter",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 6,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 8,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_rebel",
+    "name": "Rebel",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 3,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 5,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 7,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 10,
+        "color": "chromatic"
+      }
+    ]
+  },
+  {
+    "id": "tft13_scrap",
+    "name": "Scrap",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 6,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 9,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_sniper",
+    "name": "Sniper",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 6,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_sorcerer",
+    "name": "Sorcerer",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 6,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 8,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_squad",
+    "name": "Enforcer",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 6,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 8,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 10,
+        "color": "chromatic"
+      }
+    ]
+  },
+  {
+    "id": "tft13_teamup_bloodbrothers",
+    "name": "What Could Have Been",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "unique"
+      }
+    ]
+  },
+  {
+    "id": "tft13_teamup_geniuses",
+    "name": "Geniuses",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "unique"
+      }
+    ]
+  },
+  {
+    "id": "tft13_teamup_menaces",
+    "name": "Menaces",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "unique"
+      }
+    ]
+  },
+  {
+    "id": "tft13_teamup_mentorship",
+    "name": "Martial Law",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "unique"
+      }
+    ]
+  },
+  {
+    "id": "tft13_teamup_reunion",
+    "name": "Reunion",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "unique"
+      }
+    ]
+  },
+  {
+    "id": "tft13_teamup_sisters",
+    "name": "Sisters",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "unique"
+      }
+    ]
+  },
+  {
+    "id": "tft13_teamup_unlikelyduo",
+    "name": "Unlikely Duo",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "unique"
+      }
+    ]
+  },
+  {
+    "id": "tft13_titan",
+    "name": "Sentinel",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 6,
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": "tft13_warband",
+    "name": "Conqueror",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 6,
+        "color": "gold"
+      },
+      {
+        "championsRequired": 9,
+        "color": "chromatic"
+      }
+    ]
+  },
+  {
+    "id": "tft13_watcher",
+    "name": "Watcher",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 2,
+        "color": "bronze"
+      },
+      {
+        "championsRequired": 4,
+        "color": "silver"
+      },
+      {
+        "championsRequired": 6,
+        "color": "gold"
+      }
+    ]
+  }
+]
