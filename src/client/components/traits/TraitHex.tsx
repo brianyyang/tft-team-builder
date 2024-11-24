@@ -1,3 +1,4 @@
+import { useChampionDataset } from '@/client/contexts/ChampionDatasetContext';
 import { Trait } from '@/types/gameplay/trait';
 import { Box, MantineStyleProp, useMantineTheme } from '@mantine/core';
 
@@ -54,7 +55,7 @@ const TraitHex: React.FC<TraitHexProps> = ({
   backgroundColor,
   invertIconColor,
 }) => {
-  const theme = useMantineTheme();
+  const { setNumber } = useChampionDataset();
   return (
     <Box style={border(width, height)}>
       <Box style={hexagon(width, height, backgroundColor)}>
@@ -62,7 +63,7 @@ const TraitHex: React.FC<TraitHexProps> = ({
           style={imageStyles(
             width,
             height,
-            `/assets/traits/${trait.id}.png`,
+            `/assets/set${setNumber}/traits/${trait.id}.png`,
             invertIconColor
           )}
         />

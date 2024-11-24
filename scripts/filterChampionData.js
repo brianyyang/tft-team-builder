@@ -2,35 +2,17 @@ const fs = require('fs');
 const path = require('path');
 
 const filePath = process.argv[2];
-const filterIconPaths = process.argv[3];
-const setNumber = process.argv[4];
+const setNumber = process.argv[3];
+const filterIconPaths = process.argv[4];
 
 if (!filePath || !filterIconPaths || !setNumber) {
   console.log(
-    'Usage: node filterChampionData.js <filePath> <filterIconPaths> <setNumber>'
+    'Usage: node filterChampionData.js <filePath> <setNumber> <filterIconPaths>'
   );
   process.exit(1);
 }
 
-// Function to filter JSON data by set number
-function filterBySetNumber(data, setNumber) {
-  return data.reduce((result, champion) => {
-    if (champion.name.includes('TFT' + setNumber)) {
-      result.push({
-        ...champion,
-        character_record: {
-          ...champion.character_record,
-          squareIconPath: mapPathFromJson(
-            champion.character_record.squareIconPath
-          ),
-        },
-      });
-    }
-    return result;
-  }, []);
-}
-
-// Function to filter JSON data and change image icon paths for TFT planner
+// Function to filter JSON data and change image icon paths for to download assets
 function filterPlannerIconPaths(data) {
   return data[Object.keys(data)[0]].reduce((result, champion) => {
     result.push({
@@ -42,7 +24,7 @@ function filterPlannerIconPaths(data) {
   }, []);
 }
 
-// Function to filter JSON data and change image icon paths for TFT planner
+// Function to filter JSON data and change image icon paths for tft team builder
 function filterToChampionType(data) {
   return data[Object.keys(data)[0]].reduce((result, champion) => {
     const championId = champion.character_id.toLowerCase();
@@ -119,7 +101,7 @@ fs.readFile(path.resolve(filePath), 'utf8', (err, jsonString) => {
 
     // Write filtered data to a new JSON file in the same directory as the input file
     const outputFileName =
-      filterIconPaths === 'true' ? 'icons.json' : 'champions.json';
+      filterIconPaths === 'true' ? 'champicons.json' : 'champions.json';
     const outputFilePath = path.join(path.dirname(filePath), outputFileName);
     fs.writeFile(outputFilePath, JSON.stringify(sortedData, null, 2), (err) => {
       if (err) {

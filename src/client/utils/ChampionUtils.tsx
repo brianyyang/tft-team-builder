@@ -1,4 +1,5 @@
 import { Champion } from '@/types/gameplay/champion';
+
 const randomIndicesInArray = (arraySize: number, count: number): number[] => {
   const numberSet = new Set<number>();
   while (numberSet.size < count) {

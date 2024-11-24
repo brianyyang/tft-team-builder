@@ -28,20 +28,7 @@ import { randomChampions } from '@/client/utils/ChampionUtils';
 import { useChampionDataset } from '@/client/contexts/ChampionDatasetContext';
 
 const ChampionSelector: React.FC = () => {
-  const { championDataset } = useChampionDataset();
-  const sortByTiers = (champions: Champion[]): Map<number, Champion[]> => {
-    let tierMap = new Map<number, Champion[]>();
-    TIERS.forEach((tier) => {
-      tierMap.set(tier, []);
-    });
-    champions.forEach((champion) => {
-      tierMap.get(champion.tier)?.push(champion);
-    });
-
-    return tierMap;
-  };
-
-  const tierMap = sortByTiers(championDataset);
+  const { championDataset, tierMap, isLoadingData } = useChampionDataset();
   const { selectedChampions, setSelectedTeam } = useSelectedTeam();
   const { username } = useUser();
   const [teamId, setTeamId] = useState<string>('');
@@ -152,7 +139,7 @@ const ChampionSelector: React.FC = () => {
 
   return (
     <>
-      {areImagesLoading ? (
+      {areImagesLoading || isLoadingData ? (
         <Box
           style={{
             display: 'flex',
