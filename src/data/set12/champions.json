@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "tft12_ahri",
+    "name": "Ahri",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft12_arcana",
+        "name": "Arcana",
+        "iconPath": "/assets/set12/traits/tft12_arcana.png"
+      },
+      {
+        "id": "tft12_scholar",
+        "name": "Scholar",
+        "iconPath": "/assets/set12/traits/tft12_scholar.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_ahri/tft12_ahri_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_ahri/tft12_ahri_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_akali",
+    "name": "Akali",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft12_pyro",
+        "name": "Pyro",
+        "iconPath": "/assets/set12/traits/tft12_pyro.png"
+      },
+      {
+        "id": "tft12_warrior",
+        "name": "Warrior",
+        "iconPath": "/assets/set12/traits/tft12_warrior.png"
+      },
+      {
+        "id": "tft12_multistriker",
+        "name": "Multistriker",
+        "iconPath": "/assets/set12/traits/tft12_multistriker.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_akali/tft12_akali_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_akali/tft12_akali_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_ashe",
+    "name": "Ashe",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft12_eldritch",
+        "name": "Eldritch",
+        "iconPath": "/assets/set12/traits/tft12_eldritch.png"
+      },
+      {
+        "id": "tft12_multistriker",
+        "name": "Multistriker",
+        "iconPath": "/assets/set12/traits/tft12_multistriker.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_ashe/tft12_ashe_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_ashe/tft12_ashe_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_bard",
+    "name": "Bard",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft12_sugarcraft",
+        "name": "Sugarcraft",
+        "iconPath": "/assets/set12/traits/tft12_sugarcraft.png"
+      },
+      {
+        "id": "tft12_preserver",
+        "name": "Preserver",
+        "iconPath": "/assets/set12/traits/tft12_preserver.png"
+      },
+      {
+        "id": "tft12_scholar",
+        "name": "Scholar",
+        "iconPath": "/assets/set12/traits/tft12_scholar.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_bard/tft12_bard_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_bard/tft12_bard_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_blitzcrank",
+    "name": "Blitzcrank",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft12_honeymancy",
+        "name": "Honeymancy",
+        "iconPath": "/assets/set12/traits/tft12_honeymancy.png"
+      },
+      {
+        "id": "tft12_vanguard",
+        "name": "Vanguard",
+        "iconPath": "/assets/set12/traits/tft12_vanguard.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_blitzcrank/tft12_blitzcrank_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_blitzcrank/tft12_blitzcrank_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_briar",
+    "name": "Briar",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft12_ravenous",
+        "name": "Ravenous",
+        "iconPath": "/assets/set12/traits/tft12_ravenous.png"
+      },
+      {
+        "id": "tft12_eldritch",
+        "name": "Eldritch",
+        "iconPath": "/assets/set12/traits/tft12_eldritch.png"
+      },
+      {
+        "id": "tft12_shapeshifter",
+        "name": "Shapeshifter",
+        "iconPath": "/assets/set12/traits/tft12_shapeshifter.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_briar/tft12_briar_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_briar/tft12_briar_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_camille",
+    "name": "Camille",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft12_chrono",
+        "name": "Chrono",
+        "iconPath": "/assets/set12/traits/tft12_chrono.png"
+      },
+      {
+        "id": "tft12_multistriker",
+        "name": "Multistriker",
+        "iconPath": "/assets/set12/traits/tft12_multistriker.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_camille/tft12_camille_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_camille/tft12_camille_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_cassiopeia",
+    "name": "Cassiopeia",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft12_witchcraft",
+        "name": "Witchcraft",
+        "iconPath": "/assets/set12/traits/tft12_witchcraft.png"
+      },
+      {
+        "id": "tft12_incantor",
+        "name": "Incantor",
+        "iconPath": "/assets/set12/traits/tft12_incantor.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_cassiopeia/tft12_cassiopeia_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_cassiopeia/tft12_cassiopeia_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_diana",
+    "name": "Diana",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft12_frost",
+        "name": "Frost",
+        "iconPath": "/assets/set12/traits/tft12_frost.png"
+      },
+      {
+        "id": "tft12_bastion",
+        "name": "Bastion",
+        "iconPath": "/assets/set12/traits/tft12_bastion.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_diana/tft12_diana_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_diana/tft12_diana_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_elise",
+    "name": "Elise",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft12_eldritch",
+        "name": "Eldritch",
+        "iconPath": "/assets/set12/traits/tft12_eldritch.png"
+      },
+      {
+        "id": "tft12_shapeshifter",
+        "name": "Shapeshifter",
+        "iconPath": "/assets/set12/traits/tft12_shapeshifter.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_elise/tft12_elise_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_elise/tft12_elise_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_ezreal",
+    "name": "Ezreal",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft12_portal",
+        "name": "Portal",
+        "iconPath": "/assets/set12/traits/tft12_portal.png"
+      },
+      {
+        "id": "tft12_blaster",
+        "name": "Blaster",
+        "iconPath": "/assets/set12/traits/tft12_blaster.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_ezreal/tft12_ezreal_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_ezreal/tft12_ezreal_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_fiora",
+    "name": "Fiora",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft12_witchcraft",
+        "name": "Witchcraft",
+        "iconPath": "/assets/set12/traits/tft12_witchcraft.png"
+      },
+      {
+        "id": "tft12_warrior",
+        "name": "Warrior",
+        "iconPath": "/assets/set12/traits/tft12_warrior.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_fiora/tft12_fiora_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_fiora/tft12_fiora_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_galio",
+    "name": "Galio",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft12_portal",
+        "name": "Portal",
+        "iconPath": "/assets/set12/traits/tft12_portal.png"
+      },
+      {
+        "id": "tft12_vanguard",
+        "name": "Vanguard",
+        "iconPath": "/assets/set12/traits/tft12_vanguard.png"
+      },
+      {
+        "id": "tft12_mage",
+        "name": "Mage",
+        "iconPath": "/assets/set12/traits/tft12_mage.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_galio/tft12_galio_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_galio/tft12_galio_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_gwen",
+    "name": "Gwen",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft12_sugarcraft",
+        "name": "Sugarcraft",
+        "iconPath": "/assets/set12/traits/tft12_sugarcraft.png"
+      },
+      {
+        "id": "tft12_warrior",
+        "name": "Warrior",
+        "iconPath": "/assets/set12/traits/tft12_warrior.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_gwen/tft12_gwen_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_gwen/tft12_gwen_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_hecarim",
+    "name": "Hecarim",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft12_arcana",
+        "name": "Arcana",
+        "iconPath": "/assets/set12/traits/tft12_arcana.png"
+      },
+      {
+        "id": "tft12_bastion",
+        "name": "Bastion",
+        "iconPath": "/assets/set12/traits/tft12_bastion.png"
+      },
+      {
+        "id": "tft12_multistriker",
+        "name": "Multistriker",
+        "iconPath": "/assets/set12/traits/tft12_multistriker.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_hecarim/tft12_hecarim_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_hecarim/tft12_hecarim_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_hwei",
+    "name": "Hwei",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft12_frost",
+        "name": "Frost",
+        "iconPath": "/assets/set12/traits/tft12_frost.png"
+      },
+      {
+        "id": "tft12_blaster",
+        "name": "Blaster",
+        "iconPath": "/assets/set12/traits/tft12_blaster.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_hwei/tft12_hwei_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_hwei/tft12_hwei_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_jax",
+    "name": "Jax",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft12_chrono",
+        "name": "Chrono",
+        "iconPath": "/assets/set12/traits/tft12_chrono.png"
+      },
+      {
+        "id": "tft12_multistriker",
+        "name": "Multistriker",
+        "iconPath": "/assets/set12/traits/tft12_multistriker.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_jax/tft12_jax_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_jax/tft12_jax_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_jayce",
+    "name": "Jayce",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft12_portal",
+        "name": "Portal",
+        "iconPath": "/assets/set12/traits/tft12_portal.png"
+      },
+      {
+        "id": "tft12_shapeshifter",
+        "name": "Shapeshifter",
+        "iconPath": "/assets/set12/traits/tft12_shapeshifter.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_jayce/tft12_jayce_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_jayce/tft12_jayce_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_jinx",
+    "name": "Jinx",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft12_sugarcraft",
+        "name": "Sugarcraft",
+        "iconPath": "/assets/set12/traits/tft12_sugarcraft.png"
+      },
+      {
+        "id": "tft12_hunter",
+        "name": "Hunter",
+        "iconPath": "/assets/set12/traits/tft12_hunter.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_jinx/tft12_jinx_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_jinx/tft12_jinx_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_kalista",
+    "name": "Kalista",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft12_faerie",
+        "name": "Faerie",
+        "iconPath": "/assets/set12/traits/tft12_faerie.png"
+      },
+      {
+        "id": "tft12_multistriker",
+        "name": "Multistriker",
+        "iconPath": "/assets/set12/traits/tft12_multistriker.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_kalista/tft12_kalista_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_kalista/tft12_kalista_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_karma",
+    "name": "Karma",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft12_chrono",
+        "name": "Chrono",
+        "iconPath": "/assets/set12/traits/tft12_chrono.png"
+      },
+      {
+        "id": "tft12_incantor",
+        "name": "Incantor",
+        "iconPath": "/assets/set12/traits/tft12_incantor.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_karma/tft12_karma_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_karma/tft12_karma_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_kassadin",
+    "name": "Kassadin",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft12_portal",
+        "name": "Portal",
+        "iconPath": "/assets/set12/traits/tft12_portal.png"
+      },
+      {
+        "id": "tft12_multistriker",
+        "name": "Multistriker",
+        "iconPath": "/assets/set12/traits/tft12_multistriker.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_kassadin/tft12_kassadin_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_kassadin/tft12_kassadin_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_katarina",
+    "name": "Katarina",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft12_faerie",
+        "name": "Faerie",
+        "iconPath": "/assets/set12/traits/tft12_faerie.png"
+      },
+      {
+        "id": "tft12_warrior",
+        "name": "Warrior",
+        "iconPath": "/assets/set12/traits/tft12_warrior.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_katarina/tft12_katarina_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_katarina/tft12_katarina_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_kogmaw",
+    "name": "Kog'Maw",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft12_honeymancy",
+        "name": "Honeymancy",
+        "iconPath": "/assets/set12/traits/tft12_honeymancy.png"
+      },
+      {
+        "id": "tft12_hunter",
+        "name": "Hunter",
+        "iconPath": "/assets/set12/traits/tft12_hunter.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_kogmaw/tft12_kogmaw_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_kogmaw/tft12_kogmaw_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_lillia",
+    "name": "Lillia",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft12_faerie",
+        "name": "Faerie",
+        "iconPath": "/assets/set12/traits/tft12_faerie.png"
+      },
+      {
+        "id": "tft12_bastion",
+        "name": "Bastion",
+        "iconPath": "/assets/set12/traits/tft12_bastion.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_lillia/tft12_lillia_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_lillia/tft12_lillia_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_milio",
+    "name": "Milio",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft12_faerie",
+        "name": "Faerie",
+        "iconPath": "/assets/set12/traits/tft12_faerie.png"
+      },
+      {
+        "id": "tft12_scholar",
+        "name": "Scholar",
+        "iconPath": "/assets/set12/traits/tft12_scholar.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_milio/tft12_milio_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_milio/tft12_milio_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_mordekaiser",
+    "name": "Mordekaiser",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft12_eldritch",
+        "name": "Eldritch",
+        "iconPath": "/assets/set12/traits/tft12_eldritch.png"
+      },
+      {
+        "id": "tft12_vanguard",
+        "name": "Vanguard",
+        "iconPath": "/assets/set12/traits/tft12_vanguard.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_mordekaiser/tft12_mordekaiser_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_mordekaiser/tft12_mordekaiser_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_morgana",
+    "name": "Morgana",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft12_witchcraft",
+        "name": "Witchcraft",
+        "iconPath": "/assets/set12/traits/tft12_witchcraft.png"
+      },
+      {
+        "id": "tft12_batqueen",
+        "name": "Bat Queen",
+        "iconPath": "/assets/set12/traits/tft12_batqueen.png"
+      },
+      {
+        "id": "tft12_preserver",
+        "name": "Preserver",
+        "iconPath": "/assets/set12/traits/tft12_preserver.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_morgana/tft12_morgana_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_morgana/tft12_morgana_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_nami",
+    "name": "Nami",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft12_eldritch",
+        "name": "Eldritch",
+        "iconPath": "/assets/set12/traits/tft12_eldritch.png"
+      },
+      {
+        "id": "tft12_mage",
+        "name": "Mage",
+        "iconPath": "/assets/set12/traits/tft12_mage.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_nami/tft12_nami_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_nami/tft12_nami_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_nasus",
+    "name": "Nasus",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft12_pyro",
+        "name": "Pyro",
+        "iconPath": "/assets/set12/traits/tft12_pyro.png"
+      },
+      {
+        "id": "tft12_shapeshifter",
+        "name": "Shapeshifter",
+        "iconPath": "/assets/set12/traits/tft12_shapeshifter.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_nasus/tft12_nasus_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_nasus/tft12_nasus_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_neeko",
+    "name": "Neeko",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft12_witchcraft",
+        "name": "Witchcraft",
+        "iconPath": "/assets/set12/traits/tft12_witchcraft.png"
+      },
+      {
+        "id": "tft12_shapeshifter",
+        "name": "Shapeshifter",
+        "iconPath": "/assets/set12/traits/tft12_shapeshifter.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_neeko/tft12_neeko_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_neeko/tft12_neeko_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_nilah",
+    "name": "Nilah",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft12_eldritch",
+        "name": "Eldritch",
+        "iconPath": "/assets/set12/traits/tft12_eldritch.png"
+      },
+      {
+        "id": "tft12_warrior",
+        "name": "Warrior",
+        "iconPath": "/assets/set12/traits/tft12_warrior.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_nilah/tft12_nilah_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_nilah/tft12_nilah_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_nomsy",
+    "name": "Nomsy",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft12_dragon",
+        "name": "Dragon",
+        "iconPath": "/assets/set12/traits/tft12_dragon.png"
+      },
+      {
+        "id": "tft12_hunter",
+        "name": "Hunter",
+        "iconPath": "/assets/set12/traits/tft12_hunter.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_nomsy/tft12_nomsy_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_nomsy/tft12_nomsy_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_norra",
+    "name": "Norra & Yuumi",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft12_portal",
+        "name": "Portal",
+        "iconPath": "/assets/set12/traits/tft12_portal.png"
+      },
+      {
+        "id": "tft12_explorer",
+        "name": "Best Friends",
+        "iconPath": "/assets/set12/traits/tft12_explorer.png"
+      },
+      {
+        "id": "tft12_mage",
+        "name": "Mage",
+        "iconPath": "/assets/set12/traits/tft12_mage.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_norra/tft12_norra_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_norra/tft12_norra_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_nunu",
+    "name": "Nunu",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft12_honeymancy",
+        "name": "Honeymancy",
+        "iconPath": "/assets/set12/traits/tft12_honeymancy.png"
+      },
+      {
+        "id": "tft12_bastion",
+        "name": "Bastion",
+        "iconPath": "/assets/set12/traits/tft12_bastion.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_nunu/tft12_nunu_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_nunu/tft12_nunu_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_olaf",
+    "name": "Olaf",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft12_frost",
+        "name": "Frost",
+        "iconPath": "/assets/set12/traits/tft12_frost.png"
+      },
+      {
+        "id": "tft12_hunter",
+        "name": "Hunter",
+        "iconPath": "/assets/set12/traits/tft12_hunter.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_olaf/tft12_olaf_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_olaf/tft12_olaf_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_poppy",
+    "name": "Poppy",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft12_witchcraft",
+        "name": "Witchcraft",
+        "iconPath": "/assets/set12/traits/tft12_witchcraft.png"
+      },
+      {
+        "id": "tft12_bastion",
+        "name": "Bastion",
+        "iconPath": "/assets/set12/traits/tft12_bastion.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_poppy/tft12_poppy_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_poppy/tft12_poppy_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_rakan",
+    "name": "Rakan",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft12_faerie",
+        "name": "Faerie",
+        "iconPath": "/assets/set12/traits/tft12_faerie.png"
+      },
+      {
+        "id": "tft12_preserver",
+        "name": "Preserver",
+        "iconPath": "/assets/set12/traits/tft12_preserver.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_rakan/tft12_rakan_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_rakan/tft12_rakan_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_rumble",
+    "name": "Rumble",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft12_sugarcraft",
+        "name": "Sugarcraft",
+        "iconPath": "/assets/set12/traits/tft12_sugarcraft.png"
+      },
+      {
+        "id": "tft12_vanguard",
+        "name": "Vanguard",
+        "iconPath": "/assets/set12/traits/tft12_vanguard.png"
+      },
+      {
+        "id": "tft12_blaster",
+        "name": "Blaster",
+        "iconPath": "/assets/set12/traits/tft12_blaster.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_rumble/tft12_rumble_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_rumble/tft12_rumble_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_ryze",
+    "name": "Ryze",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft12_portal",
+        "name": "Portal",
+        "iconPath": "/assets/set12/traits/tft12_portal.png"
+      },
+      {
+        "id": "tft12_scholar",
+        "name": "Scholar",
+        "iconPath": "/assets/set12/traits/tft12_scholar.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_ryze/tft12_ryze_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_ryze/tft12_ryze_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_seraphine",
+    "name": "Seraphine",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft12_faerie",
+        "name": "Faerie",
+        "iconPath": "/assets/set12/traits/tft12_faerie.png"
+      },
+      {
+        "id": "tft12_mage",
+        "name": "Mage",
+        "iconPath": "/assets/set12/traits/tft12_mage.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_seraphine/tft12_seraphine_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_seraphine/tft12_seraphine_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_shen",
+    "name": "Shen",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft12_pyro",
+        "name": "Pyro",
+        "iconPath": "/assets/set12/traits/tft12_pyro.png"
+      },
+      {
+        "id": "tft12_bastion",
+        "name": "Bastion",
+        "iconPath": "/assets/set12/traits/tft12_bastion.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_shen/tft12_shen_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_shen/tft12_shen_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_shyvana",
+    "name": "Shyvana",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft12_dragon",
+        "name": "Dragon",
+        "iconPath": "/assets/set12/traits/tft12_dragon.png"
+      },
+      {
+        "id": "tft12_shapeshifter",
+        "name": "Shapeshifter",
+        "iconPath": "/assets/set12/traits/tft12_shapeshifter.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_shyvana/tft12_shyvana_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_shyvana/tft12_shyvana_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_smolder",
+    "name": "Smolder",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft12_dragon",
+        "name": "Dragon",
+        "iconPath": "/assets/set12/traits/tft12_dragon.png"
+      },
+      {
+        "id": "tft12_blaster",
+        "name": "Blaster",
+        "iconPath": "/assets/set12/traits/tft12_blaster.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_smolder/tft12_smolder_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_smolder/tft12_smolder_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_soraka",
+    "name": "Soraka",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft12_sugarcraft",
+        "name": "Sugarcraft",
+        "iconPath": "/assets/set12/traits/tft12_sugarcraft.png"
+      },
+      {
+        "id": "tft12_mage",
+        "name": "Mage",
+        "iconPath": "/assets/set12/traits/tft12_mage.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_soraka/tft12_soraka_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_soraka/tft12_soraka_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_swain",
+    "name": "Swain",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft12_frost",
+        "name": "Frost",
+        "iconPath": "/assets/set12/traits/tft12_frost.png"
+      },
+      {
+        "id": "tft12_shapeshifter",
+        "name": "Shapeshifter",
+        "iconPath": "/assets/set12/traits/tft12_shapeshifter.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_swain/tft12_swain_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_swain/tft12_swain_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_syndra",
+    "name": "Syndra",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft12_eldritch",
+        "name": "Eldritch",
+        "iconPath": "/assets/set12/traits/tft12_eldritch.png"
+      },
+      {
+        "id": "tft12_incantor",
+        "name": "Incantor",
+        "iconPath": "/assets/set12/traits/tft12_incantor.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_syndra/tft12_syndra_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_syndra/tft12_syndra_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_tahmkench",
+    "name": "Tahm Kench",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft12_arcana",
+        "name": "Arcana",
+        "iconPath": "/assets/set12/traits/tft12_arcana.png"
+      },
+      {
+        "id": "tft12_vanguard",
+        "name": "Vanguard",
+        "iconPath": "/assets/set12/traits/tft12_vanguard.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_tahmkench/tft12_tahmkench_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_tahmkench/tft12_tahmkench_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_taric",
+    "name": "Taric",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft12_portal",
+        "name": "Portal",
+        "iconPath": "/assets/set12/traits/tft12_portal.png"
+      },
+      {
+        "id": "tft12_bastion",
+        "name": "Bastion",
+        "iconPath": "/assets/set12/traits/tft12_bastion.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_taric/tft12_taric_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_taric/tft12_taric_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_tristana",
+    "name": "Tristana",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft12_faerie",
+        "name": "Faerie",
+        "iconPath": "/assets/set12/traits/tft12_faerie.png"
+      },
+      {
+        "id": "tft12_blaster",
+        "name": "Blaster",
+        "iconPath": "/assets/set12/traits/tft12_blaster.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_tristana/tft12_tristana_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_tristana/tft12_tristana_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_twitch",
+    "name": "Twitch",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft12_frost",
+        "name": "Frost",
+        "iconPath": "/assets/set12/traits/tft12_frost.png"
+      },
+      {
+        "id": "tft12_hunter",
+        "name": "Hunter",
+        "iconPath": "/assets/set12/traits/tft12_hunter.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_twitch/tft12_twitch_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_twitch/tft12_twitch_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_varus",
+    "name": "Varus",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft12_pyro",
+        "name": "Pyro",
+        "iconPath": "/assets/set12/traits/tft12_pyro.png"
+      },
+      {
+        "id": "tft12_blaster",
+        "name": "Blaster",
+        "iconPath": "/assets/set12/traits/tft12_blaster.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_varus/tft12_varus_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_varus/tft12_varus_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_veigar",
+    "name": "Veigar",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft12_honeymancy",
+        "name": "Honeymancy",
+        "iconPath": "/assets/set12/traits/tft12_honeymancy.png"
+      },
+      {
+        "id": "tft12_mage",
+        "name": "Mage",
+        "iconPath": "/assets/set12/traits/tft12_mage.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_veigar/tft12_veigar_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_veigar/tft12_veigar_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_vex",
+    "name": "Vex",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft12_chrono",
+        "name": "Chrono",
+        "iconPath": "/assets/set12/traits/tft12_chrono.png"
+      },
+      {
+        "id": "tft12_mage",
+        "name": "Mage",
+        "iconPath": "/assets/set12/traits/tft12_mage.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_vex/tft12_vex_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_vex/tft12_vex_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_warwick",
+    "name": "Warwick",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft12_frost",
+        "name": "Frost",
+        "iconPath": "/assets/set12/traits/tft12_frost.png"
+      },
+      {
+        "id": "tft12_vanguard",
+        "name": "Vanguard",
+        "iconPath": "/assets/set12/traits/tft12_vanguard.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_warwick/tft12_warwick_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_warwick/tft12_warwick_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_wukong",
+    "name": "Wukong",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft12_druid",
+        "name": "Druid",
+        "iconPath": "/assets/set12/traits/tft12_druid.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_wukong/tft12_wukong_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_wukong/tft12_wukong_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_xerath",
+    "name": "Xerath",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft12_arcana",
+        "name": "Arcana",
+        "iconPath": "/assets/set12/traits/tft12_arcana.png"
+      },
+      {
+        "id": "tft12_ascendant",
+        "name": "Ascendant",
+        "iconPath": "/assets/set12/traits/tft12_ascendant.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_xerath/tft12_xerath_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_xerath/tft12_xerath_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_ziggs",
+    "name": "Ziggs",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft12_honeymancy",
+        "name": "Honeymancy",
+        "iconPath": "/assets/set12/traits/tft12_honeymancy.png"
+      },
+      {
+        "id": "tft12_incantor",
+        "name": "Incantor",
+        "iconPath": "/assets/set12/traits/tft12_incantor.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_ziggs/tft12_ziggs_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_ziggs/tft12_ziggs_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_zilean",
+    "name": "Zilean",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft12_frost",
+        "name": "Frost",
+        "iconPath": "/assets/set12/traits/tft12_frost.png"
+      },
+      {
+        "id": "tft12_chrono",
+        "name": "Chrono",
+        "iconPath": "/assets/set12/traits/tft12_chrono.png"
+      },
+      {
+        "id": "tft12_preserver",
+        "name": "Preserver",
+        "iconPath": "/assets/set12/traits/tft12_preserver.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_zilean/tft12_zilean_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_zilean/tft12_zilean_mobile.tft_set12.png"
+  },
+  {
+    "id": "tft12_zoe",
+    "name": "Zoe",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft12_portal",
+        "name": "Portal",
+        "iconPath": "/assets/set12/traits/tft12_portal.png"
+      },
+      {
+        "id": "tft12_witchcraft",
+        "name": "Witchcraft",
+        "iconPath": "/assets/set12/traits/tft12_witchcraft.png"
+      },
+      {
+        "id": "tft12_scholar",
+        "name": "Scholar",
+        "iconPath": "/assets/set12/traits/tft12_scholar.png"
+      }
+    ],
+    "iconPath": "/assets/champions/tft12_zoe/tft12_zoe_square.tft_set12.png",
+    "splashPath": "/assets/champions/tft12_zoe/tft12_zoe_mobile.tft_set12.png"
+  }
+]

@@ -2,33 +2,17 @@ const fs = require('fs');
 const path = require('path');
 
 const filePath = process.argv[2];
-// const setNumberToFilterBy = process.argv[3];
-const filterIconPaths = process.argv[3];
+const setNumber = process.argv[3];
+const filterIconPaths = process.argv[4];
 
-if (!filePath || !filterIconPaths) {
-  console.log('Usage: node filterChampionData.js <filePath> <filterIconPaths>');
+if (!filePath || !filterIconPaths || !setNumber) {
+  console.log(
+    'Usage: node filterChampionData.js <filePath> <setNumber> <filterIconPaths>'
+  );
   process.exit(1);
 }
 
-// Function to filter JSON data by set number
-function filterBySetNumber(data, setNumber) {
-  return data.reduce((result, champion) => {
-    if (champion.name.includes('TFT' + setNumber)) {
-      result.push({
-        ...champion,
-        character_record: {
-          ...champion.character_record,
-          squareIconPath: mapPathFromJson(
-            champion.character_record.squareIconPath
-          ),
-        },
-      });
-    }
-    return result;
-  }, []);
-}
-
-// Function to filter JSON data and change image icon paths for TFT planner
+// Function to filter JSON data and change image icon paths for to download assets
 function filterPlannerIconPaths(data) {
   return data[Object.keys(data)[0]].reduce((result, champion) => {
     result.push({
@@ -40,7 +24,7 @@ function filterPlannerIconPaths(data) {
   }, []);
 }
 
-// Function to filter JSON data and change image icon paths for TFT planner
+// Function to filter JSON data and change image icon paths for tft team builder
 function filterToChampionType(data) {
   return data[Object.keys(data)[0]].reduce((result, champion) => {
     const championId = champion.character_id.toLowerCase();
@@ -64,14 +48,19 @@ function filterToChampionType(data) {
 
 function convertTraits(traits) {
   return traits.reduce((result, trait) => {
-    result.push({ id: trait.id.toLowerCase(), name: trait.name });
+    const lowercaseTraitId = trait.id.toLowerCase();
+    result.push({
+      id: lowercaseTraitId,
+      name: trait.name,
+      iconPath: `/assets/set${setNumber}/traits/${lowercaseTraitId}.png`,
+    });
     return result;
   }, []);
 }
 
 const convertToProject = (filePath, championId) => {
   const pathParts = path.parse(filePath);
-  return `/assets/champions/${championId}/${pathParts.base}`;
+  return `/assets/set${setNumber}/champions/${championId}/${pathParts.base}`;
 };
 
 // In the JSON files, asset paths can be mapped to URLs:
@@ -111,13 +100,13 @@ fs.readFile(path.resolve(filePath), 'utf8', (err, jsonString) => {
       filteredData = filterToChampionType(data);
     }
 
-    const sortedData = filterData.sort((champion1, champion2) =>
+    const sortedData = filteredData.sort((champion1, champion2) =>
       champion1.name < champion2.name ? -1 : 1
     );
 
     // Write filtered data to a new JSON file in the same directory as the input file
     const outputFileName =
-      filterIconPaths === 'true' ? 'icons.json' : 'champions.json';
+      filterIconPaths === 'true' ? 'champicons.json' : 'champions.json';
     const outputFilePath = path.join(path.dirname(filePath), outputFileName);
     fs.writeFile(outputFilePath, JSON.stringify(sortedData, null, 2), (err) => {
       if (err) {

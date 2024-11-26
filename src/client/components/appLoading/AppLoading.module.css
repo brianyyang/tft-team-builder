@@ -1,0 +1,7 @@
+.loadingBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+}

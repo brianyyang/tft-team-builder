@@ -8,6 +8,7 @@ const args = process.argv.slice(2);
 // Default values for parameters
 let downloadType = '';
 let championFilePath = '';
+let traitFilePath = '';
 let patchNumber = -1;
 let setNumber = -1;
 
@@ -22,6 +23,11 @@ for (let i = 0; i < args.length; i++) {
     case '-cfp':
     case '--championFilePath':
       championFilePath = args[i + 1];
+      i++;
+      break;
+    case '-tfp':
+    case '--traitFilePath':
+      traitFilePath = args[i + 1];
       i++;
       break;
     case '-p':
@@ -58,18 +64,22 @@ const SECONDS = 1000; // 1000 milliseconds in a second, use for conversion
 async function deleteUnneeded(
   directory,
   extensionToKeep,
-  substringToKeep = ''
+  namesToKeep = undefined
 ) {
   try {
     const files = await fs.readdir(directory);
 
     const deletePromises = files
-      .filter(
-        (file) =>
+      .filter((file) => {
+        return (
           path.extname(file) !== extensionToKeep ||
-          !file.includes(substringToKeep)
-      )
-      .map((file) => fs.unlink(path.join(directory, file)));
+          (namesToKeep && !namesToKeep.includes(path.basename(file)))
+        );
+      })
+      .map((file) => {
+        console.log(`Deleting file: ${file}`);
+        fs.unlink(path.join(directory, file));
+      });
 
     await Promise.all(deletePromises);
   } catch (err) {
@@ -82,6 +92,7 @@ function runCommunityDragonDirectoryDownloader(urlToDownloadFrom, outputPath) {
   const urlParts = path.parse(urlToDownloadFrom);
   const command = `cd-dd -o ${outputPath} ${urlParts.dir}/`;
   exec(command, (error, stdout, stderr) => {
+    console.log(`Running command: ${command}`);
     if (error) {
       console.error(`Error executing command: ${error.message}`);
       return;
@@ -105,14 +116,14 @@ async function processChampionFile(filePath) {
 
     // download champion assets
     data.map((champion) => {
-      const championId = champion.id.toLowerCase();
-      const outputPath = '../public/assets/champions/' + championId;
+      const championId = champion.character_id.toLowerCase();
+      const outputPath = `../public/assets/set${setNumber}/champions/${championId}`;
       runCommunityDragonDirectoryDownloader(
-        BASEURL + champion.iconPath,
+        BASEURL + champion.squareIconPath,
         outputPath
       );
       runCommunityDragonDirectoryDownloader(
-        BASEURL + champion.splashPath,
+        BASEURL + champion.squareSplashIconPath,
         outputPath
       );
       deleteList.push(outputPath);
@@ -130,21 +141,29 @@ async function processChampionFile(filePath) {
   }
 }
 
-async function donwloadTraitAssets() {
+async function downloadTraitAssets(filePath) {
   try {
-    const outputPath = '../public/assets/traits';
+    // Read JSON file
+    const jsonString = await fs.readFile(path.resolve(filePath), 'utf8');
+    const data = JSON.parse(jsonString);
+    const traitsToKeep = data.map((trait) => path.basename(trait.icon_path));
+    const outputPath = `../public/assets/set${setNumber}/traits`;
     runCommunityDragonDirectoryDownloader(BASEURL + TRAIT_ICON_URL, outputPath);
 
-    // wait 7 seconds for all the downloads, then we can delete the unwanted downloaded stuff
-    setTimeout(() => {
-      deleteUnneeded(outputPath, '.png', setNumber.toString());
-    }, 15 * SECONDS);
+    // wait 30 seconds for all the downloads, then we can delete the unwanted downloaded stuff
+    setTimeout(async () => {
+      await deleteUnneeded(outputPath, '.png', traitsToKeep);
+    }, 30 * SECONDS);
   } catch (err) {
     console.log('Error downloading trait assets: ', err);
     process.exit(1);
   }
 }
 
+if (setNumber <= 0) {
+  console.log('Not given set number for the assets download.');
+  process.exit(1);
+}
 switch (downloadType) {
   case 'champions':
     if (championFilePath == '') {
@@ -154,11 +173,11 @@ switch (downloadType) {
     processChampionFile(championFilePath);
     break;
   case 'traits':
-    if (setNumber <= 0) {
-      console.log('Not given set number for the trait assets download.');
+    if (traitFilePath == '') {
+      console.log('Not given file path for the trait json.');
       process.exit(1);
     }
-    donwloadTraitAssets();
+    downloadTraitAssets(traitFilePath);
     break;
   default:
     console.log(`Unknown or missing asset download type: ${downloadType}`);

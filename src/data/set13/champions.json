@@ -1,0 +1,1207 @@
+[
+  {
+    "id": "tft13_akali",
+    "name": "Akali",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft13_rebel",
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
+      },
+      {
+        "id": "tft13_challenger",
+        "name": "Quickstriker",
+        "iconPath": "/assets/set13/traits/tft13_challenger.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_akali/tft13_akali_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_akali/tft13_akali_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_ambessa",
+    "name": "Ambessa",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft13_ambassador",
+        "name": "Emissary",
+        "iconPath": "/assets/set13/traits/tft13_ambassador.png"
+      },
+      {
+        "id": "tft13_warband",
+        "name": "Conqueror",
+        "iconPath": "/assets/set13/traits/tft13_warband.png"
+      },
+      {
+        "id": "tft13_challenger",
+        "name": "Quickstriker",
+        "iconPath": "/assets/set13/traits/tft13_challenger.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_ambessa/tft13_ambessa_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_ambessa/tft13_ambessa_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_amumu",
+    "name": "Amumu",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft13_hextech",
+        "name": "Automata",
+        "iconPath": "/assets/set13/traits/tft13_hextech.png"
+      },
+      {
+        "id": "tft13_watcher",
+        "name": "Watcher",
+        "iconPath": "/assets/set13/traits/tft13_watcher.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_amumu/tft13_amumu_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_amumu/tft13_amumu_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_blitzcrank",
+    "name": "Blitzcrank",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft13_hextech",
+        "name": "Automata",
+        "iconPath": "/assets/set13/traits/tft13_hextech.png"
+      },
+      {
+        "id": "tft13_infused",
+        "name": "Dominator",
+        "iconPath": "/assets/set13/traits/tft13_infused.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_blitzcrank/tft13_blitzcrank_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_blitzcrank/tft13_blitzcrank_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_caitlyn",
+    "name": "Caitlyn",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft13_squad",
+        "name": "Enforcer",
+        "iconPath": "/assets/set13/traits/tft13_squad.png"
+      },
+      {
+        "id": "tft13_sniper",
+        "name": "Sniper",
+        "iconPath": "/assets/set13/traits/tft13_sniper.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_caitlyn/tft13_caitlyn_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_caitlyn/tft13_caitlyn_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_camille",
+    "name": "Camille",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft13_squad",
+        "name": "Enforcer",
+        "iconPath": "/assets/set13/traits/tft13_squad.png"
+      },
+      {
+        "id": "tft13_ambusher",
+        "name": "Ambusher",
+        "iconPath": "/assets/set13/traits/tft13_ambusher.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_camille/tft13_camille_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_camille/tft13_camille_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_cassiopeia",
+    "name": "Cassiopeia",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft13_cabal",
+        "name": "Black Rose",
+        "iconPath": "/assets/set13/traits/tft13_cabal.png"
+      },
+      {
+        "id": "tft13_infused",
+        "name": "Dominator",
+        "iconPath": "/assets/set13/traits/tft13_infused.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_cassiopeia/tft13_cassiopeia_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_cassiopeia/tft13_cassiopeia_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_corki",
+    "name": "Corki",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft13_scrap",
+        "name": "Scrap",
+        "iconPath": "/assets/set13/traits/tft13_scrap.png"
+      },
+      {
+        "id": "tft13_martialist",
+        "name": "Artillerist",
+        "iconPath": "/assets/set13/traits/tft13_martialist.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_corki/tft13_corki_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_corki/tft13_corki_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_darius",
+    "name": "Darius",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft13_warband",
+        "name": "Conqueror",
+        "iconPath": "/assets/set13/traits/tft13_warband.png"
+      },
+      {
+        "id": "tft13_watcher",
+        "name": "Watcher",
+        "iconPath": "/assets/set13/traits/tft13_watcher.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_darius/tft13_darius_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_darius/tft13_darius_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_drmundo",
+    "name": "Dr. Mundo",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft13_experiment",
+        "name": "Experiment",
+        "iconPath": "/assets/set13/traits/tft13_experiment.png"
+      },
+      {
+        "id": "tft13_infused",
+        "name": "Dominator",
+        "iconPath": "/assets/set13/traits/tft13_infused.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_drmundo/tft13_drmundo_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_drmundo/tft13_drmundo_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_draven",
+    "name": "Draven",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft13_warband",
+        "name": "Conqueror",
+        "iconPath": "/assets/set13/traits/tft13_warband.png"
+      },
+      {
+        "id": "tft13_pugilist",
+        "name": "Pit Fighter",
+        "iconPath": "/assets/set13/traits/tft13_pugilist.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_draven/tft13_draven_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_draven/tft13_draven_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_ekko",
+    "name": "Ekko",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft13_hoverboard",
+        "name": "Firelight",
+        "iconPath": "/assets/set13/traits/tft13_hoverboard.png"
+      },
+      {
+        "id": "tft13_scrap",
+        "name": "Scrap",
+        "iconPath": "/assets/set13/traits/tft13_scrap.png"
+      },
+      {
+        "id": "tft13_ambusher",
+        "name": "Ambusher",
+        "iconPath": "/assets/set13/traits/tft13_ambusher.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_ekko/tft13_ekko_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_ekko/tft13_ekko_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_elise",
+    "name": "Elise",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft13_cabal",
+        "name": "Black Rose",
+        "iconPath": "/assets/set13/traits/tft13_cabal.png"
+      },
+      {
+        "id": "tft13_formswapper",
+        "name": "Form Swapper",
+        "iconPath": "/assets/set13/traits/tft13_formswapper.png"
+      },
+      {
+        "id": "tft13_bruiser",
+        "name": "Bruiser",
+        "iconPath": "/assets/set13/traits/tft13_bruiser.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_elise/tft13_elise_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_elise/tft13_elise_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_ezreal",
+    "name": "Ezreal",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft13_academy",
+        "name": "Academy",
+        "iconPath": "/assets/set13/traits/tft13_academy.png"
+      },
+      {
+        "id": "tft13_rebel",
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
+      },
+      {
+        "id": "tft13_martialist",
+        "name": "Artillerist",
+        "iconPath": "/assets/set13/traits/tft13_martialist.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_ezreal/tft13_ezreal_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_ezreal/tft13_ezreal_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_gangplank",
+    "name": "Gangplank",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft13_scrap",
+        "name": "Scrap",
+        "iconPath": "/assets/set13/traits/tft13_scrap.png"
+      },
+      {
+        "id": "tft13_formswapper",
+        "name": "Form Swapper",
+        "iconPath": "/assets/set13/traits/tft13_formswapper.png"
+      },
+      {
+        "id": "tft13_pugilist",
+        "name": "Pit Fighter",
+        "iconPath": "/assets/set13/traits/tft13_pugilist.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_gangplank/tft13_gangplank_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_gangplank/tft13_gangplank_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_garen",
+    "name": "Garen",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft13_ambassador",
+        "name": "Emissary",
+        "iconPath": "/assets/set13/traits/tft13_ambassador.png"
+      },
+      {
+        "id": "tft13_watcher",
+        "name": "Watcher",
+        "iconPath": "/assets/set13/traits/tft13_watcher.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_garen/tft13_garen_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_garen/tft13_garen_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_heimerdinger",
+    "name": "Heimerdinger",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft13_academy",
+        "name": "Academy",
+        "iconPath": "/assets/set13/traits/tft13_academy.png"
+      },
+      {
+        "id": "tft13_invoker",
+        "name": "Visionary",
+        "iconPath": "/assets/set13/traits/tft13_invoker.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_heimerdinger/tft13_heimerdinger_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_heimerdinger/tft13_heimerdinger_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_illaoi",
+    "name": "Illaoi",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft13_rebel",
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
+      },
+      {
+        "id": "tft13_titan",
+        "name": "Sentinel",
+        "iconPath": "/assets/set13/traits/tft13_titan.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_illaoi/tft13_illaoi_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_illaoi/tft13_illaoi_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_irelia",
+    "name": "Irelia",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft13_rebel",
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
+      },
+      {
+        "id": "tft13_titan",
+        "name": "Sentinel",
+        "iconPath": "/assets/set13/traits/tft13_titan.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_irelia/tft13_irelia_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_irelia/tft13_irelia_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_jayce",
+    "name": "Jayce",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft13_academy",
+        "name": "Academy",
+        "iconPath": "/assets/set13/traits/tft13_academy.png"
+      },
+      {
+        "id": "tft13_formswapper",
+        "name": "Form Swapper",
+        "iconPath": "/assets/set13/traits/tft13_formswapper.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_jayce/tft13_jayce_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_jayce/tft13_jayce_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_jinx",
+    "name": "Jinx",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft13_rebel",
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
+      },
+      {
+        "id": "tft13_ambusher",
+        "name": "Ambusher",
+        "iconPath": "/assets/set13/traits/tft13_ambusher.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_jinx/tft13_jinx_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_jinx/tft13_jinx_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_kogmaw",
+    "name": "Kog'Maw",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft13_hextech",
+        "name": "Automata",
+        "iconPath": "/assets/set13/traits/tft13_hextech.png"
+      },
+      {
+        "id": "tft13_sniper",
+        "name": "Sniper",
+        "iconPath": "/assets/set13/traits/tft13_sniper.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_kogmaw/tft13_kogmaw_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_kogmaw/tft13_kogmaw_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_leblanc",
+    "name": "LeBlanc",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft13_cabal",
+        "name": "Black Rose",
+        "iconPath": "/assets/set13/traits/tft13_cabal.png"
+      },
+      {
+        "id": "tft13_sorcerer",
+        "name": "Sorcerer",
+        "iconPath": "/assets/set13/traits/tft13_sorcerer.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_leblanc/tft13_leblanc_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_leblanc/tft13_leblanc_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_leona",
+    "name": "Leona",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft13_academy",
+        "name": "Academy",
+        "iconPath": "/assets/set13/traits/tft13_academy.png"
+      },
+      {
+        "id": "tft13_titan",
+        "name": "Sentinel",
+        "iconPath": "/assets/set13/traits/tft13_titan.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_leona/tft13_leona_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_leona/tft13_leona_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_beardy",
+    "name": "Loris",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft13_squad",
+        "name": "Enforcer",
+        "iconPath": "/assets/set13/traits/tft13_squad.png"
+      },
+      {
+        "id": "tft13_titan",
+        "name": "Sentinel",
+        "iconPath": "/assets/set13/traits/tft13_titan.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_beardy/tft13_beardy_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_beardy/tft13_beardy_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_lux",
+    "name": "Lux",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft13_academy",
+        "name": "Academy",
+        "iconPath": "/assets/set13/traits/tft13_academy.png"
+      },
+      {
+        "id": "tft13_sorcerer",
+        "name": "Sorcerer",
+        "iconPath": "/assets/set13/traits/tft13_sorcerer.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_lux/tft13_lux_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_lux/tft13_lux_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_shooter",
+    "name": "Maddie",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft13_squad",
+        "name": "Enforcer",
+        "iconPath": "/assets/set13/traits/tft13_squad.png"
+      },
+      {
+        "id": "tft13_sniper",
+        "name": "Sniper",
+        "iconPath": "/assets/set13/traits/tft13_sniper.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_shooter/tft13_shooter_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_shooter/tft13_shooter_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_malzahar",
+    "name": "Malzahar",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft13_hextech",
+        "name": "Automata",
+        "iconPath": "/assets/set13/traits/tft13_hextech.png"
+      },
+      {
+        "id": "tft13_invoker",
+        "name": "Visionary",
+        "iconPath": "/assets/set13/traits/tft13_invoker.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_malzahar/tft13_malzahar_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_malzahar/tft13_malzahar_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_mordekaiser",
+    "name": "Mordekaiser",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft13_warband",
+        "name": "Conqueror",
+        "iconPath": "/assets/set13/traits/tft13_warband.png"
+      },
+      {
+        "id": "tft13_infused",
+        "name": "Dominator",
+        "iconPath": "/assets/set13/traits/tft13_infused.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_mordekaiser/tft13_mordekaiser_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_mordekaiser/tft13_mordekaiser_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_morgana",
+    "name": "Morgana",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft13_cabal",
+        "name": "Black Rose",
+        "iconPath": "/assets/set13/traits/tft13_cabal.png"
+      },
+      {
+        "id": "tft13_invoker",
+        "name": "Visionary",
+        "iconPath": "/assets/set13/traits/tft13_invoker.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_morgana/tft13_morgana_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_morgana/tft13_morgana_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_nami",
+    "name": "Nami",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft13_ambassador",
+        "name": "Emissary",
+        "iconPath": "/assets/set13/traits/tft13_ambassador.png"
+      },
+      {
+        "id": "tft13_sorcerer",
+        "name": "Sorcerer",
+        "iconPath": "/assets/set13/traits/tft13_sorcerer.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_nami/tft13_nami_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_nami/tft13_nami_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_nocturne",
+    "name": "Nocturne",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft13_hextech",
+        "name": "Automata",
+        "iconPath": "/assets/set13/traits/tft13_hextech.png"
+      },
+      {
+        "id": "tft13_challenger",
+        "name": "Quickstriker",
+        "iconPath": "/assets/set13/traits/tft13_challenger.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_nocturne/tft13_nocturne_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_nocturne/tft13_nocturne_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_nunuwillump",
+    "name": "Nunu & Willump",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft13_experiment",
+        "name": "Experiment",
+        "iconPath": "/assets/set13/traits/tft13_experiment.png"
+      },
+      {
+        "id": "tft13_bruiser",
+        "name": "Bruiser",
+        "iconPath": "/assets/set13/traits/tft13_bruiser.png"
+      },
+      {
+        "id": "tft13_invoker",
+        "name": "Visionary",
+        "iconPath": "/assets/set13/traits/tft13_invoker.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_nunuwillump/tft13_nunuwillump_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_nunuwillump/tft13_nunuwillump_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_blue",
+    "name": "Powder",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft13_family",
+        "name": "Family",
+        "iconPath": "/assets/set13/traits/tft13_family.png"
+      },
+      {
+        "id": "tft13_scrap",
+        "name": "Scrap",
+        "iconPath": "/assets/set13/traits/tft13_scrap.png"
+      },
+      {
+        "id": "tft13_ambusher",
+        "name": "Ambusher",
+        "iconPath": "/assets/set13/traits/tft13_ambusher.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_blue/tft13_blue_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_blue/tft13_blue_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_rell",
+    "name": "Rell",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft13_warband",
+        "name": "Conqueror",
+        "iconPath": "/assets/set13/traits/tft13_warband.png"
+      },
+      {
+        "id": "tft13_titan",
+        "name": "Sentinel",
+        "iconPath": "/assets/set13/traits/tft13_titan.png"
+      },
+      {
+        "id": "tft13_invoker",
+        "name": "Visionary",
+        "iconPath": "/assets/set13/traits/tft13_invoker.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_rell/tft13_rell_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_rell/tft13_rell_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_renataglasc",
+    "name": "Renata Glasc",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft13_crime",
+        "name": "Chem-Baron",
+        "iconPath": "/assets/set13/traits/tft13_crime.png"
+      },
+      {
+        "id": "tft13_invoker",
+        "name": "Visionary",
+        "iconPath": "/assets/set13/traits/tft13_invoker.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_renataglasc/tft13_renataglasc_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_renataglasc/tft13_renataglasc_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_chainsaw",
+    "name": "Renni",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft13_crime",
+        "name": "Chem-Baron",
+        "iconPath": "/assets/set13/traits/tft13_crime.png"
+      },
+      {
+        "id": "tft13_bruiser",
+        "name": "Bruiser",
+        "iconPath": "/assets/set13/traits/tft13_bruiser.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_chainsaw/tft13_chainsaw_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_chainsaw/tft13_chainsaw_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_rumble",
+    "name": "Rumble",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft13_junkerking",
+        "name": "Junker King",
+        "iconPath": "/assets/set13/traits/tft13_junkerking.png"
+      },
+      {
+        "id": "tft13_scrap",
+        "name": "Scrap",
+        "iconPath": "/assets/set13/traits/tft13_scrap.png"
+      },
+      {
+        "id": "tft13_titan",
+        "name": "Sentinel",
+        "iconPath": "/assets/set13/traits/tft13_titan.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_rumble/tft13_rumble_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_rumble/tft13_rumble_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_flyguy",
+    "name": "Scar",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft13_hoverboard",
+        "name": "Firelight",
+        "iconPath": "/assets/set13/traits/tft13_hoverboard.png"
+      },
+      {
+        "id": "tft13_watcher",
+        "name": "Watcher",
+        "iconPath": "/assets/set13/traits/tft13_watcher.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_flyguy/tft13_flyguy_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_flyguy/tft13_flyguy_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_sett",
+    "name": "Sett",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft13_rebel",
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
+      },
+      {
+        "id": "tft13_bruiser",
+        "name": "Bruiser",
+        "iconPath": "/assets/set13/traits/tft13_bruiser.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_sett/tft13_sett_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_sett/tft13_sett_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_lieutenant",
+    "name": "Sevika",
+    "tier": 5,
+    "traits": [
+      {
+        "id": "tft13_highroller",
+        "name": "High Roller",
+        "iconPath": "/assets/set13/traits/tft13_highroller.png"
+      },
+      {
+        "id": "tft13_crime",
+        "name": "Chem-Baron",
+        "iconPath": "/assets/set13/traits/tft13_crime.png"
+      },
+      {
+        "id": "tft13_pugilist",
+        "name": "Pit Fighter",
+        "iconPath": "/assets/set13/traits/tft13_pugilist.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_lieutenant/tft13_lieutenant_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_lieutenant/tft13_lieutenant_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_silco",
+    "name": "Silco",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft13_crime",
+        "name": "Chem-Baron",
+        "iconPath": "/assets/set13/traits/tft13_crime.png"
+      },
+      {
+        "id": "tft13_infused",
+        "name": "Dominator",
+        "iconPath": "/assets/set13/traits/tft13_infused.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_silco/tft13_silco_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_silco/tft13_silco_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_singed",
+    "name": "Singed",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft13_crime",
+        "name": "Chem-Baron",
+        "iconPath": "/assets/set13/traits/tft13_crime.png"
+      },
+      {
+        "id": "tft13_titan",
+        "name": "Sentinel",
+        "iconPath": "/assets/set13/traits/tft13_titan.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_singed/tft13_singed_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_singed/tft13_singed_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_gremlin",
+    "name": "Smeech",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft13_crime",
+        "name": "Chem-Baron",
+        "iconPath": "/assets/set13/traits/tft13_crime.png"
+      },
+      {
+        "id": "tft13_ambusher",
+        "name": "Ambusher",
+        "iconPath": "/assets/set13/traits/tft13_ambusher.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_gremlin/tft13_gremlin_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_gremlin/tft13_gremlin_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_fish",
+    "name": "Steb",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft13_squad",
+        "name": "Enforcer",
+        "iconPath": "/assets/set13/traits/tft13_squad.png"
+      },
+      {
+        "id": "tft13_bruiser",
+        "name": "Bruiser",
+        "iconPath": "/assets/set13/traits/tft13_bruiser.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_fish/tft13_fish_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_fish/tft13_fish_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_swain",
+    "name": "Swain",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft13_warband",
+        "name": "Conqueror",
+        "iconPath": "/assets/set13/traits/tft13_warband.png"
+      },
+      {
+        "id": "tft13_formswapper",
+        "name": "Form Swapper",
+        "iconPath": "/assets/set13/traits/tft13_formswapper.png"
+      },
+      {
+        "id": "tft13_sorcerer",
+        "name": "Sorcerer",
+        "iconPath": "/assets/set13/traits/tft13_sorcerer.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_swain/tft13_swain_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_swain/tft13_swain_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_tristana",
+    "name": "Tristana",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft13_ambassador",
+        "name": "Emissary",
+        "iconPath": "/assets/set13/traits/tft13_ambassador.png"
+      },
+      {
+        "id": "tft13_martialist",
+        "name": "Artillerist",
+        "iconPath": "/assets/set13/traits/tft13_martialist.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_tristana/tft13_tristana_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_tristana/tft13_tristana_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_trundle",
+    "name": "Trundle",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft13_scrap",
+        "name": "Scrap",
+        "iconPath": "/assets/set13/traits/tft13_scrap.png"
+      },
+      {
+        "id": "tft13_bruiser",
+        "name": "Bruiser",
+        "iconPath": "/assets/set13/traits/tft13_bruiser.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_trundle/tft13_trundle_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_trundle/tft13_trundle_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_twistedfate",
+    "name": "Twisted Fate",
+    "tier": 3,
+    "traits": [
+      {
+        "id": "tft13_squad",
+        "name": "Enforcer",
+        "iconPath": "/assets/set13/traits/tft13_squad.png"
+      },
+      {
+        "id": "tft13_challenger",
+        "name": "Quickstriker",
+        "iconPath": "/assets/set13/traits/tft13_challenger.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_twistedfate/tft13_twistedfate_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_twistedfate/tft13_twistedfate_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_twitch",
+    "name": "Twitch",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft13_experiment",
+        "name": "Experiment",
+        "iconPath": "/assets/set13/traits/tft13_experiment.png"
+      },
+      {
+        "id": "tft13_sniper",
+        "name": "Sniper",
+        "iconPath": "/assets/set13/traits/tft13_sniper.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_twitch/tft13_twitch_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_twitch/tft13_twitch__mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_urgot",
+    "name": "Urgot",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft13_experiment",
+        "name": "Experiment",
+        "iconPath": "/assets/set13/traits/tft13_experiment.png"
+      },
+      {
+        "id": "tft13_pugilist",
+        "name": "Pit Fighter",
+        "iconPath": "/assets/set13/traits/tft13_pugilist.png"
+      },
+      {
+        "id": "tft13_martialist",
+        "name": "Artillerist",
+        "iconPath": "/assets/set13/traits/tft13_martialist.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_urgot/tft13_urgot_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_urgot/tft13_urgot_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_prime",
+    "name": "Vander",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft13_family",
+        "name": "Family",
+        "iconPath": "/assets/set13/traits/tft13_family.png"
+      },
+      {
+        "id": "tft13_watcher",
+        "name": "Watcher",
+        "iconPath": "/assets/set13/traits/tft13_watcher.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_prime/tft13_prime_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_prime/tft13_prime_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_vex",
+    "name": "Vex",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft13_rebel",
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
+      },
+      {
+        "id": "tft13_invoker",
+        "name": "Visionary",
+        "iconPath": "/assets/set13/traits/tft13_invoker.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_vex/tft13_vex_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_vex/tft13_vex_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_vi",
+    "name": "Vi",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft13_squad",
+        "name": "Enforcer",
+        "iconPath": "/assets/set13/traits/tft13_squad.png"
+      },
+      {
+        "id": "tft13_pugilist",
+        "name": "Pit Fighter",
+        "iconPath": "/assets/set13/traits/tft13_pugilist.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_vi/tft13_vi_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_vi/tft13_vi_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_red",
+    "name": "Violet",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft13_family",
+        "name": "Family",
+        "iconPath": "/assets/set13/traits/tft13_family.png"
+      },
+      {
+        "id": "tft13_pugilist",
+        "name": "Pit Fighter",
+        "iconPath": "/assets/set13/traits/tft13_pugilist.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_red/tft13_red_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_red/tft13_red_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_vladimir",
+    "name": "Vladimir",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft13_cabal",
+        "name": "Black Rose",
+        "iconPath": "/assets/set13/traits/tft13_cabal.png"
+      },
+      {
+        "id": "tft13_watcher",
+        "name": "Watcher",
+        "iconPath": "/assets/set13/traits/tft13_watcher.png"
+      },
+      {
+        "id": "tft13_sorcerer",
+        "name": "Sorcerer",
+        "iconPath": "/assets/set13/traits/tft13_sorcerer.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_vladimir/tft13_vladimir_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_vladimir/tft13_vladimir_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_zeri",
+    "name": "Zeri",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft13_hoverboard",
+        "name": "Firelight",
+        "iconPath": "/assets/set13/traits/tft13_hoverboard.png"
+      },
+      {
+        "id": "tft13_sniper",
+        "name": "Sniper",
+        "iconPath": "/assets/set13/traits/tft13_sniper.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_zeri/tft13_zeri_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_zeri/tft13_zeri_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_ziggs",
+    "name": "Ziggs",
+    "tier": 2,
+    "traits": [
+      {
+        "id": "tft13_scrap",
+        "name": "Scrap",
+        "iconPath": "/assets/set13/traits/tft13_scrap.png"
+      },
+      {
+        "id": "tft13_infused",
+        "name": "Dominator",
+        "iconPath": "/assets/set13/traits/tft13_infused.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_ziggs/tft13_ziggs_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_ziggs/tft13_ziggs_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_zoe",
+    "name": "Zoe",
+    "tier": 4,
+    "traits": [
+      {
+        "id": "tft13_rebel",
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
+      },
+      {
+        "id": "tft13_sorcerer",
+        "name": "Sorcerer",
+        "iconPath": "/assets/set13/traits/tft13_sorcerer.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_zoe/tft13_zoe_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_zoe/tft13_zoe_mobile.tft_set13.png"
+  },
+  {
+    "id": "tft13_zyra",
+    "name": "Zyra",
+    "tier": 1,
+    "traits": [
+      {
+        "id": "tft13_experiment",
+        "name": "Experiment",
+        "iconPath": "/assets/set13/traits/tft13_experiment.png"
+      },
+      {
+        "id": "tft13_sorcerer",
+        "name": "Sorcerer",
+        "iconPath": "/assets/set13/traits/tft13_sorcerer.png"
+      }
+    ],
+    "iconPath": "/assets/set13/champions/tft13_zyra/tft13_zyra_square.tft_set13.png",
+    "splashPath": "/assets/set13/champions/tft13_zyra/tft13_zyra_mobile.tft_set13.png"
+  }
+]

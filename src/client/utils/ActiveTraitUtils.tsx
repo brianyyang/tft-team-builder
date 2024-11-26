@@ -1,7 +1,8 @@
 import { ActiveTrait } from '@/types/gameplay/trait';
-import traits from '@/data/traits.json';
 
-export const setTraitsMap: () => Map<string, ActiveTrait> = () => {
+export const createTraitsMap = (
+  traits: ActiveTrait[]
+): Map<string, ActiveTrait> => {
   const traitsMap = new Map<string, ActiveTrait>();
   traits.map((trait) =>
     traitsMap.set(
@@ -9,6 +10,7 @@ export const setTraitsMap: () => Map<string, ActiveTrait> = () => {
       new ActiveTrait(
         trait.id,
         trait.name,
+        trait.iconPath,
         trait.activeCount,
         trait.breakpoints
       )

@@ -2,6 +2,7 @@
   {
     "id": "tft12_arcana",
     "name": "Arcana",
+    "iconPath": "/assets/set12/traits/tft12_arcana.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -25,6 +26,7 @@
   {
     "id": "tft12_ascendant",
     "name": "Ascendant",
+    "iconPath": "/assets/set12/traits/tft12_ascendant.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -36,6 +38,7 @@
   {
     "id": "tft12_bastion",
     "name": "Bastion",
+    "iconPath": "/assets/set12/traits/tft12_bastion.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -59,6 +62,19 @@
   {
     "id": "tft12_batqueen",
     "name": "Bat Queen",
+    "iconPath": "/assets/set12/traits/tft12_batqueen.png",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 1,
+        "color": "unique"
+      }
+    ]
+  },
+  {
+    "id": "tft12_explorer",
+    "name": "Best Friends",
+    "iconPath": "/assets/set12/traits/tft12_explorer.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -70,6 +86,7 @@
   {
     "id": "tft12_blaster",
     "name": "Blaster",
+    "iconPath": "/assets/set12/traits/tft12_blaster.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -89,6 +106,7 @@
   {
     "id": "tft12_chrono",
     "name": "Chrono",
+    "iconPath": "/assets/set12/traits/tft12_chrono.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -108,6 +126,7 @@
   {
     "id": "tft12_dragon",
     "name": "Dragon",
+    "iconPath": "/assets/set12/traits/tft12_dragon.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -123,6 +142,7 @@
   {
     "id": "tft12_druid",
     "name": "Druid",
+    "iconPath": "/assets/set12/traits/tft12_druid.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -134,6 +154,7 @@
   {
     "id": "tft12_eldritch",
     "name": "Eldritch",
+    "iconPath": "/assets/set12/traits/tft12_eldritch.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -155,31 +176,21 @@
     ]
   },
   {
-    "id": "tft12_explorer",
-    "name": "Best Friends",
-    "activeCount": 0,
-    "breakpoints": [
-      {
-        "championsRequired": 1,
-        "color": "unique"
-      }
-    ]
-  },
-  {
     "id": "tft12_faerie",
     "name": "Faerie",
+    "iconPath": "/assets/set12/traits/tft12_faerie.png",
     "activeCount": 0,
     "breakpoints": [
       {
-        "championsRequired": 2,
+        "championsRequired": 3,
         "color": "bronze"
       },
       {
-        "championsRequired": 4,
+        "championsRequired": 5,
         "color": "silver"
       },
       {
-        "championsRequired": 6,
+        "championsRequired": 7,
         "color": "gold"
       },
       {
@@ -191,6 +202,7 @@
   {
     "id": "tft12_frost",
     "name": "Frost",
+    "iconPath": "/assets/set12/traits/tft12_frost.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -214,6 +226,7 @@
   {
     "id": "tft12_honeymancy",
     "name": "Honeymancy",
+    "iconPath": "/assets/set12/traits/tft12_honeymancy.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -233,6 +246,7 @@
   {
     "id": "tft12_hunter",
     "name": "Hunter",
+    "iconPath": "/assets/set12/traits/tft12_hunter.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -252,6 +266,7 @@
   {
     "id": "tft12_incantor",
     "name": "Incantor",
+    "iconPath": "/assets/set12/traits/tft12_incantor.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -267,6 +282,7 @@
   {
     "id": "tft12_mage",
     "name": "Mage",
+    "iconPath": "/assets/set12/traits/tft12_mage.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -282,14 +298,15 @@
         "color": "gold"
       },
       {
-        "championsRequired": 9,
-        "color": "gold"
+        "championsRequired": 10,
+        "color": "chromatic"
       }
     ]
   },
   {
     "id": "tft12_multistriker",
     "name": "Multistriker",
+    "iconPath": "/assets/set12/traits/tft12_multistriker.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -313,6 +330,7 @@
   {
     "id": "tft12_portal",
     "name": "Portal",
+    "iconPath": "/assets/set12/traits/tft12_portal.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -336,6 +354,7 @@
   {
     "id": "tft12_preserver",
     "name": "Preserver",
+    "iconPath": "/assets/set12/traits/tft12_preserver.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -359,6 +378,7 @@
   {
     "id": "tft12_pyro",
     "name": "Pyro",
+    "iconPath": "/assets/set12/traits/tft12_pyro.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -382,6 +402,19 @@
   {
     "id": "tft12_ravenous",
     "name": "Ravenous",
+    "iconPath": "/assets/set12/traits/tft12_ravenous.png",
+    "activeCount": 0,
+    "breakpoints": [
+      {
+        "championsRequired": 1,
+        "color": "unique"
+      }
+    ]
+  },
+  {
+    "id": "tft12_relic",
+    "name": "Relic",
+    "iconPath": "/assets/set12/traits/tft12_relic.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -393,6 +426,7 @@
   {
     "id": "tft12_scholar",
     "name": "Scholar",
+    "iconPath": "/assets/set12/traits/tft12_scholar.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -412,6 +446,7 @@
   {
     "id": "tft12_shapeshifter",
     "name": "Shapeshifter",
+    "iconPath": "/assets/set12/traits/tft12_shapeshifter.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -429,12 +464,17 @@
       {
         "championsRequired": 8,
         "color": "gold"
+      },
+      {
+        "championsRequired": 10,
+        "color": "chromatic"
       }
     ]
   },
   {
     "id": "tft12_sugarcraft",
     "name": "Sugarcraft",
+    "iconPath": "/assets/set12/traits/tft12_sugarcraft.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -448,12 +488,17 @@
       {
         "championsRequired": 6,
         "color": "gold"
+      },
+      {
+        "championsRequired": 8,
+        "color": "chromatic"
       }
     ]
   },
   {
     "id": "tft12_vanguard",
     "name": "Vanguard",
+    "iconPath": "/assets/set12/traits/tft12_vanguard.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -473,6 +518,7 @@
   {
     "id": "tft12_warrior",
     "name": "Warrior",
+    "iconPath": "/assets/set12/traits/tft12_warrior.png",
     "activeCount": 0,
     "breakpoints": [
       {
@@ -492,6 +538,7 @@
   {
     "id": "tft12_witchcraft",
     "name": "Witchcraft",
+    "iconPath": "/assets/set12/traits/tft12_witchcraft.png",
     "activeCount": 0,
     "breakpoints": [
       {
