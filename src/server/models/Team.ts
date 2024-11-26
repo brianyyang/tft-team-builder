@@ -4,12 +4,14 @@ export interface ITeam extends Document {
   name: string;
   championIds: string[];
   user: Types.ObjectId;
+  setNumber: number;
 }
 
 const TeamSchema = new Schema({
   name: { type: String, required: true },
   championIds: [{ type: String, required: true }],
   user: { type: Schema.Types.ObjectId, ref: 'User', required: true },
+  setNumber: { type: Number, required: true },
 });
 
 // compound index on 'name' and 'user' to enforce unique team names for each user

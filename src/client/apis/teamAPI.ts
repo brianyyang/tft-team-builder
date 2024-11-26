@@ -9,6 +9,7 @@ export const createTeam = async (team: Team, username: string) => {
     teamName: team.name,
     championIds: team.champions.map((champion) => champion.id),
     username: username,
+    setNumber: team.setNumber,
   };
   try {
     const response = await axios.post(API_URL, teamData);
@@ -44,10 +45,15 @@ export const getTeamById = async (teamId: string) => {
   }
 };
 
-// retrieve all teams for given user
-export const getTeamsByUsername = async (username: string) => {
+// retrieve all teams for given user and a set number
+export const getTeamsByUsername = async (
+  username: string,
+  setNumber: number
+) => {
   try {
-    const response = await axios.get(`${API_URL}?username=${username}`);
+    const response = await axios.get(
+      `${API_URL}?username=${username}&setNumber=${setNumber}`
+    );
     return response.data;
   } catch (error: any) {
     throw new Error(

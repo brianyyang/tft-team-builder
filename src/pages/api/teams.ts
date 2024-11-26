@@ -20,10 +20,13 @@ export default async function handler(
     case 'GET':
       const { query } = req;
 
-      if (query.username) {
+      if (query.username && query.setNumber) {
         // fetch all teams for a given user by username
         try {
-          const teams = await Team.find({ user: query.username });
+          const teams = await Team.find({
+            user: query.username,
+            setNumber: query.setNumber,
+          });
           return res.status(200).json({ teams });
         } catch (error) {
           console.error('Error fetching teams by username:', error);
@@ -43,15 +46,16 @@ export default async function handler(
         }
       } else {
         // if no valid query parameters are provided, return an error
-        return res
-          .status(400)
-          .json({ message: 'Bad Request: Provide either username or teamId' });
+        return res.status(400).json({
+          message:
+            'Bad Request: Provide either username + set number or teamId',
+        });
       }
 
     case 'POST': // create new team for user
-      const { teamName, championIds, username } = req.body;
+      const { teamName, championIds, username, setNumber } = req.body;
 
-      if (!teamName || !username || !Array.isArray(championIds)) {
+      if (!teamName || !username || !Array.isArray(championIds) || !setNumber) {
         return res.status(400).json({ message: 'Missing required fields' });
       }
 
@@ -63,7 +67,12 @@ export default async function handler(
           await user.save();
         }
 
-        const team = new Team({ name: teamName, championIds, user: user });
+        const team = new Team({
+          name: teamName,
+          championIds,
+          user: user,
+          setNumber: setNumber,
+        });
         const savedTeam = await team.save();
 
         return res

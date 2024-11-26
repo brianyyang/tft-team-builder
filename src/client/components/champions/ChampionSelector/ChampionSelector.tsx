@@ -1,13 +1,12 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { CiEdit, CiFloppyDisk, CiShuffle, CiTrash } from 'react-icons/ci';
 import { IoCheckmarkOutline } from 'react-icons/io5';
 import {
   Box,
   Button,
   Group,
-  Loader,
   MantineStyleProp,
   Modal,
   TextInput,
@@ -28,7 +27,7 @@ import { randomChampions } from '@/client/utils/ChampionUtils';
 import { useChampionDataset } from '@/client/contexts/ChampionDatasetContext';
 
 const ChampionSelector: React.FC = () => {
-  const { championDataset, tierMap } = useChampionDataset();
+  const { championDataset, tierMap, setNumber } = useChampionDataset();
   const { selectedChampions, setSelectedTeam } = useSelectedTeam();
   const { username } = useUser();
   const [teamId, setTeamId] = useState<string>('');
@@ -89,7 +88,7 @@ const ChampionSelector: React.FC = () => {
   const handlePostTeam = async () => {
     try {
       const response = await createTeam(
-        new Team(teamName, selectedChampions),
+        new Team(teamName, selectedChampions, setNumber),
         username
       );
       setTeamId(response.team._id);
@@ -102,7 +101,7 @@ const ChampionSelector: React.FC = () => {
   const handlePatchTeam = async () => {
     try {
       const response = await updateTeam(
-        new Team(teamName, selectedChampions, teamId),
+        new Team(teamName, selectedChampions, setNumber, teamId),
         username
       );
       console.log(response.message);
@@ -202,8 +201,8 @@ const ChampionSelector: React.FC = () => {
           </Box>
           <SelectedTeamGroup
             key={'selected_champions'}
-            imageWidth={192}
-            imageHeight={192}
+            imageWidth={170}
+            imageHeight={170}
           />
           <ActiveTraitGroup />
         </Box>
