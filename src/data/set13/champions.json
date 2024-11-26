@@ -6,11 +6,13 @@
     "traits": [
       {
         "id": "tft13_rebel",
-        "name": "Rebel"
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
       },
       {
         "id": "tft13_challenger",
-        "name": "Quickstriker"
+        "name": "Quickstriker",
+        "iconPath": "/assets/set13/traits/tft13_challenger.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_akali/tft13_akali_square.tft_set13.png",
@@ -23,15 +25,18 @@
     "traits": [
       {
         "id": "tft13_ambassador",
-        "name": "Emissary"
+        "name": "Emissary",
+        "iconPath": "/assets/set13/traits/tft13_ambassador.png"
       },
       {
         "id": "tft13_warband",
-        "name": "Conqueror"
+        "name": "Conqueror",
+        "iconPath": "/assets/set13/traits/tft13_warband.png"
       },
       {
         "id": "tft13_challenger",
-        "name": "Quickstriker"
+        "name": "Quickstriker",
+        "iconPath": "/assets/set13/traits/tft13_challenger.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_ambessa/tft13_ambessa_square.tft_set13.png",
@@ -44,11 +49,13 @@
     "traits": [
       {
         "id": "tft13_hextech",
-        "name": "Automata"
+        "name": "Automata",
+        "iconPath": "/assets/set13/traits/tft13_hextech.png"
       },
       {
         "id": "tft13_watcher",
-        "name": "Watcher"
+        "name": "Watcher",
+        "iconPath": "/assets/set13/traits/tft13_watcher.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_amumu/tft13_amumu_square.tft_set13.png",
@@ -61,11 +68,13 @@
     "traits": [
       {
         "id": "tft13_hextech",
-        "name": "Automata"
+        "name": "Automata",
+        "iconPath": "/assets/set13/traits/tft13_hextech.png"
       },
       {
         "id": "tft13_infused",
-        "name": "Dominator"
+        "name": "Dominator",
+        "iconPath": "/assets/set13/traits/tft13_infused.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_blitzcrank/tft13_blitzcrank_square.tft_set13.png",
@@ -78,11 +87,13 @@
     "traits": [
       {
         "id": "tft13_squad",
-        "name": "Enforcer"
+        "name": "Enforcer",
+        "iconPath": "/assets/set13/traits/tft13_squad.png"
       },
       {
         "id": "tft13_sniper",
-        "name": "Sniper"
+        "name": "Sniper",
+        "iconPath": "/assets/set13/traits/tft13_sniper.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_caitlyn/tft13_caitlyn_square.tft_set13.png",
@@ -95,11 +106,13 @@
     "traits": [
       {
         "id": "tft13_squad",
-        "name": "Enforcer"
+        "name": "Enforcer",
+        "iconPath": "/assets/set13/traits/tft13_squad.png"
       },
       {
         "id": "tft13_ambusher",
-        "name": "Ambusher"
+        "name": "Ambusher",
+        "iconPath": "/assets/set13/traits/tft13_ambusher.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_camille/tft13_camille_square.tft_set13.png",
@@ -112,11 +125,13 @@
     "traits": [
       {
         "id": "tft13_cabal",
-        "name": "Black Rose"
+        "name": "Black Rose",
+        "iconPath": "/assets/set13/traits/tft13_cabal.png"
       },
       {
         "id": "tft13_infused",
-        "name": "Dominator"
+        "name": "Dominator",
+        "iconPath": "/assets/set13/traits/tft13_infused.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_cassiopeia/tft13_cassiopeia_square.tft_set13.png",
@@ -129,11 +144,13 @@
     "traits": [
       {
         "id": "tft13_scrap",
-        "name": "Scrap"
+        "name": "Scrap",
+        "iconPath": "/assets/set13/traits/tft13_scrap.png"
       },
       {
         "id": "tft13_martialist",
-        "name": "Artillerist"
+        "name": "Artillerist",
+        "iconPath": "/assets/set13/traits/tft13_martialist.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_corki/tft13_corki_square.tft_set13.png",
@@ -146,11 +163,13 @@
     "traits": [
       {
         "id": "tft13_warband",
-        "name": "Conqueror"
+        "name": "Conqueror",
+        "iconPath": "/assets/set13/traits/tft13_warband.png"
       },
       {
         "id": "tft13_watcher",
-        "name": "Watcher"
+        "name": "Watcher",
+        "iconPath": "/assets/set13/traits/tft13_watcher.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_darius/tft13_darius_square.tft_set13.png",
@@ -163,11 +182,13 @@
     "traits": [
       {
         "id": "tft13_experiment",
-        "name": "Experiment"
+        "name": "Experiment",
+        "iconPath": "/assets/set13/traits/tft13_experiment.png"
       },
       {
         "id": "tft13_infused",
-        "name": "Dominator"
+        "name": "Dominator",
+        "iconPath": "/assets/set13/traits/tft13_infused.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_drmundo/tft13_drmundo_square.tft_set13.png",
@@ -180,11 +201,13 @@
     "traits": [
       {
         "id": "tft13_warband",
-        "name": "Conqueror"
+        "name": "Conqueror",
+        "iconPath": "/assets/set13/traits/tft13_warband.png"
       },
       {
         "id": "tft13_pugilist",
-        "name": "Pit Fighter"
+        "name": "Pit Fighter",
+        "iconPath": "/assets/set13/traits/tft13_pugilist.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_draven/tft13_draven_square.tft_set13.png",
@@ -197,15 +220,18 @@
     "traits": [
       {
         "id": "tft13_hoverboard",
-        "name": "Firelight"
+        "name": "Firelight",
+        "iconPath": "/assets/set13/traits/tft13_hoverboard.png"
       },
       {
         "id": "tft13_scrap",
-        "name": "Scrap"
+        "name": "Scrap",
+        "iconPath": "/assets/set13/traits/tft13_scrap.png"
       },
       {
         "id": "tft13_ambusher",
-        "name": "Ambusher"
+        "name": "Ambusher",
+        "iconPath": "/assets/set13/traits/tft13_ambusher.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_ekko/tft13_ekko_square.tft_set13.png",
@@ -218,15 +244,18 @@
     "traits": [
       {
         "id": "tft13_cabal",
-        "name": "Black Rose"
+        "name": "Black Rose",
+        "iconPath": "/assets/set13/traits/tft13_cabal.png"
       },
       {
         "id": "tft13_formswapper",
-        "name": "Form Swapper"
+        "name": "Form Swapper",
+        "iconPath": "/assets/set13/traits/tft13_formswapper.png"
       },
       {
         "id": "tft13_bruiser",
-        "name": "Bruiser"
+        "name": "Bruiser",
+        "iconPath": "/assets/set13/traits/tft13_bruiser.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_elise/tft13_elise_square.tft_set13.png",
@@ -239,15 +268,18 @@
     "traits": [
       {
         "id": "tft13_academy",
-        "name": "Academy"
+        "name": "Academy",
+        "iconPath": "/assets/set13/traits/tft13_academy.png"
       },
       {
         "id": "tft13_rebel",
-        "name": "Rebel"
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
       },
       {
         "id": "tft13_martialist",
-        "name": "Artillerist"
+        "name": "Artillerist",
+        "iconPath": "/assets/set13/traits/tft13_martialist.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_ezreal/tft13_ezreal_square.tft_set13.png",
@@ -260,15 +292,18 @@
     "traits": [
       {
         "id": "tft13_scrap",
-        "name": "Scrap"
+        "name": "Scrap",
+        "iconPath": "/assets/set13/traits/tft13_scrap.png"
       },
       {
         "id": "tft13_formswapper",
-        "name": "Form Swapper"
+        "name": "Form Swapper",
+        "iconPath": "/assets/set13/traits/tft13_formswapper.png"
       },
       {
         "id": "tft13_pugilist",
-        "name": "Pit Fighter"
+        "name": "Pit Fighter",
+        "iconPath": "/assets/set13/traits/tft13_pugilist.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_gangplank/tft13_gangplank_square.tft_set13.png",
@@ -281,11 +316,13 @@
     "traits": [
       {
         "id": "tft13_ambassador",
-        "name": "Emissary"
+        "name": "Emissary",
+        "iconPath": "/assets/set13/traits/tft13_ambassador.png"
       },
       {
         "id": "tft13_watcher",
-        "name": "Watcher"
+        "name": "Watcher",
+        "iconPath": "/assets/set13/traits/tft13_watcher.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_garen/tft13_garen_square.tft_set13.png",
@@ -298,11 +335,13 @@
     "traits": [
       {
         "id": "tft13_academy",
-        "name": "Academy"
+        "name": "Academy",
+        "iconPath": "/assets/set13/traits/tft13_academy.png"
       },
       {
         "id": "tft13_invoker",
-        "name": "Visionary"
+        "name": "Visionary",
+        "iconPath": "/assets/set13/traits/tft13_invoker.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_heimerdinger/tft13_heimerdinger_square.tft_set13.png",
@@ -315,11 +354,13 @@
     "traits": [
       {
         "id": "tft13_rebel",
-        "name": "Rebel"
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
       },
       {
         "id": "tft13_titan",
-        "name": "Sentinel"
+        "name": "Sentinel",
+        "iconPath": "/assets/set13/traits/tft13_titan.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_illaoi/tft13_illaoi_square.tft_set13.png",
@@ -332,11 +373,13 @@
     "traits": [
       {
         "id": "tft13_rebel",
-        "name": "Rebel"
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
       },
       {
         "id": "tft13_titan",
-        "name": "Sentinel"
+        "name": "Sentinel",
+        "iconPath": "/assets/set13/traits/tft13_titan.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_irelia/tft13_irelia_square.tft_set13.png",
@@ -349,11 +392,13 @@
     "traits": [
       {
         "id": "tft13_academy",
-        "name": "Academy"
+        "name": "Academy",
+        "iconPath": "/assets/set13/traits/tft13_academy.png"
       },
       {
         "id": "tft13_formswapper",
-        "name": "Form Swapper"
+        "name": "Form Swapper",
+        "iconPath": "/assets/set13/traits/tft13_formswapper.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_jayce/tft13_jayce_square.tft_set13.png",
@@ -366,11 +411,13 @@
     "traits": [
       {
         "id": "tft13_rebel",
-        "name": "Rebel"
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
       },
       {
         "id": "tft13_ambusher",
-        "name": "Ambusher"
+        "name": "Ambusher",
+        "iconPath": "/assets/set13/traits/tft13_ambusher.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_jinx/tft13_jinx_square.tft_set13.png",
@@ -383,11 +430,13 @@
     "traits": [
       {
         "id": "tft13_hextech",
-        "name": "Automata"
+        "name": "Automata",
+        "iconPath": "/assets/set13/traits/tft13_hextech.png"
       },
       {
         "id": "tft13_sniper",
-        "name": "Sniper"
+        "name": "Sniper",
+        "iconPath": "/assets/set13/traits/tft13_sniper.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_kogmaw/tft13_kogmaw_square.tft_set13.png",
@@ -400,11 +449,13 @@
     "traits": [
       {
         "id": "tft13_cabal",
-        "name": "Black Rose"
+        "name": "Black Rose",
+        "iconPath": "/assets/set13/traits/tft13_cabal.png"
       },
       {
         "id": "tft13_sorcerer",
-        "name": "Sorcerer"
+        "name": "Sorcerer",
+        "iconPath": "/assets/set13/traits/tft13_sorcerer.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_leblanc/tft13_leblanc_square.tft_set13.png",
@@ -417,11 +468,13 @@
     "traits": [
       {
         "id": "tft13_academy",
-        "name": "Academy"
+        "name": "Academy",
+        "iconPath": "/assets/set13/traits/tft13_academy.png"
       },
       {
         "id": "tft13_titan",
-        "name": "Sentinel"
+        "name": "Sentinel",
+        "iconPath": "/assets/set13/traits/tft13_titan.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_leona/tft13_leona_square.tft_set13.png",
@@ -434,11 +487,13 @@
     "traits": [
       {
         "id": "tft13_squad",
-        "name": "Enforcer"
+        "name": "Enforcer",
+        "iconPath": "/assets/set13/traits/tft13_squad.png"
       },
       {
         "id": "tft13_titan",
-        "name": "Sentinel"
+        "name": "Sentinel",
+        "iconPath": "/assets/set13/traits/tft13_titan.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_beardy/tft13_beardy_square.tft_set13.png",
@@ -451,11 +506,13 @@
     "traits": [
       {
         "id": "tft13_academy",
-        "name": "Academy"
+        "name": "Academy",
+        "iconPath": "/assets/set13/traits/tft13_academy.png"
       },
       {
         "id": "tft13_sorcerer",
-        "name": "Sorcerer"
+        "name": "Sorcerer",
+        "iconPath": "/assets/set13/traits/tft13_sorcerer.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_lux/tft13_lux_square.tft_set13.png",
@@ -468,11 +525,13 @@
     "traits": [
       {
         "id": "tft13_squad",
-        "name": "Enforcer"
+        "name": "Enforcer",
+        "iconPath": "/assets/set13/traits/tft13_squad.png"
       },
       {
         "id": "tft13_sniper",
-        "name": "Sniper"
+        "name": "Sniper",
+        "iconPath": "/assets/set13/traits/tft13_sniper.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_shooter/tft13_shooter_square.tft_set13.png",
@@ -485,11 +544,13 @@
     "traits": [
       {
         "id": "tft13_hextech",
-        "name": "Automata"
+        "name": "Automata",
+        "iconPath": "/assets/set13/traits/tft13_hextech.png"
       },
       {
         "id": "tft13_invoker",
-        "name": "Visionary"
+        "name": "Visionary",
+        "iconPath": "/assets/set13/traits/tft13_invoker.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_malzahar/tft13_malzahar_square.tft_set13.png",
@@ -502,11 +563,13 @@
     "traits": [
       {
         "id": "tft13_warband",
-        "name": "Conqueror"
+        "name": "Conqueror",
+        "iconPath": "/assets/set13/traits/tft13_warband.png"
       },
       {
         "id": "tft13_infused",
-        "name": "Dominator"
+        "name": "Dominator",
+        "iconPath": "/assets/set13/traits/tft13_infused.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_mordekaiser/tft13_mordekaiser_square.tft_set13.png",
@@ -519,11 +582,13 @@
     "traits": [
       {
         "id": "tft13_cabal",
-        "name": "Black Rose"
+        "name": "Black Rose",
+        "iconPath": "/assets/set13/traits/tft13_cabal.png"
       },
       {
         "id": "tft13_invoker",
-        "name": "Visionary"
+        "name": "Visionary",
+        "iconPath": "/assets/set13/traits/tft13_invoker.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_morgana/tft13_morgana_square.tft_set13.png",
@@ -536,11 +601,13 @@
     "traits": [
       {
         "id": "tft13_ambassador",
-        "name": "Emissary"
+        "name": "Emissary",
+        "iconPath": "/assets/set13/traits/tft13_ambassador.png"
       },
       {
         "id": "tft13_sorcerer",
-        "name": "Sorcerer"
+        "name": "Sorcerer",
+        "iconPath": "/assets/set13/traits/tft13_sorcerer.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_nami/tft13_nami_square.tft_set13.png",
@@ -553,11 +620,13 @@
     "traits": [
       {
         "id": "tft13_hextech",
-        "name": "Automata"
+        "name": "Automata",
+        "iconPath": "/assets/set13/traits/tft13_hextech.png"
       },
       {
         "id": "tft13_challenger",
-        "name": "Quickstriker"
+        "name": "Quickstriker",
+        "iconPath": "/assets/set13/traits/tft13_challenger.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_nocturne/tft13_nocturne_square.tft_set13.png",
@@ -570,15 +639,18 @@
     "traits": [
       {
         "id": "tft13_experiment",
-        "name": "Experiment"
+        "name": "Experiment",
+        "iconPath": "/assets/set13/traits/tft13_experiment.png"
       },
       {
         "id": "tft13_bruiser",
-        "name": "Bruiser"
+        "name": "Bruiser",
+        "iconPath": "/assets/set13/traits/tft13_bruiser.png"
       },
       {
         "id": "tft13_invoker",
-        "name": "Visionary"
+        "name": "Visionary",
+        "iconPath": "/assets/set13/traits/tft13_invoker.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_nunuwillump/tft13_nunuwillump_square.tft_set13.png",
@@ -591,15 +663,18 @@
     "traits": [
       {
         "id": "tft13_family",
-        "name": "Family"
+        "name": "Family",
+        "iconPath": "/assets/set13/traits/tft13_family.png"
       },
       {
         "id": "tft13_scrap",
-        "name": "Scrap"
+        "name": "Scrap",
+        "iconPath": "/assets/set13/traits/tft13_scrap.png"
       },
       {
         "id": "tft13_ambusher",
-        "name": "Ambusher"
+        "name": "Ambusher",
+        "iconPath": "/assets/set13/traits/tft13_ambusher.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_blue/tft13_blue_square.tft_set13.png",
@@ -612,15 +687,18 @@
     "traits": [
       {
         "id": "tft13_warband",
-        "name": "Conqueror"
+        "name": "Conqueror",
+        "iconPath": "/assets/set13/traits/tft13_warband.png"
       },
       {
         "id": "tft13_titan",
-        "name": "Sentinel"
+        "name": "Sentinel",
+        "iconPath": "/assets/set13/traits/tft13_titan.png"
       },
       {
         "id": "tft13_invoker",
-        "name": "Visionary"
+        "name": "Visionary",
+        "iconPath": "/assets/set13/traits/tft13_invoker.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_rell/tft13_rell_square.tft_set13.png",
@@ -633,11 +711,13 @@
     "traits": [
       {
         "id": "tft13_crime",
-        "name": "Chem-Baron"
+        "name": "Chem-Baron",
+        "iconPath": "/assets/set13/traits/tft13_crime.png"
       },
       {
         "id": "tft13_invoker",
-        "name": "Visionary"
+        "name": "Visionary",
+        "iconPath": "/assets/set13/traits/tft13_invoker.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_renataglasc/tft13_renataglasc_square.tft_set13.png",
@@ -650,11 +730,13 @@
     "traits": [
       {
         "id": "tft13_crime",
-        "name": "Chem-Baron"
+        "name": "Chem-Baron",
+        "iconPath": "/assets/set13/traits/tft13_crime.png"
       },
       {
         "id": "tft13_bruiser",
-        "name": "Bruiser"
+        "name": "Bruiser",
+        "iconPath": "/assets/set13/traits/tft13_bruiser.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_chainsaw/tft13_chainsaw_square.tft_set13.png",
@@ -667,15 +749,18 @@
     "traits": [
       {
         "id": "tft13_junkerking",
-        "name": "Junker King"
+        "name": "Junker King",
+        "iconPath": "/assets/set13/traits/tft13_junkerking.png"
       },
       {
         "id": "tft13_scrap",
-        "name": "Scrap"
+        "name": "Scrap",
+        "iconPath": "/assets/set13/traits/tft13_scrap.png"
       },
       {
         "id": "tft13_titan",
-        "name": "Sentinel"
+        "name": "Sentinel",
+        "iconPath": "/assets/set13/traits/tft13_titan.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_rumble/tft13_rumble_square.tft_set13.png",
@@ -688,11 +773,13 @@
     "traits": [
       {
         "id": "tft13_hoverboard",
-        "name": "Firelight"
+        "name": "Firelight",
+        "iconPath": "/assets/set13/traits/tft13_hoverboard.png"
       },
       {
         "id": "tft13_watcher",
-        "name": "Watcher"
+        "name": "Watcher",
+        "iconPath": "/assets/set13/traits/tft13_watcher.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_flyguy/tft13_flyguy_square.tft_set13.png",
@@ -705,11 +792,13 @@
     "traits": [
       {
         "id": "tft13_rebel",
-        "name": "Rebel"
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
       },
       {
         "id": "tft13_bruiser",
-        "name": "Bruiser"
+        "name": "Bruiser",
+        "iconPath": "/assets/set13/traits/tft13_bruiser.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_sett/tft13_sett_square.tft_set13.png",
@@ -722,15 +811,18 @@
     "traits": [
       {
         "id": "tft13_highroller",
-        "name": "High Roller"
+        "name": "High Roller",
+        "iconPath": "/assets/set13/traits/tft13_highroller.png"
       },
       {
         "id": "tft13_crime",
-        "name": "Chem-Baron"
+        "name": "Chem-Baron",
+        "iconPath": "/assets/set13/traits/tft13_crime.png"
       },
       {
         "id": "tft13_pugilist",
-        "name": "Pit Fighter"
+        "name": "Pit Fighter",
+        "iconPath": "/assets/set13/traits/tft13_pugilist.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_lieutenant/tft13_lieutenant_square.tft_set13.png",
@@ -743,11 +835,13 @@
     "traits": [
       {
         "id": "tft13_crime",
-        "name": "Chem-Baron"
+        "name": "Chem-Baron",
+        "iconPath": "/assets/set13/traits/tft13_crime.png"
       },
       {
         "id": "tft13_infused",
-        "name": "Dominator"
+        "name": "Dominator",
+        "iconPath": "/assets/set13/traits/tft13_infused.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_silco/tft13_silco_square.tft_set13.png",
@@ -760,11 +854,13 @@
     "traits": [
       {
         "id": "tft13_crime",
-        "name": "Chem-Baron"
+        "name": "Chem-Baron",
+        "iconPath": "/assets/set13/traits/tft13_crime.png"
       },
       {
         "id": "tft13_titan",
-        "name": "Sentinel"
+        "name": "Sentinel",
+        "iconPath": "/assets/set13/traits/tft13_titan.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_singed/tft13_singed_square.tft_set13.png",
@@ -777,11 +873,13 @@
     "traits": [
       {
         "id": "tft13_crime",
-        "name": "Chem-Baron"
+        "name": "Chem-Baron",
+        "iconPath": "/assets/set13/traits/tft13_crime.png"
       },
       {
         "id": "tft13_ambusher",
-        "name": "Ambusher"
+        "name": "Ambusher",
+        "iconPath": "/assets/set13/traits/tft13_ambusher.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_gremlin/tft13_gremlin_square.tft_set13.png",
@@ -794,11 +892,13 @@
     "traits": [
       {
         "id": "tft13_squad",
-        "name": "Enforcer"
+        "name": "Enforcer",
+        "iconPath": "/assets/set13/traits/tft13_squad.png"
       },
       {
         "id": "tft13_bruiser",
-        "name": "Bruiser"
+        "name": "Bruiser",
+        "iconPath": "/assets/set13/traits/tft13_bruiser.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_fish/tft13_fish_square.tft_set13.png",
@@ -811,15 +911,18 @@
     "traits": [
       {
         "id": "tft13_warband",
-        "name": "Conqueror"
+        "name": "Conqueror",
+        "iconPath": "/assets/set13/traits/tft13_warband.png"
       },
       {
         "id": "tft13_formswapper",
-        "name": "Form Swapper"
+        "name": "Form Swapper",
+        "iconPath": "/assets/set13/traits/tft13_formswapper.png"
       },
       {
         "id": "tft13_sorcerer",
-        "name": "Sorcerer"
+        "name": "Sorcerer",
+        "iconPath": "/assets/set13/traits/tft13_sorcerer.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_swain/tft13_swain_square.tft_set13.png",
@@ -832,11 +935,13 @@
     "traits": [
       {
         "id": "tft13_ambassador",
-        "name": "Emissary"
+        "name": "Emissary",
+        "iconPath": "/assets/set13/traits/tft13_ambassador.png"
       },
       {
         "id": "tft13_martialist",
-        "name": "Artillerist"
+        "name": "Artillerist",
+        "iconPath": "/assets/set13/traits/tft13_martialist.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_tristana/tft13_tristana_square.tft_set13.png",
@@ -849,11 +954,13 @@
     "traits": [
       {
         "id": "tft13_scrap",
-        "name": "Scrap"
+        "name": "Scrap",
+        "iconPath": "/assets/set13/traits/tft13_scrap.png"
       },
       {
         "id": "tft13_bruiser",
-        "name": "Bruiser"
+        "name": "Bruiser",
+        "iconPath": "/assets/set13/traits/tft13_bruiser.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_trundle/tft13_trundle_square.tft_set13.png",
@@ -866,11 +973,13 @@
     "traits": [
       {
         "id": "tft13_squad",
-        "name": "Enforcer"
+        "name": "Enforcer",
+        "iconPath": "/assets/set13/traits/tft13_squad.png"
       },
       {
         "id": "tft13_challenger",
-        "name": "Quickstriker"
+        "name": "Quickstriker",
+        "iconPath": "/assets/set13/traits/tft13_challenger.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_twistedfate/tft13_twistedfate_square.tft_set13.png",
@@ -883,11 +992,13 @@
     "traits": [
       {
         "id": "tft13_experiment",
-        "name": "Experiment"
+        "name": "Experiment",
+        "iconPath": "/assets/set13/traits/tft13_experiment.png"
       },
       {
         "id": "tft13_sniper",
-        "name": "Sniper"
+        "name": "Sniper",
+        "iconPath": "/assets/set13/traits/tft13_sniper.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_twitch/tft13_twitch_square.tft_set13.png",
@@ -900,15 +1011,18 @@
     "traits": [
       {
         "id": "tft13_experiment",
-        "name": "Experiment"
+        "name": "Experiment",
+        "iconPath": "/assets/set13/traits/tft13_experiment.png"
       },
       {
         "id": "tft13_pugilist",
-        "name": "Pit Fighter"
+        "name": "Pit Fighter",
+        "iconPath": "/assets/set13/traits/tft13_pugilist.png"
       },
       {
         "id": "tft13_martialist",
-        "name": "Artillerist"
+        "name": "Artillerist",
+        "iconPath": "/assets/set13/traits/tft13_martialist.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_urgot/tft13_urgot_square.tft_set13.png",
@@ -921,11 +1035,13 @@
     "traits": [
       {
         "id": "tft13_family",
-        "name": "Family"
+        "name": "Family",
+        "iconPath": "/assets/set13/traits/tft13_family.png"
       },
       {
         "id": "tft13_watcher",
-        "name": "Watcher"
+        "name": "Watcher",
+        "iconPath": "/assets/set13/traits/tft13_watcher.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_prime/tft13_prime_square.tft_set13.png",
@@ -938,11 +1054,13 @@
     "traits": [
       {
         "id": "tft13_rebel",
-        "name": "Rebel"
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
       },
       {
         "id": "tft13_invoker",
-        "name": "Visionary"
+        "name": "Visionary",
+        "iconPath": "/assets/set13/traits/tft13_invoker.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_vex/tft13_vex_square.tft_set13.png",
@@ -955,11 +1073,13 @@
     "traits": [
       {
         "id": "tft13_squad",
-        "name": "Enforcer"
+        "name": "Enforcer",
+        "iconPath": "/assets/set13/traits/tft13_squad.png"
       },
       {
         "id": "tft13_pugilist",
-        "name": "Pit Fighter"
+        "name": "Pit Fighter",
+        "iconPath": "/assets/set13/traits/tft13_pugilist.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_vi/tft13_vi_square.tft_set13.png",
@@ -972,11 +1092,13 @@
     "traits": [
       {
         "id": "tft13_family",
-        "name": "Family"
+        "name": "Family",
+        "iconPath": "/assets/set13/traits/tft13_family.png"
       },
       {
         "id": "tft13_pugilist",
-        "name": "Pit Fighter"
+        "name": "Pit Fighter",
+        "iconPath": "/assets/set13/traits/tft13_pugilist.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_red/tft13_red_square.tft_set13.png",
@@ -989,15 +1111,18 @@
     "traits": [
       {
         "id": "tft13_cabal",
-        "name": "Black Rose"
+        "name": "Black Rose",
+        "iconPath": "/assets/set13/traits/tft13_cabal.png"
       },
       {
         "id": "tft13_watcher",
-        "name": "Watcher"
+        "name": "Watcher",
+        "iconPath": "/assets/set13/traits/tft13_watcher.png"
       },
       {
         "id": "tft13_sorcerer",
-        "name": "Sorcerer"
+        "name": "Sorcerer",
+        "iconPath": "/assets/set13/traits/tft13_sorcerer.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_vladimir/tft13_vladimir_square.tft_set13.png",
@@ -1010,11 +1135,13 @@
     "traits": [
       {
         "id": "tft13_hoverboard",
-        "name": "Firelight"
+        "name": "Firelight",
+        "iconPath": "/assets/set13/traits/tft13_hoverboard.png"
       },
       {
         "id": "tft13_sniper",
-        "name": "Sniper"
+        "name": "Sniper",
+        "iconPath": "/assets/set13/traits/tft13_sniper.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_zeri/tft13_zeri_square.tft_set13.png",
@@ -1027,11 +1154,13 @@
     "traits": [
       {
         "id": "tft13_scrap",
-        "name": "Scrap"
+        "name": "Scrap",
+        "iconPath": "/assets/set13/traits/tft13_scrap.png"
       },
       {
         "id": "tft13_infused",
-        "name": "Dominator"
+        "name": "Dominator",
+        "iconPath": "/assets/set13/traits/tft13_infused.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_ziggs/tft13_ziggs_square.tft_set13.png",
@@ -1044,11 +1173,13 @@
     "traits": [
       {
         "id": "tft13_rebel",
-        "name": "Rebel"
+        "name": "Rebel",
+        "iconPath": "/assets/set13/traits/tft13_rebel.png"
       },
       {
         "id": "tft13_sorcerer",
-        "name": "Sorcerer"
+        "name": "Sorcerer",
+        "iconPath": "/assets/set13/traits/tft13_sorcerer.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_zoe/tft13_zoe_square.tft_set13.png",
@@ -1061,11 +1192,13 @@
     "traits": [
       {
         "id": "tft13_experiment",
-        "name": "Experiment"
+        "name": "Experiment",
+        "iconPath": "/assets/set13/traits/tft13_experiment.png"
       },
       {
         "id": "tft13_sorcerer",
-        "name": "Sorcerer"
+        "name": "Sorcerer",
+        "iconPath": "/assets/set13/traits/tft13_sorcerer.png"
       }
     ],
     "iconPath": "/assets/set13/champions/tft13_zyra/tft13_zyra_square.tft_set13.png",

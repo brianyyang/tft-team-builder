@@ -53,9 +53,11 @@ const mapPathFromJson = (pathFromJson) => {
 };
 
 function convertTrait(trait) {
+  const lowercaseTraitId = trait.trait_id.toLowerCase();
   return {
-    id: trait.trait_id.toLowerCase(),
+    id: lowercaseTraitId,
     name: trait.display_name,
+    iconPath: `/assets/set${setNumberToFilterBy}/traits/${lowercaseTraitId}.png`,
     activeCount: 0,
     breakpoints: convertTraitBreakpoints(trait.conditional_trait_sets),
   };

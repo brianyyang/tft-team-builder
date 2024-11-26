@@ -55,17 +55,11 @@ const TraitHex: React.FC<TraitHexProps> = ({
   backgroundColor,
   invertIconColor,
 }) => {
-  const { setNumber } = useChampionDataset();
   return (
     <Box style={border(width, height)}>
       <Box style={hexagon(width, height, backgroundColor)}>
         <Box
-          style={imageStyles(
-            width,
-            height,
-            `/assets/set${setNumber}/traits/${trait.id}.png`,
-            invertIconColor
-          )}
+          style={imageStyles(width, height, trait.iconPath, invertIconColor)}
         />
       </Box>
     </Box>

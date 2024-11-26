@@ -48,7 +48,12 @@ function filterToChampionType(data) {
 
 function convertTraits(traits) {
   return traits.reduce((result, trait) => {
-    result.push({ id: trait.id.toLowerCase(), name: trait.name });
+    const lowercaseTraitId = trait.id.toLowerCase();
+    result.push({
+      id: lowercaseTraitId,
+      name: trait.name,
+      iconPath: `/assets/set${setNumber}/traits/${lowercaseTraitId}.png`,
+    });
     return result;
   }, []);
 }

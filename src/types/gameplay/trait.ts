@@ -1,10 +1,12 @@
 export class Trait {
   id: string;
   name: string;
+  iconPath: string;
 
-  constructor(id: string, name: string) {
+  constructor(id: string, name: string, iconPath: string) {
     this.id = id;
     this.name = name;
+    this.iconPath = iconPath;
   }
 }
 
@@ -15,10 +17,11 @@ export class ActiveTrait extends Trait {
   constructor(
     id: string,
     name: string,
+    iconPath: string,
     activeCount: number,
     breakpoints: TraitBreakpoint[]
   ) {
-    super(id, name);
+    super(id, name, iconPath);
     this.activeCount = activeCount;
     this.breakpoints = breakpoints;
   }
