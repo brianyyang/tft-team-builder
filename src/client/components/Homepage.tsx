@@ -3,12 +3,12 @@
 import { useEffect } from 'react';
 import { Box } from '@mantine/core';
 import { useUser } from '@/client/contexts/UserContext';
-import ChampionSelector from '@/client/components/champions/ChampionSelector/ChampionSelector';
 import Login from '@/client/components/Login';
 import Header from './Header';
 import { SelectedTeamProvider } from '../contexts/SelectedTeamContext';
 import { CURRENT_SET_NUMBER } from '../utils/EnvironmentVariables';
 import { ChampionDatasetProvider } from '../contexts/ChampionDatasetContext';
+import SetLoader from './appLoading/SetLoader';
 
 export const Homepage = () => {
   const { username, setUsername } = useUser();
@@ -37,7 +37,7 @@ export const Homepage = () => {
           <Header username={username} onLogout={onLogout} />
           <ChampionDatasetProvider defaultSetNumber={CURRENT_SET_NUMBER}>
             <SelectedTeamProvider>
-              <ChampionSelector />
+              <SetLoader />
             </SelectedTeamProvider>
           </ChampionDatasetProvider>
         </>

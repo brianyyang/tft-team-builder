@@ -1,13 +1,15 @@
 import { createContext, useContext, useState, ReactNode } from 'react';
 import { Champion } from '@/types/gameplay/champion';
 import { ActiveTrait, Trait } from '@/types/gameplay/trait';
-import { setTraitsMap } from '@/client/utils/ActiveTraitUtils';
+import { useChampionDataset } from './ChampionDatasetContext';
+import { createTraitsMap } from '../utils/ActiveTraitUtils';
 
 interface SelectedTeamContextType {
   selectedChampions: Champion[];
   activeTraits: Map<string, ActiveTrait>;
   toggleChampion: (champion: Champion) => void;
   setSelectedTeam: (champions: Champion[]) => void;
+  setActiveTraits: (activeTraits: Map<string, ActiveTrait>) => void;
 }
 
 const SelectedTeamContext = createContext<SelectedTeamContextType | undefined>(
@@ -33,8 +35,10 @@ export const SelectedTeamProvider: React.FC<SelectedTeamProviderProps> = ({
   defaultChampions,
   children,
 }) => {
+  const { traitDataset } = useChampionDataset();
+
   const activeTraitsFromChampions = (champions: Champion[]) => {
-    const traitsMap = setTraitsMap();
+    const traitsMap = createTraitsMap(traitDataset);
     champions.map((champion) =>
       champion.traits.map((trait) => addTraitToMap(traitsMap, trait))
     );
@@ -93,9 +97,9 @@ export const SelectedTeamProvider: React.FC<SelectedTeamProviderProps> = ({
     // If the champion was not added, it means it should be added at the end
     if (!championFound && !championAdded) {
       newList.push(champion);
-      champion.traits.map((trait) =>
-        setActiveTraits(addTraitToMap(activeTraits, trait))
-      );
+      champion.traits.map((trait) => {
+        setActiveTraits(addTraitToMap(activeTraits, trait));
+      });
     }
 
     setSelectedChampions(newList);
@@ -113,6 +117,7 @@ export const SelectedTeamProvider: React.FC<SelectedTeamProviderProps> = ({
         activeTraits,
         toggleChampion,
         setSelectedTeam,
+        setActiveTraits,
       }}
     >
       {children}
