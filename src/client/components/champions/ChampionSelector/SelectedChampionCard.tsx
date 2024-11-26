@@ -71,7 +71,8 @@ const SelectedChampionCard: React.FC<SelectedChampionCardProps> = ({
     justifyContent: 'center',
     fontSize: '1.25em',
     color: 'white',
-  };
+    userSelect: 'none',
+  } as MantineStyleProp;
 
   const closeButtonStyles = (
     isCardHovered: boolean,

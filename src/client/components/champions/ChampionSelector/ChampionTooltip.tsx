@@ -33,6 +33,7 @@ const ChampionTooltip: React.FC<ChampionTooltipProps> = ({
     backgroundColor: 'rgba(255, 255, 255, 0.5)',
     backgroundBlendMode: 'lighten',
     backgroundSize: '100%',
+    backgroundPosition: '50% 25%',
     padding: '10px',
     borderRadius: '5px',
     height: height,

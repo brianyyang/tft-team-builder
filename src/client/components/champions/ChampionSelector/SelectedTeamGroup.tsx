@@ -16,7 +16,7 @@ const SelectedTeamGroup: React.FC<SelectedTeamGroupProps> = ({
   return (
     <Flex
       className={`${styles.rowContainer} ${styles.selectedChampionsGroup}`}
-      style={{ gap: '15px' }}
+      style={{ gap: '18px' }}
     >
       {selectedChampions.map((champion) => (
         <SelectedChampionCard

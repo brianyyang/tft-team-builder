@@ -8,7 +8,7 @@ const ActiveTraitGroup: React.FC = () => {
   const activeTraitsFlattened = Array.from(activeTraits.values());
 
   return (
-    <Box style={{ display: 'flex', flexDirection: 'row' }}>
+    <Box style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
       {activeTraitsFlattened
         .toSorted((trait1, trait2) => trait2.compareActiveTrait(trait1))
         .map(

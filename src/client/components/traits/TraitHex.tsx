@@ -20,7 +20,7 @@ const border = (width: number, height: number) =>
     height: height,
     clipPath: 'polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)',
     background: 'white',
-    margin: '2px 3px 2px 5px',
+    margin: '2px 5px 2px 5px',
   } as MantineStyleProp);
 
 const hexagon = (width: number, height: number, backgroundColor: string) =>

@@ -23,6 +23,7 @@ const ActiveTraitHex: React.FC<ActiveTraitHexProps> = ({
         alignItems: 'center',
         flexDirection: 'column',
         color: 'white',
+        userSelect: 'none',
       }}
       key={`active_${trait.name}_container`}
     >
