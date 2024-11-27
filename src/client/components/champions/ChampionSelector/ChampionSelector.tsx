@@ -6,6 +6,7 @@ import { IoCheckmarkOutline } from 'react-icons/io5';
 import {
   Box,
   Button,
+  FocusTrap,
   Group,
   MantineStyleProp,
   Modal,
@@ -25,6 +26,7 @@ import { createTeam, updateTeam } from '@/client/apis/teamAPI';
 import { Team } from '@/types/team';
 import { randomChampions } from '@/client/utils/ChampionUtils';
 import { useChampionDataset } from '@/client/contexts/ChampionDatasetContext';
+import { useDisclosure } from '@mantine/hooks';
 
 const ChampionSelector: React.FC = () => {
   const { championDataset, tierMap, setNumber } = useChampionDataset();
@@ -34,7 +36,7 @@ const ChampionSelector: React.FC = () => {
   const [teamName, setTeamName] = useState<string>('Selected Champions');
 
   // states for modals and other workflows
-  const [isEditingTeamName, setIsEditingTeamName] = useState<boolean>(false);
+  const [isEditingTeamName, toggleEditingTeamName] = useDisclosure(false);
   const [showSaveConfirmation, setShowSaveConfirmation] =
     useState<boolean>(false);
 
@@ -131,30 +133,33 @@ const ChampionSelector: React.FC = () => {
           <Box style={flexRowStyles}>
             {isEditingTeamName ? (
               <>
-                <TextInput
-                  value={teamName}
-                  onChange={(e) => {
-                    const newTeamName = e.target.value;
-                    if (newTeamName.length > 24) {
-                      setTeamName(e.target.value.substring(0, 24));
-                    } else {
-                      setTeamName(e.target.value);
-                    }
-                  }}
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter') {
-                      setIsSaveTeamNameHovered(false);
-                      setIsEditingTeamName(false);
-                    }
-                  }}
-                  styles={{
-                    input: teamNameTextInputStyles,
-                  }}
-                />
+                <FocusTrap active={isEditingTeamName}>
+                  <TextInput
+                    value={teamName}
+                    onChange={(e) => {
+                      const newTeamName = e.target.value;
+                      if (newTeamName.length > 24) {
+                        setTeamName(e.target.value.substring(0, 24));
+                      } else {
+                        setTeamName(e.target.value);
+                      }
+                      console.log(isEditingTeamName);
+                    }}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') {
+                        setIsSaveTeamNameHovered(false);
+                        toggleEditingTeamName.close();
+                      }
+                    }}
+                    styles={{
+                      input: teamNameTextInputStyles,
+                    }}
+                  />
+                </FocusTrap>
                 <IoCheckmarkOutline
                   style={buttonStyles(isSaveTeamNameHovered)}
                   onClick={() => {
-                    setIsEditingTeamName(false);
+                    toggleEditingTeamName.close();
                     setIsSaveTeamNameHovered(false);
                   }}
                   onMouseEnter={() => setIsSaveTeamNameHovered(true)}
@@ -167,7 +172,7 @@ const ChampionSelector: React.FC = () => {
                 <CiEdit
                   style={buttonStyles(isEditTeamNameHovered)}
                   onClick={() => {
-                    setIsEditingTeamName(true);
+                    toggleEditingTeamName.open();
                     setIsEditTeamNameHovered(false);
                   }}
                   onMouseEnter={() => setIsEditTeamNameHovered(true)}
