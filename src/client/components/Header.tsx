@@ -48,7 +48,7 @@ const Header = ({ username, onLogout }: HeaderProps) => {
       height: '40px',
       borderStyle: 'solid',
       fontSize: '18px',
-      borderRadius: '5px',
+      borderRadius: '8px',
       borderColor: 'white',
       padding: '5px 10px 5px 10px',
       cursor: 'pointer',

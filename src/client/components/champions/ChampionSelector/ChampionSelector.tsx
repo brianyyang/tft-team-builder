@@ -143,7 +143,6 @@ const ChampionSelector: React.FC = () => {
                       } else {
                         setTeamName(e.target.value);
                       }
-                      console.log(isEditingTeamName);
                     }}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter') {
@@ -214,21 +213,28 @@ const ChampionSelector: React.FC = () => {
         <Modal
           opened={showSaveConfirmation}
           onClose={() => setShowSaveConfirmation(false)}
-          title='Do you want to save the following team?'
+          title={teamId == '' ? 'Confirm Save Team' : 'Confirm Update Team'}
           size={'md'}
           classNames={{
-            header: styles.modalHeader,
-            title: styles.modalTitle,
-            content: styles.modalContent,
+            header: styles.saveTeamModalHeader,
+            title: styles.saveTeamModalTitle,
+            content: styles.saveTeamModalContent,
           }}
           centered
           withCloseButton={false}
+          radius={10}
         >
-          <Group justify='center' mt='md'>
+          <FocusTrap.InitialFocus />
+          Do you want to save your current team?
+          <Group
+            justify='flex-end'
+            className={styles.saveTeamModalButtonsContainer}
+            gap='xs'
+          >
             <Button
               onClick={() => setShowSaveConfirmation(false)}
-              variant='outline'
-              color='white'
+              color={`${theme.other.tierToColorMap[1].light}70`}
+              className={styles.saveTeamModalCancelButton}
             >
               Cancel
             </Button>
@@ -237,7 +243,8 @@ const ChampionSelector: React.FC = () => {
                 teamId == '' ? handlePostTeam() : handlePatchTeam();
                 setShowSaveConfirmation(false);
               }}
-              color='red'
+              color={'violet'}
+              className={styles.saveTeamModalConfirmButton}
             >
               Confirm
             </Button>

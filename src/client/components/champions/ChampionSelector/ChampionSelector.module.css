@@ -48,17 +48,35 @@
   margin-bottom: 20px;
 }
 
-.modalTitle {
+.saveTeamModalButtonsContainer {
+  margin: 1rem 0rem;
+}
+
+.saveTeamModalTitle {
   font-weight: bold;
   color: black;
 }
 
-.modalHeader {
-  justify-content: center;
+.saveTeamModalHeader {
+  justify-content: flex-start;
 }
 
-.modalContent {
-  background: rgb(var(--background-rgb-light));
+.saveTeamModalContent {
   justify-content: center;
-  text-align: center;
+  text-align: start;
+  color: black;
+  padding: 0px 20px;
+}
+
+.saveTeamModalCancelButton {
+  min-width: 70px;
+  padding: 5px;
+  color: var(--mantine-color-dark-9);
+  border-radius: 8px;
+}
+
+.saveTeamModalConfirmButton {
+  padding: 5px;
+  min-width: 70px;
+  border-radius: 8px;
 }
